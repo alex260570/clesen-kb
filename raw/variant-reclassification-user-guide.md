@@ -188,14 +188,6 @@ For each bin in the `Bins` field, two item journal lines are posted: a **Negativ
 
 ---
 
-## Related documents
-
-- [[bin-reclassification-user-guide]]
-- [[item-substitution-user-guide]]
-- [[gtin-upc-management-user-guide]]
-
----
-
 ## SOP document
 
 The full SOP for this process is available on SharePoint:
