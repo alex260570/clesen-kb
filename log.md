@@ -32,3 +32,21 @@ Append-only chronological record of all wiki operations.
 5. wiki/howto/move-lines-troubleshooting.md
 
 **Index updated.** Token usage: ~130k / 200k remaining.
+
+## [2026-04-21] ingest | Batch 2 — Broker Workspace & CRM (5 sources)
+
+**Sources processed:**
+- broker-workspace-manager-guide.md
+- broker-workspace-staff-guide.md
+- broker-workspace-it-troubleshooting-guide.md
+- crm-lead-management-guide.md
+- crm-activity-management-guide.md
+
+**Pages created (5):**
+1. wiki/howto/broker-workspace.md
+2. wiki/howto/broker-workspace-manager.md
+3. wiki/howto/broker-workspace-troubleshooting.md
+4. wiki/howto/crm-lead-management.md
+5. wiki/howto/crm-activity-management.md
+
+**Index updated.** Token usage: ~131k / 200k remaining.
