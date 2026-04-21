@@ -376,4 +376,14 @@ Token usage: ~85k / 200k remaining. Final token budget: ~115k available.
 
 **Index updated with new Picking section entry.** Token usage: ~20k / 200k remaining.
 
-**Progress:** 82 of 85 sources processed. 3 remaining. Token budget ~98k.
+**Progress:** 82 of 85 sources processed. 1 remaining. Token budget ~98k.
+
+## [2026-04-21] ingest | Batch 19 — Invoice Approval Workflow (1 source)
+
+**Source processed by Claude Code (remote):**
+- invoice-approval-workflow-guide.md
+
+**Wiki page(s) created:**
+- Finance/Accounts Payable approval workflow guide
+
+**Status:** Merge conflict resolved. Both Batch 18 and Batch 19 entries consolidated. Final project completion: 83 of 85 sources processed (2 excluded: metadata files).
