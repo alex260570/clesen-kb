@@ -32,9 +32,22 @@ wiki/
 
 ### howto/
 
-All step-by-step, task-oriented guides live here. File directly in `howto/` by default.
+All step-by-step, task-oriented guides live here, organized into subfolders by topic.
 
-**Subfolder rule:** When 3 or more pages share a clear topic, create a subfolder for that topic (e.g., `howto/picking/`, `howto/counting/`, `howto/purchasing/`). Use your judgment — a subfolder is only worth creating when it genuinely reduces clutter.
+**Subfolder mappings — always file here:**
+
+| Subfolder | What belongs there |
+|---|---|
+| `howto/picking/` | Picking processes — master picking, supermarket picking, cart transfer, single-order picks, direct location pickup, delicate item handling, picking adjustments, escalations, team management |
+| `howto/counting/` | Inventory counting — count processes, count exceptions, count preparation, count release |
+| `howto/broker-workspace/` | Broker workspace feature — staff, manager, and IT guides |
+| `howto/sales/` | Sales orders, availability, reservations, move lines, same-day returns, order lock, sales planning, pricing, sales process history |
+| `howto/purchasing/` | Purchasing — purchase receipts, purchase worksheets, vendor management |
+| `howto/production/` | Production orders — posting, task management, staff/manager/IT guides |
+| `howto/warehouse/` | Bin management, shipment, receiving, reclassification, cart exchange, service zones |
+| `howto/it/` | IT troubleshooting guides for any feature |
+
+**If a new file doesn't fit any subfolder above:** file it directly in `howto/` and add a comment in `log.md` noting it needs classification.
 
 Examples of what belongs here:
 - How to perform a process (numbered steps)
