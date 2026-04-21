@@ -365,3 +365,15 @@ After comprehensive review of raw/ folder contents (81 total files):
 **Project Status:** ✅ COMPLETE
 
 Token usage: ~85k / 200k remaining. Final token budget: ~115k available.
+
+## [2026-04-21] ingest | Batch 18 — Supermarket Scan Verification (1 new source)
+
+**New source added:**
+- supermarket-scan-verification-staff-guide.md
+
+**Page created (1):**
+1. wiki/howto/picking/supermarket-scan-verification.md (new - Quality control guide for barcode scanning verification of picked items)
+
+**Index updated with new Picking section entry.** Token usage: ~20k / 200k remaining.
+
+**Progress:** 82 of 85 sources processed. 3 remaining. Token budget ~98k.

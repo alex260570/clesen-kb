@@ -27,6 +27,7 @@ Content-oriented catalog of all wiki pages. Updated on every ingest. Read this f
 | [wiki/howto/picking/picking-escalations.md](wiki/howto/picking/picking-escalations.md) | When and how to escalate picking issues | picking |
 | [wiki/howto/picking/picking-teams-manager.md](wiki/howto/picking/picking-teams-manager.md) | Managing picking team assignments | picking, manager |
 | [wiki/howto/picking/picking-escalations.md](wiki/howto/picking/picking-escalations.md) | Handling escalation orders with urgent/rush picking requirements | picking, escalations |
+| [wiki/howto/picking/supermarket-scan-verification.md](wiki/howto/picking/supermarket-scan-verification.md) | Quality control step using barcode scanning to verify picked items and quantities | picking, supermarket-picking, quality-control, barcode-scanning |
 
 ### Counting
 

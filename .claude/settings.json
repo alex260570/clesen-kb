@@ -11,7 +11,8 @@
       "Read(//c/c/Users/AlexanderThiel/ObsidianVaults/clesen-kb/wiki/**)",
       "Bash(direct-location)",
       "Bash(delicate)",
-      "Bash(picking-adjustment\")"
+      "Bash(picking-adjustment\")",
+      "Bash(cd \"C:\\\\Users\\\\AlexanderThiel\\\\ObsidianVaults\\\\clesen-kb\" && ls -1 raw/*.md | sort > /tmp/current_files.txt && cat /tmp/current_files.txt | tail -20)"
     ]
   }
 }
