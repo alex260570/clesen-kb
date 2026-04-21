@@ -1,15 +1,17 @@
 ---
-title: Counting Process (Staff + Manager)
+title: Inventory Counting Process — Staff Guide
 type: howto
-tags: [counting, warehouse]
-created: 2026-04-20
-updated: 2026-04-20
-sources: [counting-process.md, count-preparation.md, count-release.md, count-processing.md]
+tags: [counting, warehouse, inventory]
+created: 2026-04-21
+updated: 2026-04-21
+sources: [counting-process.md]
 ---
 
-# Counting Process
+# Inventory Counting Process
 
-End-to-end counting workflow. For system overview see [[counting-overview]].
+## What This Is
+
+Inventory Counting is how you verify physical inventory matches what the system expects. The system automatically creates count lines for you based on different business needs (items shipping soon, production orders finishing, etc.). Your job is to count the physical items and enter the results.
 
 ## Staff: How to Count
 

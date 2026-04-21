@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cd wiki/howto && mkdir -p sales broker-workspace it crm && ls -la)",
+      "Bash(mv availability-reserves.md sales/)",
+      "Bash(mv move-lines.md sales/)",
+      "Bash(mv availability-troubleshooting.md it/)",
+      "Bash(mv move-lines-troubleshooting.md it/)",
+      "Bash(mv broker-workspace.md broker-workspace/)",
+      "Bash(mv crm-*.md crm/ && ls -la crm/ && echo \"✅ CRM files moved\")",
+      "Read(//c/c/Users/AlexanderThiel/ObsidianVaults/clesen-kb/wiki/**)",
+      "Bash(direct-location)",
+      "Bash(delicate)",
+      "Bash(picking-adjustment\")"
+    ]
+  }
+}
