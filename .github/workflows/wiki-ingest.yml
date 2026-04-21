@@ -8,6 +8,8 @@ on:
 jobs:
   ingest:
     runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     permissions:
       contents: write
 
@@ -27,7 +29,7 @@ jobs:
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
-          claude -p "Read CLAUDE.md and index.md, then ingest all files in raw/ that are not yet listed in index.md. For each new file: write focused wiki pages in the appropriate wiki/ subfolder, update existing related pages with cross-links, update index.md with a row for every new page, and append to log.md. Do not commit anything." --dangerously-skip-permissions
+          claude -p "Read CLAUDE.md and index.md, then ingest all files in raw/ that are not yet listed in index.md. For each new file: write focused wiki pages in the appropriate wiki/ subfolder, update existing related pages with cross-links, update index.md with a row for every new page, and append to log.md. Do not commit anything." --model claude-haiku-4-5-20251001 --dangerously-skip-permissions
 
       - name: Commit wiki changes
         run: |
