@@ -29,10 +29,19 @@ jobs:
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
-          for attempt in 1 2 3 4 5; do
-            claude -p "Read CLAUDE.md and index.md, then ingest all files in raw/ that are not yet listed in index.md. For each new file: write focused wiki pages in the appropriate wiki/ subfolder, update existing related pages with cross-links, update index.md with a row for every new page, and append to log.md. Do not commit anything." --model claude-haiku-4-5-20251001 --dangerously-skip-permissions && break
-            echo "Attempt $attempt failed, retrying in 60s..."
-            sleep 60
+          NEW_FILES=$(comm -23 <(ls raw/ | sort) <(grep -oP '(?<=raw/)\S+' index.md | sort))
+          if [ -z "$NEW_FILES" ]; then
+            echo "No new files to ingest."
+            exit 0
+          fi
+          echo "New files: $NEW_FILES"
+          for FILE in $NEW_FILES; do
+            echo "Ingesting $FILE..."
+            for attempt in 1 2 3 4 5; do
+              claude -p "Read CLAUDE.md and index.md for context. Then ingest raw/$FILE: write focused wiki pages in the appropriate wiki/ subfolder, update existing related pages with cross-links, update index.md with a row for the new page, and append to log.md. Do not commit anything." --model claude-haiku-4-5-20251001 --dangerously-skip-permissions && break
+              echo "Attempt $attempt failed, retrying in 60s..."
+              sleep 60
+            done
           done
 
       - name: Commit wiki changes
