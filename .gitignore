@@ -1,0 +1,11 @@
+# Obsidian workspace state (thrashes on every pane change)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/workspace.json.bak
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Trash
+.trash/

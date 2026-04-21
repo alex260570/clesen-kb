@@ -1,0 +1,7 @@
+{
+  "apiBaseUrl": "http://100.96.39.3:3100",
+  "apiKey": "pcp_board_d114a6439e87c81e023ad6c5aee188435d6db26a5aff3b3c",
+  "defaultCompanyId": "",
+  "refreshIntervalSec": 60,
+  "openaiApiKey": ""
+}
