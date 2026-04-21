@@ -8,8 +8,6 @@ on:
 jobs:
   ingest:
     runs-on: ubuntu-latest
-    env:
-      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     permissions:
       contents: write
 
@@ -19,12 +17,8 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           fetch-depth: 2
 
-      - uses: actions/setup-node@v4
-        with:
-          node-version: '22'
-
-      - name: Install Claude Code
-        run: npm install -g @anthropic-ai/claude-code
+      - name: Install dependencies
+        run: pip install anthropic
 
       - name: Run wiki ingest
         env:
@@ -39,7 +33,7 @@ jobs:
           for FILE in $NEW_FILES; do
             echo "Ingesting $FILE..."
             for attempt in 1 2 3 4 5; do
-              claude -p "Read CLAUDE.md and index.md for context. Then ingest raw/$FILE: write focused wiki pages in the appropriate wiki/ subfolder, update existing related pages with cross-links, update index.md with a row for the new page, and append to log.md. Do not commit anything." --model claude-haiku-4-5-20251001 --dangerously-skip-permissions && break
+              python .github/scripts/ingest.py "$FILE" && break
               echo "Attempt $attempt failed, retrying in 60s..."
               sleep 60
             done
