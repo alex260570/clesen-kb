@@ -21,7 +21,7 @@
 
 ## Overview
 
-The Invoice Approval Workflow ensures financial controls by requiring appropriate authorization before invoices are processed for payment. Invoices are routed to designated approvers based on amount, vendor, account code, and other criteria.
+The Invoice Approval Workflow ensures financial controls by requiring appropriate authorization before invoices are processed for payment. Invoices are routed to designated approvers based on amount, vendor, account code, and other criteria
 
 ### Purpose and benefits
 
