@@ -82,7 +82,9 @@ sources: []
 
 ## Session Start
 
-At the start of every session:
+**If the session prompt names a specific file** (e.g. "ingest raw/foo.md"), skip discovery entirely — go straight to the Ingest workflow for that file only.
+
+Otherwise:
 1. Read `index.md` to orient yourself — understand what is already covered
 2. Read the last 5–10 entries of `log.md` to see recent activity
 
