@@ -365,3 +365,5 @@ After comprehensive review of raw/ folder contents (81 total files):
 **Project Status:** ✅ COMPLETE
 
 Token usage: ~85k / 200k remaining. Final token budget: ~115k available.
+
+## [2026-04-21] ingest | invoice-approval-workflow-guide.md
