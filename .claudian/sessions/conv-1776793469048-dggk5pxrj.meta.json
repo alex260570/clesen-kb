@@ -1,0 +1,24 @@
+{
+  "id": "conv-1776793469048-dggk5pxrj",
+  "providerId": "claude",
+  "title": "tst",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1776793469051,
+  "updatedAt": 1776794177407,
+  "lastResponseAt": 1776794177407,
+  "sessionId": "ffe63835-f533-4af0-88af-1bb7b2170fb4",
+  "providerState": {
+    "providerSessionId": "ffe63835-f533-4af0-88af-1bb7b2170fb4"
+  },
+  "currentNote": "raw/availability-reserves-user-guide.md",
+  "usage": {
+    "model": "haiku",
+    "inputTokens": 8,
+    "cacheCreationInputTokens": 419,
+    "cacheReadInputTokens": 102192,
+    "contextWindow": 200000,
+    "contextTokens": 102619,
+    "percentage": 51,
+    "contextWindowIsAuthoritative": true
+  }
+}
