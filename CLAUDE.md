@@ -18,7 +18,7 @@ Topics this wiki covers:
 - **Picking Processes** — master picking, supermarket picking, single-order picks, cart transfer, delicate item handling
 - **Warehouse Operations** — counting, bin management, receiving, shipment, escalations
 - **Sales & Orders** — order entry, sales planning, availability, reservations, move lines
-- **Business Central SOPs** — step-by-step processes for BC workflows (production orders, broker workspace, etc.)
+- **Business Central SOPs** — step-by-step processes for BC workflows (production orders, broker workspace, purchasing, etc.)
 - **IT Support** — troubleshooting guides, common issues and solutions
 - **CRM** — lead management, activity tracking
 
@@ -26,11 +26,29 @@ Topics this wiki covers:
 
 ```
 wiki/
-├── howto/           # Step-by-step guides and numbered procedures
-├── concepts/        # Background concepts, overviews, how-it-works explanations
-├── issues/          # Known issues with Symptoms / Cause / Solution sections
-└── overviews/       # Broad topic summaries spanning multiple processes
+├── howto/                # Step-by-step guides and numbered procedures
+└── business-processes/   # High-level process overviews and background explanations
 ```
+
+### howto/
+
+All step-by-step, task-oriented guides live here. File directly in `howto/` by default.
+
+**Subfolder rule:** When 3 or more pages share a clear topic, create a subfolder for that topic (e.g., `howto/picking/`, `howto/counting/`, `howto/purchasing/`). Use your judgment — a subfolder is only worth creating when it genuinely reduces clutter.
+
+Examples of what belongs here:
+- How to perform a process (numbered steps)
+- Role-specific guides (staff guide, manager guide)
+- IT troubleshooting guides for a specific feature
+
+### business-processes/
+
+High-level pages that explain *what* a process is, *why* it exists, or *how it fits* into the broader operation. Not step-by-step — more like reference material.
+
+Examples of what belongs here:
+- Process overviews (e.g., how the picking system works end-to-end)
+- Explanations of key concepts (e.g., what count types are and when each is used)
+- Role and responsibility summaries
 
 ## Page Frontmatter
 
@@ -39,7 +57,7 @@ Every wiki page must have YAML frontmatter:
 ```yaml
 ---
 title: Page Title
-type: howto | concept | issue | overview
+type: howto | business-process
 tags: []
 created: YYYY-MM-DD
 updated: YYYY-MM-DD
@@ -62,10 +80,12 @@ At the start of every session:
 When new files appear in `raw/` that are not yet reflected in `index.md`:
 
 1. Read each new source document fully
-2. Write focused wiki pages in the appropriate `wiki/` subfolder — one page per distinct process or concept
-3. Update existing related pages — add `[[wikilinks]]`, update outdated claims, flag contradictions
-4. Update `index.md` — add a row for every new or significantly updated page
-5. Append to `log.md`: `## [YYYY-MM-DD] ingest | filename`
+2. Decide: is this a step-by-step guide (`howto/`) or a high-level overview (`business-processes/`)?
+3. Write focused wiki pages — one page per distinct process or concept
+4. If filing in `howto/` and 3+ existing pages share the same topic, create or use a subfolder
+5. Update existing related pages — add `[[wikilinks]]`, update outdated claims, flag contradictions
+6. Update `index.md` — add a row for every new or significantly updated page
+7. Append to `log.md`: `## [YYYY-MM-DD] ingest | filename`
 
 A single source typically produces 1–3 wiki pages. Prefer concise, scannable pages over long ones. Use `[[wikilinks]]` generously for cross-references.
 
@@ -85,5 +105,4 @@ When asked for a health check:
 - **Wikilinks**: Add `[[wikilinks]]` generously — they power cross-referencing
 - **Raw sources are immutable**: Never edit any file in `raw/`
 - **Always** update `index.md` and `log.md` after every ingest
-- **Issues pages**: Always include "Symptoms", "Cause", "Solution" sections
 - **How-to pages**: Always include numbered steps
