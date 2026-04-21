@@ -29,7 +29,7 @@ jobs:
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
-          NEW_FILES=$(comm -23 <(ls raw/ | sort) <(grep -oP '(?<=raw/)\S+' index.md | sort))
+          NEW_FILES=$(git diff --name-only --diff-filter=A HEAD~1 HEAD -- 'raw/' | sed 's|raw/||')
           if [ -z "$NEW_FILES" ]; then
             echo "No new files to ingest."
             exit 0
