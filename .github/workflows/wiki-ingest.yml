@@ -1,0 +1,38 @@
+name: Wiki Ingest
+
+on:
+  push:
+    paths:
+      - 'raw/**'
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Install Claude Code
+        run: npm install -g @anthropic-ai/claude-code
+
+      - name: Run wiki ingest
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          claude -p "Read CLAUDE.md and index.md, then ingest all files in raw/ that are not yet listed in index.md. For each new file: write focused wiki pages in the appropriate wiki/ subfolder, update existing related pages with cross-links, update index.md with a row for every new page, and append to log.md. Do not commit anything." --dangerously-skip-permissions
+
+      - name: Commit wiki changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add wiki/ index.md log.md
+          git diff --staged --quiet || git commit -m "docs: auto-ingest wiki pages from raw/"
+          git push
