@@ -4,8 +4,8 @@
   "title": "tst",
   "titleGenerationStatus": "failed",
   "createdAt": 1776793469051,
-  "updatedAt": 1776809922209,
-  "lastResponseAt": 1776809922209,
+  "updatedAt": 1776811236313,
+  "lastResponseAt": 1776811236313,
   "sessionId": "ffe63835-f533-4af0-88af-1bb7b2170fb4",
   "providerState": {
     "providerSessionId": "ffe63835-f533-4af0-88af-1bb7b2170fb4"
@@ -13,12 +13,12 @@
   "currentNote": "raw/availability-reserves-user-guide.md",
   "usage": {
     "model": "haiku",
-    "inputTokens": 10,
-    "cacheCreationInputTokens": 803,
-    "cacheReadInputTokens": 158655,
+    "inputTokens": 8,
+    "cacheCreationInputTokens": 240,
+    "cacheReadInputTokens": 71639,
     "contextWindow": 200000,
-    "contextTokens": 159468,
-    "percentage": 80,
+    "contextTokens": 71887,
+    "percentage": 36,
     "contextWindowIsAuthoritative": true
   }
 }
