@@ -45,7 +45,7 @@ Return ONLY a JSON object — no markdown fences, no extra text — with this st
   "index_rows": [
     "| [wiki/howto/picking/example.md](wiki/howto/picking/example.md) | Short description | picking |"
   ],
-  "log_entry": "## [{today}] ingest | {filename}"
+  "log_entry": "## [{today}] ingest | {filename}\\n\\n**Pages created (N):**\\n1. wiki/howto/example/page.md\\n"
 }}"""
 
     client = anthropic.Anthropic()
