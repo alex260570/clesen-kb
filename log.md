@@ -498,3 +498,34 @@ Token usage: ~85k / 200k remaining. Final token budget: ~115k available.
 - EOS content: 4 comprehensive pages providing complete implementation-ready manual
 
 **Token usage:** ~8k / 200k budget. Remaining: ~65k tokens.
+
+## [2026-04-27] ingest | Batch 23 — Sales Return Documentation (2 sources)
+
+**Sources processed:**
+- sales-return-user-guide.md (526 lines) — Comprehensive user guide covering same-day and previous-day returns
+- sales-return-it-troubleshooting-guide.md (1244 lines) — Technical IT guide with system architecture and troubleshooting
+
+**Wiki pages created (2):**
+1. wiki/howto/sales/sales-return-process.md — Complete guide to sales return management covering both same-day and previous-day returns with approval workflows, step-by-step procedures, field reference, troubleshooting, and FAQ
+2. wiki/howto/it/sales-return-it-troubleshooting.md — Technical guide for IT support with system architecture, codeunits (50117, 50037), database schema, approval workflow technical details, configuration requirements, common issues, testing procedures, and performance considerations
+
+**Updates to existing pages:**
+- wiki/howto/sales/same-day-return.md — Added cross-links to new sales-return-process.md and sales-return-it-troubleshooting.md pages
+
+**Content Summary:**
+- **User Guide:** 8-step process for same-day returns, 8-step process for previous-day returns, approval workflow overview, field reference for all header and line fields, 7 troubleshooting scenarios, 9 FAQ questions
+- **IT Guide:** System architecture diagrams, codeunit references (50117 Create R-Order From Loading, 50037 Product Credit Management), database schema with field extensions (Sales Header, Sales Line, Return Reason), configuration setup (return reason codes, location quarantine setup, user approval limits), approval decision tree, 7 common IT issues with detailed resolutions, 6 test cases, performance optimization guidance, database index recommendations
+
+**Integration:** Expands existing same-day-return.md page with comprehensive previous-day return process coverage; provides technical deep-dive for IT support and developers; covers approval workflow, inventory handling, and journal auto-generation for on-site disposal.
+
+**Index updated:** 
+- Added sales-return-process.md to Sales section (after same-day-return.md)
+- Added sales-return-it-troubleshooting.md to IT Troubleshooting section
+
+**Project Progress:**
+- Total batches completed: 23
+- Total sources ingested: 98 (85 original + 5 Batch 20 + 3 EOS web-scraped + 3 EOS supplementary + 2 Sales Return)
+- Total wiki pages: 126+ (added 2 new pages, 1 update)
+- Sales return coverage: Now complete with comprehensive same-day guide, full process guide (same-day + previous-day), and IT technical reference
+
+**Token usage:** ~60k / 200k budget. Remaining: ~5k tokens.

@@ -65,6 +65,7 @@ Content-oriented catalog of all wiki pages. Updated on every ingest. Read this f
 | [wiki/howto/sales/move-lines.md](wiki/howto/sales/move-lines.md) | Transferring sales order lines between orders based on availability | sales-orders |
 | [wiki/howto/sales/item-substitution.md](wiki/howto/sales/item-substitution.md) | Cutting or substituting inventory when items have insufficient supply | substitution, inventory |
 | [wiki/howto/sales/same-day-return.md](wiki/howto/sales/same-day-return.md) | Processing customer returns on the same day they were shipped | returns, shipping |
+| [wiki/howto/sales/sales-return-process.md](wiki/howto/sales/sales-return-process.md) | Complete guide to sales return management covering both same-day and previous-day returns with approval workflows | returns, sales-orders, approval-workflow |
 | [wiki/howto/sales/sales-order-management.md](wiki/howto/sales/sales-order-management.md) | Creating and managing sales orders, quotes, and blanket orders with full workflow | sales-orders, order-management |
 | [wiki/howto/sales/sales-process-history.md](wiki/howto/sales/sales-process-history.md) | Complete audit trail of every change made to sales order lines throughout lifecycle | sales-orders, audit-trail, tracking |
 | [wiki/howto/sales/sales-process-history-it-troubleshooting.md](wiki/howto/sales/sales-process-history-it-troubleshooting.md) | IT technical documentation for sales process history system architecture and data flow | sales-orders, audit-trail, it-support |
@@ -154,6 +155,7 @@ Content-oriented catalog of all wiki pages. Updated on every ingest. Read this f
 | [wiki/howto/it/move-lines-troubleshooting.md](wiki/howto/it/move-lines-troubleshooting.md) | IT troubleshooting guide for Move Lines feature | sales-orders, IT |
 | [wiki/howto/it/broker-workspace-troubleshooting.md](wiki/howto/it/broker-workspace-troubleshooting.md) | IT troubleshooting guide for Broker Workspace system | purchasing, IT |
 | [wiki/howto/it/growing-stages-it-troubleshooting.md](wiki/howto/it/growing-stages-it-troubleshooting.md) | IT technical architecture for growing stage system with custom stage profiles | growing-stages, it-support, system-architecture |
+| [wiki/howto/it/sales-return-it-troubleshooting.md](wiki/howto/it/sales-return-it-troubleshooting.md) | IT technical guide for sales return system architecture, codeunits, approval workflow, and troubleshooting | sales, returns, approval-workflow, it-support, system-architecture |
 | [wiki/howto/it/invoice-approval-troubleshooting.md](wiki/howto/it/invoice-approval-troubleshooting.md) | Troubleshooting common invoice approval issues | purchasing, approval, it, troubleshooting |
 
 ## Business Processes

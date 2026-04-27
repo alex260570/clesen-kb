@@ -181,5 +181,7 @@ These are the columns you see on the **Shipped Items** screen:
 
 ## Related Pages
 
+- [[sales-return-process]] — Complete guide covering both same-day and previous-day returns
+- [[sales-return-it-troubleshooting]] — Technical guide and IT troubleshooting
 - [[picking-overview]]
 - [[supermarket-picking-process]]
