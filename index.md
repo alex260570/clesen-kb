@@ -55,7 +55,7 @@ Content-oriented catalog of all wiki pages. Updated on every ingest. Read this f
 | [wiki/howto/items/customer-preferred-stages.md](wiki/howto/items/customer-preferred-stages.md) | Configuring customer preferences for blooming stage variants on sales orders | items, customer-management, sales-orders |
 | [wiki/howto/items/scouting-reports.md](wiki/howto/items/scouting-reports.md) | Inventory visibility tool for planning picking activities and managing stage advancement | items, inventory-visibility, picking, warehouse |
 | [wiki/howto/items/blooming-stages-it-troubleshooting.md](wiki/howto/items/blooming-stages-it-troubleshooting.md) | IT technical architecture for blooming stage system with persistent schedule management | items, it-support, system-architecture |
-| [wiki/howto/items/growing-stages-it-troubleshooting.md](wiki/howto/items/growing-stages-it-troubleshooting.md) | IT technical architecture for growing stage system with custom stage profiles | items, it-support, system-architecture |
+| [wiki/howto/items/growing-stages.md](wiki/howto/items/growing-stages.md) | Plant lifecycle tracking for non-blooming items with customizable stage profiles and automatic progression | items, growing-stages, production, lifecycle |
 
 ### Sales
 
@@ -85,6 +85,12 @@ Content-oriented catalog of all wiki pages. Updated on every ingest. Read this f
 | [wiki/howto/broker-workspace/broker-workspace-manager.md](wiki/howto/broker-workspace/broker-workspace-manager.md) | Manager oversight, monitoring, and analytics for purchasing | purchasing, management |
 | [wiki/howto/broker-workspace/broker-workspace-troubleshooting.md](wiki/howto/broker-workspace/broker-workspace-troubleshooting.md) | IT troubleshooting guide for Broker Workspace system | purchasing, IT |
 
+### Finance
+
+| Page | Summary | Tags |
+|------|---------|------|
+| [wiki/howto/finance/finance-dashboard.md](wiki/howto/finance/finance-dashboard.md) | Real-time executive dashboard for monitoring revenue, profitability, cash flow, and operational metrics | finance, dashboard, executives, kpi, reporting |
+
 ### CRM
 
 | Page | Summary | Tags |
@@ -104,6 +110,7 @@ Content-oriented catalog of all wiki pages. Updated on every ingest. Read this f
 | [wiki/howto/warehouse/shipping-worksheet.md](wiki/howto/warehouse/shipping-worksheet.md) | Consolidating orders into delivery routes for OptimoRoute optimization | warehouse, shipping, route-optimization, manager |
 | [wiki/howto/warehouse/shipping-worksheet-staff.md](wiki/howto/warehouse/shipping-worksheet-staff.md) | Daily workflow for managing delivery routes and generating driver instructions | warehouse, shipping, route-planning, staff |
 | [wiki/howto/warehouse/shipment-tracking-email.md](wiki/howto/warehouse/shipment-tracking-email.md) | Automatically notifying customers when orders ship with carrier tracking information | shipping, customer-communication, automation |
+| [wiki/howto/warehouse/waste-recording.md](wiki/howto/warehouse/waste-recording.md) | Recording inventory loss, damage, and disposal to maintain accurate inventory and identify waste reduction opportunities | warehouse, inventory, waste, loss, compliance |
 
 ### Production
 
@@ -128,6 +135,7 @@ Content-oriented catalog of all wiki pages. Updated on every ingest. Read this f
 | [wiki/howto/purchasing/purchase-receipt-it-troubleshooting.md](wiki/howto/purchasing/purchase-receipt-it-troubleshooting.md) | IT troubleshooting guide for purchase receipt system architecture and issues | purchasing, receiving, IT, troubleshooting |
 | [wiki/howto/purchasing/planning-flexibility.md](wiki/howto/purchasing/planning-flexibility.md) | Protecting purchase order lines from MRP changes using planning flexibility lock | purchasing, mrp, order-management, planning |
 | [wiki/howto/purchasing/bank-payment-export.md](wiki/howto/purchasing/bank-payment-export.md) | Finance staff guide for exporting vendor payments to bank via ACH or computer check | purchasing, payments, finance, bank-export |
+| [wiki/howto/purchasing/purchase-requisitions.md](wiki/howto/purchasing/purchase-requisitions.md) | Creating and managing purchase requisitions with approval routing and consolidation for procurement | purchasing, requisitions, budgets, approval, procurement |
 
 ### IT Troubleshooting
 
@@ -137,6 +145,8 @@ Content-oriented catalog of all wiki pages. Updated on every ingest. Read this f
 | [wiki/howto/it/availability-system-it-troubleshooting.md](wiki/howto/it/availability-system-it-troubleshooting.md) | IT technical guide for availability system architecture, configuration, and troubleshooting | availability, it-support, troubleshooting, system-architecture |
 | [wiki/howto/it/move-lines-troubleshooting.md](wiki/howto/it/move-lines-troubleshooting.md) | IT troubleshooting guide for Move Lines feature | sales-orders, IT |
 | [wiki/howto/it/broker-workspace-troubleshooting.md](wiki/howto/it/broker-workspace-troubleshooting.md) | IT troubleshooting guide for Broker Workspace system | purchasing, IT |
+| [wiki/howto/it/growing-stages-it-troubleshooting.md](wiki/howto/it/growing-stages-it-troubleshooting.md) | IT technical architecture for growing stage system with custom stage profiles | growing-stages, it-support, system-architecture |
+| [wiki/howto/it/invoice-approval-troubleshooting.md](wiki/howto/it/invoice-approval-troubleshooting.md) | Troubleshooting common invoice approval issues | purchasing, approval, it, troubleshooting |
 
 ## Business Processes
 

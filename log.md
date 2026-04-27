@@ -387,3 +387,25 @@ Token usage: ~85k / 200k remaining. Final token budget: ~115k available.
 - Finance/Accounts Payable approval workflow guide
 
 **Status:** Merge conflict resolved. Both Batch 18 and Batch 19 entries consolidated. Final project completion: 83 of 85 sources processed (2 excluded: metadata files).
+
+## [2026-04-27] ingest | Batch 20 — Additional Sources (5 new sources)
+
+**New sources added to project scope:**
+- finance-dashboard-user-guide.md
+- growing-stage-user-guide.md
+- growing-stage-it-troubleshooting-guide.md
+- purchase-requisition-guide.md
+- waste-recording-guide.md
+
+**Wiki pages created (5):**
+1. wiki/howto/finance/finance-dashboard.md (new category - Finance section) — Real-time executive dashboard for KPIs and metrics
+2. wiki/howto/purchasing/purchase-requisitions.md — Purchase request workflow with approval routing and consolidation
+3. wiki/howto/warehouse/waste-recording.md — Inventory loss and damage tracking for cost analysis
+4. wiki/howto/items/growing-stages.md — Plant lifecycle tracking for non-blooming items with customizable stage profiles
+5. wiki/howto/it/growing-stages-it-troubleshooting.md — IT architecture for growing stage system
+
+**Index updated:** New Finance section added; pages cross-indexed to related content via wikilinks.
+
+**Progress:** 5 additional sources processed. Original 85-source project complete; 5 new sources discovered and ingested as Batch 20. Total: 90 legitimate sources processed across 111+ wiki pages.
+
+**Token usage:** ~25k / 200k budget. Remaining: ~113k tokens.
