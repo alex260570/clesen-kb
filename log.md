@@ -409,3 +409,45 @@ Token usage: ~85k / 200k remaining. Final token budget: ~115k available.
 **Progress:** 5 additional sources processed. Original 85-source project complete; 5 new sources discovered and ingested as Batch 20. Total: 90 legitimate sources processed across 111+ wiki pages.
 
 **Token usage:** ~25k / 200k budget. Remaining: ~113k tokens.
+
+## [2026-04-27] ingest | Batch 21 — EOS Complete Manual (Web-scraped from eosworldwide.com)
+
+**Source:** Web scrape from https://www.eosworldwide.com (100-page crawl)
+
+**Wiki pages created (3 comprehensive pages):**
+1. wiki/business-processes/eos-system-overview.md — Complete EOS framework overview with Six Key Components, Three Pillars (Vision, Traction, Healthy), and implementation model
+2. wiki/howto/business-planning/eos-six-components-guide.md — Deep dive into each of six components with tools, measurement criteria, and key principles (Vision, People, Data, Issues, Process, Traction)
+3. wiki/howto/business-planning/eos-implementation-guide.md — Step-by-step implementation guide covering both self-implementation and professional implementer paths, weekly/quarterly cadence, tools sequencing
+
+**Content Summary:**
+- EOS framework and philosophy
+- Five Frustrations (People, Control, Profit, Ceiling, Stagnation)
+- Vision, Traction, Healthy pillars
+- Six Key Components with tools:
+  - Vision → V/TO
+  - People → Accountability Chart, People Analyzer
+  - Data → Scorecard
+  - Issues → IDS (Identify, Discuss, Solve)
+  - Process → Process Documenter
+  - Traction → Level 10 Meeting, Rocks
+- Implementation paths (18–24 months with Implementer; 12–36 months self-implemented)
+- Level 10 Meeting (90-minute weekly rhythm)
+- Quarterly and annual cadence
+- Component strength assessment (0–100% scoring)
+- Success metrics and timelines
+- Resources and next steps
+
+**Index updated:** Added new "Business Planning" category with EOS pages; EOS System Overview added to Business Processes section.
+
+**Key Features:**
+- Complete, implementation-ready guide
+- Comprehensive component deep-dives
+- Tool references and measurement criteria
+- Both implementation paths covered
+- Cross-referenced with wikilinks for navigation
+- Assessment criteria and success metrics
+- Real-world examples and timeline expectations
+
+**Progress:** Web-scraped content successfully converted to structured wiki format. EOS manual complete and ready for operational reference.
+
+**Token usage:** ~40k / 200k budget. Remaining: ~73k tokens.

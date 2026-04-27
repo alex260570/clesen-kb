@@ -91,6 +91,13 @@ Content-oriented catalog of all wiki pages. Updated on every ingest. Read this f
 |------|---------|------|
 | [wiki/howto/finance/finance-dashboard.md](wiki/howto/finance/finance-dashboard.md) | Real-time executive dashboard for monitoring revenue, profitability, cash flow, and operational metrics | finance, dashboard, executives, kpi, reporting |
 
+### Business Planning
+
+| Page | Summary | Tags |
+|------|---------|------|
+| [wiki/howto/business-planning/eos-six-components-guide.md](wiki/howto/business-planning/eos-six-components-guide.md) | Deep dive into the six EOS components: Vision, People, Data, Issues, Process, Traction with tools and measurement | eos, vision, people, data, issues, process, traction |
+| [wiki/howto/business-planning/eos-implementation-guide.md](wiki/howto/business-planning/eos-implementation-guide.md) | Step-by-step guide to implementing EOS with self-implementation and professional implementer options | eos, implementation, process, roadmap, leadership |
+
 ### CRM
 
 | Page | Summary | Tags |
@@ -152,12 +159,12 @@ Content-oriented catalog of all wiki pages. Updated on every ingest. Read this f
 
 | Page | Summary | Tags |
 |------|---------|------|
+| [wiki/business-processes/eos-system-overview.md](wiki/business-processes/eos-system-overview.md) | Complete EOS (Entrepreneurial Operating System) overview with six key components and implementation framework | eos, business-management, framework, leadership |
 | [wiki/business-processes/picking-overview.md](wiki/business-processes/picking-overview.md) | Overview of the picking system and how processes connect | picking |
 | [wiki/business-processes/counting-system-overview.md](wiki/business-processes/counting-system-overview.md) | Five-phase automated counting process architecture for inventory accuracy | counting, system-architecture |
 | [wiki/business-processes/availability-system.md](wiki/business-processes/availability-system.md) | Overview of real-time availability calculation system and period-based forecasting | availability, system |
 | [wiki/business-processes/production-order-posting-system.md](wiki/business-processes/production-order-posting-system.md) | Production order posting and adjustment system overview with key concepts and architecture | production, posting, system-overview, safety-quantity, scrap-recovery |
 | [wiki/business-processes/purchase-receipt-system.md](wiki/business-processes/purchase-receipt-system.md) | Purchase receipt and vendor receiving system overview with quality hold and quarantine management | purchasing, receiving, quality-control, system-overview |
-
 | [wiki/business-processes/invoice-approval-workflow.md](wiki/business-processes/invoice-approval-workflow.md) | High-level overview of invoice approval workflow, stages, and routing rules | purchasing, invoices, approval |
 | [wiki/howto/purchasing/invoice-entry-and-matching.md](wiki/howto/purchasing/invoice-entry-and-matching.md) | How to create invoice records and validate 3-way matching | purchasing, invoices, accounts-payable |
 | [wiki/howto/purchasing/invoice-approval-process.md](wiki/howto/purchasing/invoice-approval-process.md) | Step-by-step guide to reviewing, approving, rejecting, and handling invoices | purchasing, invoices, approval |

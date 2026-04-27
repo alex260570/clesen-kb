@@ -12,7 +12,11 @@
       "Bash(direct-location)",
       "Bash(delicate)",
       "Bash(picking-adjustment\")",
-      "Bash(cd \"C:\\\\Users\\\\AlexanderThiel\\\\ObsidianVaults\\\\clesen-kb\" && ls -1 raw/*.md | sort > /tmp/current_files.txt && cat /tmp/current_files.txt | tail -20)"
+      "Bash(cd \"C:\\\\Users\\\\AlexanderThiel\\\\ObsidianVaults\\\\clesen-kb\" && ls -1 raw/*.md | sort > /tmp/current_files.txt && cat /tmp/current_files.txt | tail -20)",
+      "Bash(git commit *)",
+      "Bash(browser-harness)",
+      "Skill(firecrawl-crawl)",
+      "Skill(firecrawl-crawl:*)"
     ]
   }
 }

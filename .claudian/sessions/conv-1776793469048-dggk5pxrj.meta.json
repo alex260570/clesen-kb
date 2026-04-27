@@ -4,8 +4,8 @@
   "title": "tst",
   "titleGenerationStatus": "failed",
   "createdAt": 1776793469051,
-  "updatedAt": 1777305102585,
-  "lastResponseAt": 1776811236313,
+  "updatedAt": 1777305327184,
+  "lastResponseAt": 1777305327184,
   "sessionId": "ffe63835-f533-4af0-88af-1bb7b2170fb4",
   "providerState": {
     "providerSessionId": "ffe63835-f533-4af0-88af-1bb7b2170fb4"
@@ -14,11 +14,11 @@
   "usage": {
     "model": "haiku",
     "inputTokens": 8,
-    "cacheCreationInputTokens": 240,
-    "cacheReadInputTokens": 71639,
+    "cacheCreationInputTokens": 498,
+    "cacheReadInputTokens": 107455,
     "contextWindow": 200000,
-    "contextTokens": 71887,
-    "percentage": 36,
+    "contextTokens": 107961,
+    "percentage": 54,
     "contextWindowIsAuthoritative": true
   }
 }
