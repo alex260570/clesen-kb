@@ -97,6 +97,7 @@ Content-oriented catalog of all wiki pages. Updated on every ingest. Read this f
 |------|---------|------|
 | [wiki/howto/business-planning/eos-six-components-guide.md](wiki/howto/business-planning/eos-six-components-guide.md) | Deep dive into the six EOS components: Vision, People, Data, Issues, Process, Traction with tools and measurement | eos, vision, people, data, issues, process, traction |
 | [wiki/howto/business-planning/eos-implementation-guide.md](wiki/howto/business-planning/eos-implementation-guide.md) | Step-by-step guide to implementing EOS with self-implementation and professional implementer options | eos, implementation, process, roadmap, leadership |
+| [wiki/howto/business-planning/eos-quick-reference.md](wiki/howto/business-planning/eos-quick-reference.md) | Quick reference guide and FAQ for EOS with tool summaries and getting started resources | eos, quick-reference, faq, tools |
 
 ### CRM
 

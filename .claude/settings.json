@@ -16,7 +16,8 @@
       "Bash(git commit *)",
       "Bash(browser-harness)",
       "Skill(firecrawl-crawl)",
-      "Skill(firecrawl-crawl:*)"
+      "Skill(firecrawl-crawl:*)",
+      "Bash(git push *)"
     ]
   }
 }

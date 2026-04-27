@@ -451,3 +451,50 @@ Token usage: ~85k / 200k remaining. Final token budget: ~115k available.
 **Progress:** Web-scraped content successfully converted to structured wiki format. EOS manual complete and ready for operational reference.
 
 **Token usage:** ~40k / 200k budget. Remaining: ~73k tokens.
+
+## [2026-04-27] ingest | Batch 22 — EOS Supplementary References (3 sources)
+
+**Sources processed:**
+- What is the Entrepreneurial Operating System (EOS).md (FAQ compilation)
+- Entrepreneurial Operating System for Businesses, home of Traction tools & library.md (homepage overview)
+- Free Tool VisionTraction Organizer®.md (V/TO tool reference)
+
+**Wiki pages created (1):**
+1. wiki/howto/business-planning/eos-quick-reference.md — Quick reference guide with FAQ, tool summaries, taglines, pillar overview, getting started resources
+
+**Content Summary:**
+- EOS tagline and three-pillar overview
+- The Five Frustrations
+- 15 FAQ questions and answers:
+  - What is EOS?
+  - Who created it?
+  - Company size fit
+  - Implementation timeline
+  - Self-implementation options
+  - Comparison to other frameworks
+- Five foundational tools detailed:
+  - Vision/Traction Organizer (V/TO)
+  - Accountability Chart
+  - Scorecard
+  - Rocks
+  - Level 10 Meeting
+- Contact and resource links
+- Getting started paths
+
+**Integration:** Consolidates unique content from 3 supplementary sources; complements Batch 21 comprehensive manual pages; provides quick lookup reference.
+
+**Index updated:** Added eos-quick-reference.md to Business Planning category.
+
+**Project Completion:** All 3 EOS raw source files successfully ingested. EOS manual now complete with:
+- System Overview (business-process)
+- Six Components Deep Dive (howto)
+- Implementation Guide (howto)
+- Quick Reference & FAQ (howto)
+
+**Final Statistics:**
+- Total batches completed: 22
+- Total sources ingested: 96 (85 original + 5 Batch 20 + 3 EOS web-scraped + 3 EOS supplementary)
+- Total wiki pages: 124+
+- EOS content: 4 comprehensive pages providing complete implementation-ready manual
+
+**Token usage:** ~8k / 200k budget. Remaining: ~65k tokens.
