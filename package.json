@@ -13,12 +13,18 @@
   },
   "scripts": {
     "quartz": "node ./quartz/bootstrap-cli.mjs",
-    "check": "tsc --noEmit && prettier package.json quartz.config.ts quartz.layout.ts quartz/styles/custom.scss README.md --check",
-    "format": "prettier package.json quartz.config.ts quartz.layout.ts quartz/styles/custom.scss README.md --write",
+    "check": "tsc --noEmit && npm run check:scope && npm run check:links && prettier package.json quartz.config.ts quartz.layout.ts quartz/styles/custom.scss README.md docs/publishing-policy.md docs/launch-checklist.md scripts/check-publish-scope.js scripts/check-links.js --check",
+    "check:links": "node scripts/check-links.js",
+    "check:links:strict": "node scripts/check-links.js --strict",
+    "check:scope": "node scripts/check-publish-scope.js",
+    "check:fixtures": "node scripts/check-publish-scope.js --self-test && node scripts/check-links.js --self-test",
+    "format": "prettier package.json quartz.config.ts quartz.layout.ts quartz/styles/custom.scss README.md docs/publishing-policy.md docs/launch-checklist.md scripts/check-publish-scope.js scripts/check-links.js --write",
     "test": "tsx --test",
     "profile": "0x -D prof ./quartz/bootstrap-cli.mjs build --concurrency=1",
+    "prebuild": "npm run check:scope && npm run check:links",
     "dev": "node ./quartz/bootstrap-cli.mjs build --serve -d wiki",
     "build": "node ./quartz/bootstrap-cli.mjs build -d wiki",
+    "postbuild": "node scripts/check-publish-scope.js --postbuild",
     "preview": "node ./quartz/bootstrap-cli.mjs build --serve -d wiki"
   },
   "engines": {
