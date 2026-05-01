@@ -170,24 +170,12 @@ After receiving:
 
 ### Step 2: Add items to return
 
-**Option A: Copy from posted shipment (recommended)**
-
-1. Click **Actions → Functions → Copy Document**
+1. Click **Actions → Prepare → Get Posted Document Lines to Reverse**
 2. Select **Document Type:** Posted Shipment
-3. Enter the **Document No.** (original shipment number)
-4. Check **Recalculate Lines** to bring in current pricing
-5. Click **OK**
+3. Select lines to be returned
+4. Click **OK**
 
 The system copies the shipment lines and automatically populates the **Return-from Address** from the original ship-to location.
-
-**Option B: Manual entry**
-
-1. In the **Lines** section, click **+New Line**
-2. Select **Type:** Item
-3. Enter **No.** (Item number)
-4. Enter **Quantity** to return
-5. The system populates **Unit Price** from the original sale
-6. Repeat for each item
 
 ### Step 3: Set return information
 
