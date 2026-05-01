@@ -88,6 +88,28 @@ Selector: IdP group
 Value: Internal Wiki Readers
 ```
 
+### Microsoft Entra ID Setup Notes
+
+The Cloudflare Access identity provider uses a Microsoft Entra ID app registration. The app registration must include the Cloudflare Access callback URL as a **Web** redirect URI:
+
+```text
+https://<cloudflare-team-name>.cloudflareaccess.com/cdn-cgi/access/callback
+```
+
+The Entra app also needs Microsoft Graph delegated permissions with admin consent granted. Confirm these permissions are present if SSO testing fails:
+
+```text
+email
+offline_access
+openid
+profile
+User.Read
+Directory.Read.All
+GroupMember.Read.All
+```
+
+When creating the client secret, copy the secret **Value**, not the Secret ID. If Access policies use Entra groups, enable **Support groups** in the Cloudflare identity provider and use the Entra group Object ID when entering a group manually.
+
 ## Verification
 
 Verified on 2026-05-01:
@@ -95,6 +117,7 @@ Verified on 2026-05-01:
 - GitHub secrets `CLOUDFLARE_ACCOUNT_ID` and `CLOUDFLARE_API_TOKEN` are configured.
 - GitHub Actions workflow `Deploy Wiki to Cloudflare Pages` completed successfully on `main`.
 - `https://clesen-wiki.pages.dev` returned `200` after Cloudflare Access login and included `Internal Knowledge Wiki`.
+- Microsoft Entra ID SSO was confirmed after adding the required delegated Graph permissions and granting admin consent.
 
 For future deployment/access checks:
 

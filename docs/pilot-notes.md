@@ -33,6 +33,6 @@ Ask each pilot user to complete:
 
 ## Results
 
-| User            | Access result | Search topic               | Found in under 30s? | Notes                                   |
-| --------------- | ------------- | -------------------------- | ------------------- | --------------------------------------- |
-| Alexander Thiel | Passed        | Initial login/deploy check | TBD                 | Confirmed able to log in on 2026-05-01. |
+| User            | Access result | Search topic               | Found in under 30s? | Notes                                                                                   |
+| --------------- | ------------- | -------------------------- | ------------------- | --------------------------------------------------------------------------------------- |
+| Alexander Thiel | Passed        | Initial login/deploy check | TBD                 | Confirmed Microsoft SSO login on 2026-05-01 after Entra Graph permissions were granted. |
