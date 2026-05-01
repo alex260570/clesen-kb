@@ -61,6 +61,8 @@ Build command: npm run build
 Output directory: public
 ```
 
+Deployment details live in `docs/deployment.md`.
+
 ## Smoke Test Checklist
 
 After `npm run build`, verify:
