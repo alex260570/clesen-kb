@@ -37,11 +37,22 @@ Quartz writes generated files to `public/`.
 
 ## Publishing Scope
 
-The MVP publishing rule is folder-based:
+The publishing rule is folder-based:
 
 - Publish everything under `wiki/`.
 - Exclude everything outside `wiki/`.
-- Do not apply draft/private exclusions inside `wiki/` for Phase 0.
+- Do not apply draft/private folder exclusions inside `wiki/` for the MVP.
+- Treat `raw/`, root-level notes, Obsidian settings, and tool metadata as source-only material.
+
+Safety checks run automatically before and after production builds:
+
+```sh
+npm run check:scope
+npm run check:links
+npm run check:fixtures
+```
+
+See `docs/publishing-policy.md` for the full policy.
 
 Cloudflare Pages should use:
 
