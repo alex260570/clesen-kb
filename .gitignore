@@ -9,3 +9,10 @@ Thumbs.db
 
 # Trash
 .trash/
+
+# Quartz build/dependency output
+node_modules/
+public/
+.quartz-cache/
+tsconfig.tsbuildinfo
+quartz-preview*.log
