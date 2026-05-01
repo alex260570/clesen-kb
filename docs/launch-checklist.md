@@ -11,11 +11,11 @@
 
 ## Access
 
-- [ ] Production `pages.dev` URL is protected by Cloudflare Access.
-- [ ] Preview deployments are protected by Cloudflare Access.
-- [ ] GitHub repository secrets `CLOUDFLARE_ACCOUNT_ID` and `CLOUDFLARE_API_TOKEN` are configured.
-- [ ] GitHub Actions deployment to Cloudflare Pages succeeds.
-- [ ] Allowed `clesen.com` user can access the site.
+- [x] Production `pages.dev` URL is protected by Cloudflare Access.
+- [x] Preview deployments are protected by Cloudflare Access.
+- [x] GitHub repository secrets `CLOUDFLARE_ACCOUNT_ID` and `CLOUDFLARE_API_TOKEN` are configured.
+- [x] GitHub Actions deployment to Cloudflare Pages succeeds.
+- [x] Allowed `clesen.com` user can access the site.
 - [ ] Blocked or signed-out user is denied before content loads.
 
 ## Reader Smoke Test

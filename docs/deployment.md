@@ -2,20 +2,20 @@
 
 ## Status
 
-Phase 2 repository setup is ready, but Cloudflare deployment is pending Cloudflare API credentials in GitHub.
+Phase 2 deployment is active on Cloudflare Pages and protected by Cloudflare Access.
 
 Current status:
 
-| Area                       | Status  | Notes                                           |
-| -------------------------- | ------- | ----------------------------------------------- |
-| Pages project              | Pending | Create `clesen-wiki` in Cloudflare Pages.       |
-| Build command              | Ready   | `npm run build`                                 |
-| Output directory           | Ready   | `public`                                        |
-| Production branch          | Ready   | `main`                                          |
-| GitHub deployment workflow | Ready   | `.github/workflows/deploy-cloudflare-pages.yml` |
-| Production Access app      | Pending | Protect `https://clesen-wiki.pages.dev/*`.      |
-| Preview Access app         | Pending | Protect `https://*.clesen-wiki.pages.dev/*`.    |
-| SSO policy                 | Pending | Allow `clesen.com` email domain for pilot.      |
+| Area                       | Status   | Notes                                           |
+| -------------------------- | -------- | ----------------------------------------------- |
+| Pages project              | Complete | `clesen-wiki`                                   |
+| Build command              | Ready    | `npm run build`                                 |
+| Output directory           | Ready    | `public`                                        |
+| Production branch          | Ready    | `main`                                          |
+| GitHub deployment workflow | Ready    | `.github/workflows/deploy-cloudflare-pages.yml` |
+| Production Access app      | Complete | `https://clesen-wiki.pages.dev/*` is protected. |
+| Preview Access app         | Complete | Preview deployments are protected with Access.  |
+| SSO policy                 | Complete | Pilot access allows `clesen.com`.               |
 
 ## GitHub Secrets
 
@@ -90,7 +90,13 @@ Value: Internal Wiki Readers
 
 ## Verification
 
-After deployment and Access configuration:
+Verified on 2026-05-01:
+
+- GitHub secrets `CLOUDFLARE_ACCOUNT_ID` and `CLOUDFLARE_API_TOKEN` are configured.
+- GitHub Actions workflow `Deploy Wiki to Cloudflare Pages` completed successfully on `main`.
+- `https://clesen-wiki.pages.dev` returned `200` after Cloudflare Access login and included `Internal Knowledge Wiki`.
+
+For future deployment/access checks:
 
 1. Open `https://clesen-wiki.pages.dev` in a signed-out/private browser.
 2. Confirm Cloudflare Access redirects to Microsoft Entra ID before content loads.
@@ -119,6 +125,6 @@ Rollback:
 Workers & Pages > clesen-wiki > Deployments > View details > Rollback to this deployment
 ```
 
-## Known Blocker
+## Known Follow-Up
 
-This local environment does not currently expose `CLOUDFLARE_API_TOKEN`, so Codex cannot create the Pages project or Access applications directly from the shell. Once the token and account ID are added to GitHub secrets, the workflow can deploy the site.
+Run the pilot test with 5-10 internal users and record feedback in `docs/pilot-notes.md`.
