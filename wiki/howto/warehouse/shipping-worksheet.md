@@ -1,19 +1,26 @@
 ---
-title: Shipping Worksheet
+title: Routing Worksheet
 type: howto
-tags: [warehouse, shipping, route-optimization, daily-operations, optimo-route]
+tags:
+  - warehouse
+  - shipping
+  - route-optimization
+  - daily-operations
+  - optimo-route
 created: 2026-04-21
 updated: 2026-05-01
-sources: [shipping-worksheet-overview.md, shipping-worksheet-process.md]
+sources:
+  - shipping-worksheet-overview.md
+  - shipping-worksheet-process.md
 ---
 
-# Shipping Worksheet
+# Routing Worksheet
 
-Daily workflow for managing delivery routes and generating driver instructions. The Shipping Worksheet (also called the Routing Worksheet) consolidates sales orders by customer and address for efficient route planning with OptimoRoute optimization.
+Daily workflow for managing delivery routes and generating driver instructions. The Routing Worksheet (also called the Routing Worksheet) consolidates sales orders by customer and address for efficient route planning with OptimoRoute optimization.
 
 ## What This Is
 
-The Shipping Worksheet is a tool that groups all delivery orders by customer and address, so routes can be planned efficiently. It shows how many carts need to go where, and feeds that information into OptimoRoute for route optimization.
+The Routing Worksheet is a tool that groups all delivery orders by customer and address, so routes can be planned efficiently. It shows how many carts need to go where, and feeds that information into OptimoRoute for route optimization.
 
 ## Process Overview
 
@@ -33,7 +40,7 @@ The Shipping Worksheet is a tool that groups all delivery orders by customer and
 ```
 Sales Orders Created
         ↓
-Run Shipping Worksheet (Role Center > Routing Worksheet)
+Run Routing Worksheet (Role Center > Routing Worksheet)
         ↓
 Worksheet Generated (orders grouped by customer + address)
         ↓
@@ -254,7 +261,7 @@ The worksheet is generated fresh each time you open it. Any route assignments (d
 1. Open the **Transportation Role Center** (Page 50060)
 2. Click **Routing Worksheet** in the action bar
 3. The system generates the worksheet for a 4-day window starting from the work date
-4. The **Shipping Worksheet** page opens with all qualifying orders
+4. The **Routing Worksheet** page opens with all qualifying orders
 
 ## Export to OptimoRoute
 
@@ -262,7 +269,7 @@ The worksheet is generated fresh each time you open it. Any route assignments (d
 
 **Process:**
 
-1. On the **Shipping Worksheet** page, select **Export to Excel for OptimoRoute**
+1. On the **Routing Worksheet** page, select **Export to Excel for OptimoRoute**
 2. A date picker dialog appears — select the shipment date to export
 3. The system generates an Excel file with columns:
    - `Customer No.`, `Order No.`, Ship-to Name/Address/City/State/ZIP
@@ -282,7 +289,7 @@ The worksheet is generated fresh each time you open it. Any route assignments (d
 **Process:**
 
 1. Download the optimized Excel from OptimoRoute
-2. On the **Shipping Worksheet** page, select **Import from OptimoRoute**
+2. On the **Routing Worksheet** page, select **Import from OptimoRoute**
 3. Select the Excel file
 4. The system reads each row and updates the corresponding sales orders with:
    - **Driver Name** — Assigned driver
@@ -304,7 +311,7 @@ The worksheet is generated fresh each time you open it. Any route assignments (d
 
 **Process:**
 
-1. On the **Shipping Worksheet** page, select **Export to Excel for Driver**
+1. On the **Routing Worksheet** page, select **Export to Excel for Driver**
 2. Select the shipment date
 3. The system generates an Excel with columns:
    - `Shipment Date`, `Ship-to Name`, `City`, `State`, `ZIP`
@@ -366,7 +373,7 @@ These values come from the **Shipment Method** record:
 
 | Object | ID | Name |
 |--------|-----|------|
-| Table | 50005 | CLE Shipping Worksheet (Temporary) |
+| Table | 50005 | CLE Routing Worksheet (Temporary) |
 | Page | 50106 | CLE Shipping Wrksht |
 | Page | 50019 | CLE Routing Worksheet Date Picker |
 
