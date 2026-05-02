@@ -7,7 +7,7 @@ updated: 2026-04-21
 sources: [sales-planning-user-guide.md]
 ---
 
-# Sales Planning — Target Management
+# Sales Planning
 
 Module for setting, tracking, and managing annual sales targets with seasonal and weekly breakdowns.
 

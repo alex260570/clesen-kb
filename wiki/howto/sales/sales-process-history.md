@@ -7,7 +7,7 @@ updated: 2026-04-21
 sources: [sales-process-history-user-guide.md]
 ---
 
-# Sales Process History — Audit Trail
+# Sales Process History
 
 Complete audit trail of every change made to sales order lines throughout their entire lifecycle.
 

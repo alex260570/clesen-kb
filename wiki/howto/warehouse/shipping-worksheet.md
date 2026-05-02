@@ -7,7 +7,7 @@ updated: 2026-04-21
 sources: [shipping-worksheet-overview.md]
 ---
 
-# Shipping Worksheet — Route Planning
+# Shipping Worksheet
 
 Consolidating sales orders into delivery routes for OptimoRoute optimization.
 

@@ -7,7 +7,7 @@ updated: 2026-04-21
 sources: [item-substitution-user-guide.md]
 ---
 
-# Item Substitution — Cutting & Substituting Inventory
+# Item Substitution
 
 The **Item Substitution** tool lets you manage inventory shortages by reducing or replacing sales commitments when a primary item has insufficient supply.
 
