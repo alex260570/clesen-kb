@@ -19,19 +19,19 @@ Master Picking is the core warehouse operation that consolidates orders from mul
 
 The Master Picking process runs automatically via **job queue entries** scheduled for daily execution:
 
-**1. Order Locking (Nightly - before ticket generation)**
+**1. Order Locking (Day before ticket generation)**
 - **Job:** Lock Orders for Master Pick
-- **Schedule:** Runs once per day (typically 1-2 AM)
+- **Schedule:** Runs once per day (typically 1-2 PM)
 - **Function:** `CLELockOrdersForPick.OnRun()`
 - **What it does:**
-  - Identifies all orders for next day's shipment
+  - Identifies all orders for next day's picking.
   - Filters out Direct Location Pickup and excluded shipment methods
   - Locks orders to prevent modifications
-  - Updates `CLE Picking Status` to "Locked For Master Pick"
+  - Updates `Picking Status` to "Locked For Master Pick"
   - Performs inventory pre-check
   - Sends Teams notifications if shortages exist
 
-**2. Master Pick Ticket Generation (Nightly - after order locking)**
+**2. Master Pick Ticket Generation (After order locking)**
 - **Job:** Create Master Pick Tickets
 - **Schedule:** Runs after order locking completes
 - **Function:** `CLECreateMasterPick.OnRun()`
@@ -67,7 +67,7 @@ Pick (Day) → Quality Check (Day) → Load & Ship (Day)
    - Cart numbers assigned sequentially per zone
 
 3. **Run Number System**
-   - **Runs 1 through Max** (configurable in ClesenSetup, typically 10): Regular multi-customer master picks
+   - **Runs 1 through Max** (configurable in Clesen Setup, typically 10): Regular multi-customer master picks
    - **Runs Max+1 and above**: Single-order picks (large orders) and Escalations
    - Each run represents a separate picking workflow
    - Multiple runs can process on same pick date for different zones or purposes
