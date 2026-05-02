@@ -265,4 +265,3 @@ A: The purchase order amount controls final cost. Requisition price estimate is 
 
 - [[invoice-approval-process]] — Approving invoices after goods are received
 - [[purchase-receipt-overview]] — Receiving and quality checks
-- [[approval-routing-rules]] — How approval amounts are determined

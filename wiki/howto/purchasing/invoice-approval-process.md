@@ -101,7 +101,7 @@ If an invoice has been pending approval for several days:
 
 1. Check if approver is on vacation/out of office:
    - Contact the approver directly
-   - If unavailable, request [[approval-delegation]] to backup
+   - If unavailable, request delegation to backup approver
 2. Check for approval rule misclassification:
    - Verify the invoice was routed to the correct approver
    - May need to add exception handling if unique situation

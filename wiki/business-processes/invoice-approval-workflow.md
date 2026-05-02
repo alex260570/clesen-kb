@@ -47,7 +47,7 @@ If all three align, the invoice proceeds to approval. If not, it's flagged as an
 
 Invoices are automatically routed to designated approvers based on approval rules. Approval requirements vary by:
 
-- **Amount thresholds** (see [[approval-routing-rules]])
+- **Amount thresholds** — based on approval rules
 - **Vendor** (new vendors, vendor changes)
 - **Department** or cost center
 - **Account code** or expense type
@@ -81,7 +81,7 @@ Invoices route to different approvers based on:
 | New vendor (first-time) | Finance + Procurement approval |
 | Rush/expedited invoice | Department Manager + Finance |
 
-The system automatically routes based on these rules. Finance managers can create custom rules for department-specific or vendor-specific approvals. See [[approval-routing-rules]] for details.
+The system automatically routes based on these rules. Finance managers can create custom rules for department-specific or vendor-specific approvals.
 
 ## Multi-level approvals
 
@@ -98,7 +98,4 @@ If any approver rejects, invoice returns for correction and resubmission.
 
 - [[invoice-entry-and-matching]] — How to create invoice records and validate matching
 - [[invoice-approval-process]] — How to approve, reject, or conditionally approve invoices
-- [[approval-routing-rules]] — How approval rules work and how to create custom rules
-- [[approval-delegation]] — How to delegate approvals during absence
-- [[approval-notifications]] — Email and in-system notifications
 - [[invoice-approval-reporting]] — Tracking and analyzing approval performance

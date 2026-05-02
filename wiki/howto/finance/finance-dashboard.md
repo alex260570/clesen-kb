@@ -202,6 +202,5 @@ A: First, verify the date range and filters. Then click drill-down to inspect un
 
 ## Related Pages
 
-- [[approval-routing-rules]] — Understanding invoice approval thresholds
 - [[invoice-approval-reporting]] — Approval status and performance reports
 - [[sales-prices]] — Price management and pricing analysis

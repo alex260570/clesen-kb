@@ -88,6 +88,7 @@ Content-oriented catalog of all wiki pages. Updated on every ingest. Read this f
 | Page | Summary | Tags |
 |------|---------|------|
 | [wiki/howto/finance/finance-dashboard.md](wiki/howto/finance/finance-dashboard.md) | Real-time executive dashboard for monitoring revenue, profitability, cash flow, and operational metrics | finance, dashboard, executives, kpi, reporting |
+| [wiki/howto/finance/bank-payment-export.md](wiki/howto/finance/bank-payment-export.md) | Finance staff guide for exporting vendor payments to bank via ACH or computer check | finance, payments, bank-export, ach-check, payment-processing |
 
 ### Business Planning
 
@@ -137,7 +138,6 @@ Content-oriented catalog of all wiki pages. Updated on every ingest. Read this f
 | [wiki/howto/purchasing/purchase-worksheet.md](wiki/howto/purchasing/purchase-worksheet.md) | Demand-driven purchase planning tool with what-if scenario modeling | purchasing, planning |
 | [wiki/howto/purchasing/purchase-receipt-it-troubleshooting.md](wiki/howto/purchasing/purchase-receipt-it-troubleshooting.md) | IT troubleshooting guide for purchase receipt system architecture and issues | purchasing, receiving, IT, troubleshooting |
 | [wiki/howto/purchasing/planning-flexibility.md](wiki/howto/purchasing/planning-flexibility.md) | Protecting purchase order lines from MRP changes using planning flexibility lock | purchasing, mrp, order-management, planning |
-| [wiki/howto/purchasing/bank-payment-export.md](wiki/howto/purchasing/bank-payment-export.md) | Finance staff guide for exporting vendor payments to bank via ACH or computer check | purchasing, payments, finance, bank-export |
 | [wiki/howto/purchasing/purchase-requisitions.md](wiki/howto/purchasing/purchase-requisitions.md) | Creating and managing purchase requisitions with approval routing and consolidation for procurement | purchasing, requisitions, budgets, approval, procurement |
 
 ### IT Troubleshooting
@@ -165,8 +165,5 @@ Content-oriented catalog of all wiki pages. Updated on every ingest. Read this f
 | [wiki/business-processes/invoice-approval-workflow.md](wiki/business-processes/invoice-approval-workflow.md) | High-level overview of invoice approval workflow, stages, and routing rules | purchasing, invoices, approval |
 | [wiki/howto/purchasing/invoice-entry-and-matching.md](wiki/howto/purchasing/invoice-entry-and-matching.md) | How to create invoice records and validate 3-way matching | purchasing, invoices, accounts-payable |
 | [wiki/howto/purchasing/invoice-approval-process.md](wiki/howto/purchasing/invoice-approval-process.md) | Step-by-step guide to reviewing, approving, rejecting, and handling invoices | purchasing, invoices, approval |
-| [wiki/howto/purchasing/approval-routing-rules.md](wiki/howto/purchasing/approval-routing-rules.md) | How to view, create, and manage custom approval routing rules | purchasing, approval, finance-administration |
-| [wiki/howto/purchasing/approval-delegation.md](wiki/howto/purchasing/approval-delegation.md) | How to delegate approvals during absence | purchasing, approval, absence |
-| [wiki/howto/purchasing/approval-notifications.md](wiki/howto/purchasing/approval-notifications.md) | Email and in-system notification preferences and settings | purchasing, approval, notifications |
 | [wiki/howto/purchasing/invoice-approval-reporting.md](wiki/howto/purchasing/invoice-approval-reporting.md) | How to generate approval status, performance, and audit trail reports | purchasing, approval, reporting, compliance |
 | [wiki/howto/it/invoice-approval-troubleshooting.md](wiki/howto/it/invoice-approval-troubleshooting.md) | Troubleshooting common invoice approval issues | purchasing, approval, it, troubleshooting |
