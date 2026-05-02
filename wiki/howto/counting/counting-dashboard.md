@@ -1,5 +1,5 @@
 ---
-title: Counting Dashboard — Manager Guide
+title: Counting Dashboard
 type: howto
 tags: [counting, inventory-counting, manager, monitoring, real-time-analytics]
 created: 2026-04-21
