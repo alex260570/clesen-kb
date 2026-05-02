@@ -1,5 +1,5 @@
 ---
-title: Purchase Worksheet — Planning Guide
+title: Broker Workspace
 type: howto
 tags: [purchasing, planning, forecasting, inventory]
 created: 2026-04-21
