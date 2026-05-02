@@ -200,5 +200,5 @@ If teams change during the day:
 
 - [[picking-overview]]
 - [[master-picking]]
-- [[supermarket-picking-process]]
+- [[supermarket-picking]]
 - [[picking-escalations]]

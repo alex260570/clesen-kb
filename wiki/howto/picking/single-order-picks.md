@@ -188,7 +188,7 @@ After single order pick is complete:
 
 - [[picking-overview]]
 - [[master-picking]]
-- [[supermarket-picking-process]]
+- [[supermarket-picking]]
 - [[cart-transfer]]
 - [[delicate-item-handling]]
 - [[direct-location-pickup]]

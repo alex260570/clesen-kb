@@ -216,6 +216,6 @@ Carts move through these statuses (tracked in Cart Content table):
 
 - [[picking-overview]]
 - [[master-picking]]
-- [[supermarket-picking-process]]
+- [[supermarket-picking]]
 - [[picking-escalations]]
 - [[picking-teams-manager]]

@@ -569,7 +569,7 @@ Maximum Attempts: 2
 ## Related Pages
 
 - [[picking-overview]]
-- [[supermarket-picking-process]]
+- [[supermarket-picking]]
 - [[cart-transfer]]
 - [[single-order-picks]]
 - [[delicate-item-handling]]

@@ -25,7 +25,9 @@
       "Bash(cd \"C:/Users/AlexanderThiel/ObsidianVaults/clesen-kb\" && rm wiki/howto/picking/supermarket-scan-verification.md wiki/howto/picking/supermarket-picking-process.md wiki/howto/production/prod-order-posting-staff.md wiki/howto/production/prod-order-posting-manager.md wiki/howto/production/prod-order-task-staff.md wiki/howto/production/prod-order-task-manager.md wiki/howto/purchasing/purchase-receipt-overview.md wiki/howto/purchasing/purchase-receipt-staff.md wiki/howto/purchasing/purchase-receipt-manager.md 2>&1 && echo \"Files deleted\")",
       "Bash(sed -i 's/\\\\[\\\\[master-picking-process\\\\]\\\\]/[[master-picking]]/g' wiki/howto/picking/supermarket-picking-process.md)",
       "Bash(sed -i 's/\\\\[\\\\[master-picking-process\\\\]\\\\]/[[master-picking]]/g' wiki/howto/picking/cart-transfer-process.md)",
-      "Bash(sed -i 's/\\\\[\\\\[master-picking-process\\\\]\\\\]/[[master-picking]]/g' wiki/howto/picking/cart-transfer-manager.md)"
+      "Bash(sed -i 's/\\\\[\\\\[master-picking-process\\\\]\\\\]/[[master-picking]]/g' wiki/howto/picking/cart-transfer-manager.md)",
+      "Bash(cd \"C:\\\\Users\\\\AlexanderThiel\\\\ObsidianVaults\\\\clesen-kb\" && sed -i 's/\\\\[\\\\[supermarket-picking-process/[[supermarket-picking/g' wiki/howto/picking/master-picking.md wiki/howto/picking/picking-teams-manager.md wiki/howto/picking/cart-transfer.md wiki/howto/picking/picking-escalations.md wiki/howto/picking/single-order-picks.md wiki/howto/sales/same-day-return.md && grep -c \"supermarket-picking-process\" wiki/howto/picking/master-picking.md wiki/howto/picking/picking-teams-manager.md wiki/howto/picking/cart-transfer.md wiki/howto/picking/picking-escalations.md wiki/howto/picking/single-order-picks.md wiki/howto/sales/same-day-return.md 2>&1 | grep -v \":0\")",
+      "Bash(cd \"C:\\\\Users\\\\AlexanderThiel\\\\ObsidianVaults\\\\clesen-kb\" && sed -i 's/\\\\[\\\\[cart-transfer-manager\\\\]\\\\]/[[cart-transfer]]/g' wiki/howto/picking/cart-transfer-process.md && grep \"cart-transfer\" wiki/howto/picking/cart-transfer-process.md | head -5)"
     ]
   }
 }

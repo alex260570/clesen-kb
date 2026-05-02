@@ -745,3 +745,24 @@ Token usage: ~85k / 200k remaining. Final token budget: ~115k available.
 **Index.md:** Already correct; no updates needed.
 
 **Summary:** Completed Phase 1 cleanup. Master picking consolidation now fully finished with variant files deleted and all cross-references updated.
+
+## [2026-05-01] cleanup | Complete consolidation of remaining variant files
+
+**Files deleted (3):**
+- wiki/howto/picking/supermarket-picking-process.md
+- wiki/howto/picking/cart-transfer-process.md
+- wiki/howto/picking/cart-transfer-manager.md
+
+**Wikilinks cleaned up (8 files):**
+- wiki/howto/picking/picking-overview.md — Changed 4× [[supermarket-picking-process]] → [[supermarket-picking]]
+- wiki/howto/picking/master-picking.md — Changed [[supermarket-picking-process]] → [[supermarket-picking]]
+- wiki/howto/picking/picking-teams-manager.md — Changed [[supermarket-picking-process]] → [[supermarket-picking]]
+- wiki/howto/picking/cart-transfer.md — Changed [[supermarket-picking-process]] → [[supermarket-picking]]
+- wiki/howto/picking/picking-escalations.md — Changed 2× [[supermarket-picking-process]] → [[supermarket-picking]]
+- wiki/howto/picking/single-order-picks.md — Changed [[supermarket-picking-process]] → [[supermarket-picking]]
+- wiki/howto/sales/same-day-return.md — Changed [[supermarket-picking-process]] → [[supermarket-picking]]
+- wiki/howto/picking/cart-transfer-process.md — Changed [[cart-transfer-manager]] → [[cart-transfer]]
+
+**Index.md:** No updates needed (variant entries already absent).
+
+**Summary:** All picking documentation consolidations now complete. All variant files deleted; all wikilinks updated to consolidated files.

@@ -47,7 +47,7 @@ Welcome to the Picking Guide! This guide explains all the picking processes you'
 
 **"How do I start picking my ticket?"**
 - See [[master-picking#step-2-start-picking|Master Picking Step 2: Start Picking]]
-- Or [[supermarket-picking-process#step-3-start-picking|Supermarket Picking Step 2: Start Picking]]
+- Or [[supermarket-picking#step-3-start-picking|Supermarket Picking Step 2: Start Picking]]
 
 **"I can't find an item in the bin"**
 - Check nearby bins first
@@ -105,7 +105,7 @@ Welcome to the Picking Guide! This guide explains all the picking processes you'
 - Rush or special orders
 - More flexible than Master Picking
 - Often urgent
-- [[supermarket-picking-process|Full Guide]]
+- [[supermarket-picking|Full Guide]]
 
 ### Direct Location Tickets
 - **Pickup orders**
@@ -184,9 +184,9 @@ Every ticket must have all four checks completed:
 | Problem | Quick Solution | More Info |
 |---------|---------------|-----------|
 | Can't find item | Check nearby bins, ask supervisor | [[master-picking#common-issues]] |
-| Not enough quantity | Pick what you can, record shortage | [[supermarket-picking-process#step-5-handle-shortages]] |
+| Not enough quantity | Pick what you can, record shortage | [[supermarket-picking#step-5-handle-shortages]] |
 | Can't start picking | Inventory issue - get supervisor | [[master-picking#common-issues]] |
-| Error when finishing | Check all quantities match | [[supermarket-picking-process#common-issues]] |
+| Error when finishing | Check all quantities match | [[supermarket-picking#common-issues]] |
 | Customer complaining | Get supervisor immediately | [[direct-location-pickup]] |
 
 ## Tips from Experienced Pickers

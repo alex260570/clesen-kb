@@ -73,7 +73,7 @@ To you, this looks like a regular master pick. The system handles the run number
 
 1. Find Supermarket Pick Ticket with high run number
 2. Ticket shows which master carts contain items (all from same run)
-3. Follow regular [[supermarket-picking-process]]:
+3. Follow regular [[supermarket-picking]]:
    - Start Picking
    - Pick items from master carts
    - Place into customer-specific carts
@@ -163,6 +163,6 @@ To you, this looks like a regular master pick. The system handles the run number
 - [[picking-overview]]
 - [[master-picking]]
 - [[cart-transfer]]
-- [[supermarket-picking-process]]
+- [[supermarket-picking]]
 - [[picking-teams-manager]]
 - [[single-order-picks]]
