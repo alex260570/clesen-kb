@@ -155,7 +155,7 @@ Carts move through these statuses (tracked in Cart Content table):
 ## Related Pages
 
 - [[picking-overview]]
-- [[master-picking-process]]
-- [[master-picking-manager]]
+- [[master-picking]]
+- [[master-picking]]
 - [[supermarket-picking-process]]
 - [[cart-transfer]]

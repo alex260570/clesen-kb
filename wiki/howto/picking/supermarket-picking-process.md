@@ -1,13 +1,17 @@
 ---
-title: "Supermarket Picking Process — Phase 3"
+title: Supermarket Picking Process
 type: howto
-tags: [picking, warehouse, supermarket-picking]
+tags:
+  - picking
+  - warehouse
+  - supermarket-picking
 created: 2026-04-21
 updated: 2026-04-21
-sources: [supermarket-picking-process.md]
+sources:
+  - supermarket-picking-process.md
 ---
 
-# Supermarket Picking Process — Phase 3
+# Supermarket Picking Process
 
 ## What This Is
 
@@ -253,8 +257,8 @@ After you finish Supermarket Picking:
 ## Related Pages
 
 - [[picking-overview]]
-- [[master-picking-process]]
-- [[master-picking-manager]]
+- [[master-picking]]
+- [[master-picking]]
 - [[cart-transfer]]
 - [[single-order-picks]]
 - [[delicate-item-handling]]

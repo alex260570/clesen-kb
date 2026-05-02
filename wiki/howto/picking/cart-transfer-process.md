@@ -95,6 +95,6 @@ Cart Transfer is **Phase 2 of the three-phase picking system**. After Master Pic
 ## Related Pages
 
 - [[picking-overview]]
-- [[master-picking-process]]
+- [[master-picking]]
 - [[supermarket-picking-process]]
 - [[cart-transfer-manager]]

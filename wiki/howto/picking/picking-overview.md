@@ -25,7 +25,7 @@ Welcome to the Picking Guide! This guide explains all the picking processes you'
 | Process | When to Use | How Often | Document |
 |---------|------------|-----------|----------|
 | **Master Picking** | Regular daily orders, multiple customers | Every day | [[master-picking]] |
-| **Supermarket Picking** | Single customer orders, rush orders | As needed | [[supermarket-picking-process]] |
+| **Supermarket Picking** | Single customer orders, rush orders | As needed | [[supermarket-picking]] |
 | **Direct Location Pickup** | Customer pickups, will-call orders | As needed | [[direct-location-pickup]] |
 | **Escalation Orders** | Urgent problem orders that need special attention | As needed | [[picking-escalations]] |
 
@@ -34,7 +34,7 @@ Welcome to the Picking Guide! This guide explains all the picking processes you'
 ### Starting Your Day
 
 **"I just arrived. What do I do first?"**
-- Check for [[master-picking-process#step-1-find-your-picking-ticket|Master Pick Tickets]] assigned to you
+- Check for [[master-picking#step-1-find-your-picking-ticket|Master Pick Tickets]] assigned to you
 - Look for any urgent [[picking-escalations|Escalation Orders]]
 - Start with Master Picking if tickets are ready
 
@@ -46,14 +46,14 @@ Welcome to the Picking Guide! This guide explains all the picking processes you'
 ### During Picking
 
 **"How do I start picking my ticket?"**
-- See [[master-picking-process#step-2-start-picking|Master Picking Step 2: Start Picking]]
+- See [[master-picking#step-2-start-picking|Master Picking Step 2: Start Picking]]
 - Or [[supermarket-picking-process#step-3-start-picking|Supermarket Picking Step 2: Start Picking]]
 
 **"I can't find an item in the bin"**
 - Check nearby bins first
 - Verify you're in the correct location
 - Report to supervisor immediately
-- See [[master-picking-process#common-issues|Common Issues]]
+- See [[master-picking#common-issues|Common Issues]]
 
 **"There's not enough of this item"**
 - Pick what you can
@@ -68,7 +68,7 @@ Welcome to the Picking Guide! This guide explains all the picking processes you'
 - They'll find a replacement
 
 **"I'm getting an error when I try to start"**
-- Common: [[master-picking-process#not-all-items-are-available-for-picking|Not all items available]]
+- Common: [[master-picking#not-all-items-are-available-for-picking|Not all items available]]
 - Ask supervisor - they may need to check inventory
 - May need to create an escalation order
 
@@ -76,7 +76,7 @@ Welcome to the Picking Guide! This guide explains all the picking processes you'
 
 **"How do I finish my picking ticket?"**
 - Click **Finish Picking** button
-- Complete all [[master-picking-process#step-6-quality-checks|Quality Checks]]
+- Complete all [[master-picking#step-6-quality-checks|Quality Checks]]
 - Make sure all four boxes are checked
 
 **"What do I do with the picked items?"**
@@ -98,7 +98,7 @@ Welcome to the Picking Guide! This guide explains all the picking processes you'
 - Pick for multiple customers at once
 - Items organized by location to save walking
 - Use numbered carts
-- [[master-picking-process|Full Guide]]
+- [[master-picking|Full Guide]]
 
 ### Supermarket Pick Tickets
 - **Single customer focus**
@@ -183,9 +183,9 @@ Every ticket must have all four checks completed:
 
 | Problem | Quick Solution | More Info |
 |---------|---------------|-----------|
-| Can't find item | Check nearby bins, ask supervisor | [[master-picking-process#common-issues]] |
+| Can't find item | Check nearby bins, ask supervisor | [[master-picking#common-issues]] |
 | Not enough quantity | Pick what you can, record shortage | [[supermarket-picking-process#step-5-handle-shortages]] |
-| Can't start picking | Inventory issue - get supervisor | [[master-picking-process#common-issues]] |
+| Can't start picking | Inventory issue - get supervisor | [[master-picking#common-issues]] |
 | Error when finishing | Check all quantities match | [[supermarket-picking-process#common-issues]] |
 | Customer complaining | Get supervisor immediately | [[direct-location-pickup]] |
 
@@ -217,7 +217,7 @@ Every ticket must have all four checks completed:
 
 **For Warehouse Floor Staff:**
 - [[master-picking]] - Main daily picking
-- [[supermarket-picking-process]] - Single customer orders
+- [[supermarket-picking]] - Single customer orders
 - [[direct-location-pickup]] - Customer pickups
 - [[picking-escalations]] - Urgent problem orders
 
@@ -228,7 +228,7 @@ Every ticket must have all four checks completed:
 ## Related Pages
 
 - [[master-picking]]
-- [[supermarket-picking-process]]
+- [[supermarket-picking]]
 - [[single-order-picks]]
 - [[delicate-item-handling]]
 - [[direct-location-pickup]]

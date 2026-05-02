@@ -727,3 +727,21 @@ Token usage: ~85k / 200k remaining. Final token budget: ~115k available.
 - Warehouse section: Replaced shipping-worksheet and shipping-worksheet-staff with single comprehensive shipping-worksheet entry
 
 **Summary:** Completed Phase 2 documentation consolidation: Supermarket Picking, Production Order Posting, Production Order Task, Purchase Receipt, and Shipping Worksheet. All dual staff/manager documentation files merged into comprehensive single guides following established consolidation pattern.
+
+## [2026-05-01] cleanup | Complete master-picking consolidation (Phase 1 cleanup)
+
+**Phase 1 consolidation was incomplete** — variant files remained after consolidated file was created.
+
+**Files deleted (2):**
+- wiki/howto/picking/master-picking-manager.md
+- wiki/howto/picking/master-picking-process.md
+
+**Wikilinks cleaned up (4 files):**
+- wiki/howto/picking/picking-overview.md — Changed 7× [[master-picking-process]] → [[master-picking]]; Changed [[supermarket-picking-process]] → [[supermarket-picking]]
+- wiki/howto/picking/supermarket-picking-process.md — Changed 2× wikilinks to [[master-picking]]
+- wiki/howto/picking/cart-transfer-process.md — Changed [[master-picking-process]] → [[master-picking]]
+- wiki/howto/picking/cart-transfer-manager.md — Changed 2× wikilinks to [[master-picking]]
+
+**Index.md:** Already correct; no updates needed.
+
+**Summary:** Completed Phase 1 cleanup. Master picking consolidation now fully finished with variant files deleted and all cross-references updated.
