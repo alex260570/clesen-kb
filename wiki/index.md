@@ -1,10 +1,10 @@
 ---
-title: Internal Knowledge Wiki
+title: Clesen Knowledge Base
 tags:
   - wiki
 ---
 
-# Internal Knowledge Wiki
+# Clesen Knowledge Base
 
 Search approved internal knowledge or browse by folder.
 

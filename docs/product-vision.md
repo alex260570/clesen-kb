@@ -1,4 +1,4 @@
-# Product Vision - Internal Knowledge Wiki
+# Product Vision - Clesen Knowledge Base
 
 ## 1. Vision & Mission
 
@@ -8,7 +8,7 @@ Internal knowledge should be available to the right people the moment they need 
 
 ### Mission Statement
 
-Internal Knowledge Wiki turns a private Obsidian vault into a secure, searchable, SSO-protected static website that preserves the vault as the source of truth.
+Clesen Knowledge Base turns a private Obsidian vault into a secure, searchable, SSO-protected static website that preserves the vault as the source of truth.
 
 ### Founder's Why
 
@@ -160,7 +160,7 @@ Reader adoption may lag if navigation is weak. Mitigate with a clear home page, 
 
 ### Positioning Statement
 
-For internal employees who need approved vault knowledge without GitHub access, Internal Knowledge Wiki is the secure publishing layer that turns Obsidian notes into an SSO-protected website. Unlike GitHub access, manual copying, or shared-password publishing, it preserves the private vault while giving readers a simple browser experience.
+For internal employees who need approved vault knowledge without GitHub access, Clesen Knowledge Base is the secure publishing layer that turns Obsidian notes into an SSO-protected website. Unlike GitHub access, manual copying, or shared-password publishing, it preserves the private vault while giving readers a simple browser experience.
 
 ### Brand Personality
 
@@ -190,7 +190,7 @@ Objection handler: if someone worries that a public URL exposes content, explain
 
 Five seconds: "It turns a private Obsidian vault into an SSO-protected internal website."
 
-Thirty seconds: "Our knowledge already lives in Obsidian and GitHub, but most readers should not need repo access. Internal Knowledge Wiki builds approved notes into a static site, hosts it on Cloudflare Pages, and protects it with Cloudflare Access using company SSO."
+Thirty seconds: "Our knowledge already lives in Obsidian and GitHub, but most readers should not need repo access. Clesen Knowledge Base builds approved notes into a static site, hosts it on Cloudflare Pages, and protects it with Cloudflare Access using company SSO."
 
 Two minutes: "The problem is not that we lack documentation. The problem is that the documentation lives in an authoring environment. Granting GitHub access to every reader is too much, copying notes into another system creates stale content, and shared passwords are weak. This project keeps the private vault as the source of truth and adds a secure publishing layer. We start with a pilot set of notes, prove SSO access and content filtering, then expand once the workflow is trusted."
 

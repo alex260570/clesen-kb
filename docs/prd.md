@@ -1,10 +1,10 @@
-# PRD - Internal Knowledge Wiki
+# PRD - Clesen Knowledge Base
 
 ## 1. Overview
 
 ### Product Summary
 
-Internal Knowledge Wiki publishes a private Obsidian vault as an SSO-protected static website for internal readers. The product keeps Obsidian and GitHub as the authoring/source workflow while giving readers a clean browser-based documentation experience. Readers do not need GitHub access or Cloudflare accounts.
+Clesen Knowledge Base publishes a private Obsidian vault as an SSO-protected static website for internal readers. The product keeps Obsidian and GitHub as the authoring/source workflow while giving readers a clean browser-based documentation experience. Readers do not need GitHub access or Cloudflare accounts.
 
 ### Objective
 
