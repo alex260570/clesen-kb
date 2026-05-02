@@ -161,7 +161,7 @@ Production orders can have associated task checklists:
 - **Tasks** — Actual work items requiring completion
 - **Information** — Reference notes and instructions
 
-Tasks are released/approved by managers before staff can complete them. See [[prod-order-tasks-staff]] for task completion details.
+Tasks are released/approved by managers before staff can complete them. See [[prod-order-task]] for task completion details.
 
 ## Key Codeunits
 
@@ -181,6 +181,5 @@ Tasks are released/approved by managers before staff can complete them. See [[pr
 
 ## Related Pages
 
-- [[prod-order-posting-staff]]
-- [[prod-order-posting-manager]]
-- [[prod-order-tasks-staff]]
+- [[prod-order-posting]]
+- [[prod-order-task]]

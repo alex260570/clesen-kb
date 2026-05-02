@@ -766,3 +766,14 @@ Token usage: ~85k / 200k remaining. Final token budget: ~115k available.
 **Index.md:** No updates needed (variant entries already absent).
 
 **Summary:** All picking documentation consolidations now complete. All variant files deleted; all wikilinks updated to consolidated files.
+
+## [2026-05-01] cleanup | Delete orphaned prod-order-tasks-staff file
+
+**File deleted (1):**
+- wiki/howto/production/prod-order-tasks-staff.md (orphaned duplicate, content already in prod-order-task.md)
+
+**Wikilinks cleaned up (2 files):**
+- wiki/howto/it/prod-order-posting-it-troubleshooting.md — Changed [[prod-order-posting-staff]] → [[prod-order-posting]]
+- wiki/howto/production/prod-order-overview.md — Changed [[prod-order-tasks-staff]] → [[prod-order-task]]; Changed [[prod-order-posting-staff]] and [[prod-order-posting-manager]] → [[prod-order-posting]]
+
+**Summary:** Removed orphaned production order task file and updated remaining obsolete references to consolidated files.

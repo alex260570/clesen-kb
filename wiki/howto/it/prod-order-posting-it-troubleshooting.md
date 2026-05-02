@@ -836,6 +836,6 @@ Production Order 1───∞ Prod. Order Line
 ## Related Pages
 
 - [[prod-order-overview]]
-- [[prod-order-posting-staff]]
+- [[prod-order-posting]]
 - [[prod-order-posting-manager]]
 - [[prod-order-tasks-staff]]
