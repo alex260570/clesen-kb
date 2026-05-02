@@ -1,5 +1,5 @@
 ---
-title: Count Types — Staff Guide
+title: Count Types
 type: howto
 tags: [counting, inventory-counting, count-types, staff, prioritization]
 created: 2026-04-21

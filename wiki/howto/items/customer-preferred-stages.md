@@ -1,5 +1,5 @@
 ---
-title: Customer Preferred Blooming Stages
+title: Customer Preferred Growing Stages
 type: howto
 tags: [items, variants, blooming-stages, sales-orders, customer-management]
 created: 2026-04-21

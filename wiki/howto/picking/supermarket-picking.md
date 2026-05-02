@@ -1,5 +1,5 @@
 ---
-title: Supermarket Picking
+title: Supermarket Picking Process
 type: howto
 tags: [picking, warehouse, supermarket-picking]
 created: 2026-04-20

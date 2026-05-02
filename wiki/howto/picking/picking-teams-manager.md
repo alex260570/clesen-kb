@@ -1,5 +1,5 @@
 ---
-title: Picking Teams — Manager's Guide
+title: Picking Teams
 type: howto
 tags: [picking, teams, management, manager]
 created: 2026-04-20

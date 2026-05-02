@@ -1,5 +1,5 @@
 ---
-title: Bin Management — Reclassification
+title: Bin Reclassification
 type: howto
 tags: [warehouse, inventory-management, bin-operations]
 created: 2026-04-21

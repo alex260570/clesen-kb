@@ -1,5 +1,5 @@
 ---
-title: "Exception Handling — Manager's Guide"
+title: Exception Handling
 type: howto
 tags: [counting, manager, exceptions, warehouse]
 created: 2026-04-21
