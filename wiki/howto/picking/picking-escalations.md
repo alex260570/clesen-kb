@@ -1,13 +1,18 @@
 ---
-title: Handling Escalation Orders
+title: Escalation Orders
 type: howto
-tags: [picking, escalations, urgent, rush-orders]
+tags:
+  - picking
+  - escalations
+  - urgent
+  - rush-orders
 created: 2026-04-20
 updated: 2026-04-21
-sources: [handling-escalations.md]
+sources:
+  - handling-escalations.md
 ---
 
-# Handling Escalation Orders
+# Escalation Orders
 
 Escalation orders are **late orders that need urgent picking**. They go through the same three-phase picking system but with special approval and priority handling.
 
