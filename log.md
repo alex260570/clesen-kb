@@ -783,3 +783,14 @@ Token usage: ~85k / 200k remaining. Final token budget: ~115k available.
 - wiki/howto/it/prod-order-task-it-troubleshooting.md — Updated 3 references to use consolidated files
 
 **Final verification:** All stale references to variant files (prod-order-posting-staff, prod-order-posting-manager, prod-order-task-staff, prod-order-task-manager, prod-order-tasks-staff) have been removed from wiki documentation.
+
+## [2026-05-01] cleanup | Consolidate broker-workspace — keep only Purchasing version
+
+**Folder/file deleted (1):**
+- wiki/howto/broker-workspace/ (entire folder) — Removed duplicate broker-workspace location
+- Kept: wiki/howto/purchasing/broker-workspace.md (correct location)
+
+**Wikilinks updated (1 file):**
+- wiki/howto/it/broker-workspace-troubleshooting.md — Changed [[wiki/howto/broker-workspace/broker-workspace]] → [[broker-workspace]]
+
+**Summary:** Removed duplicate broker-workspace folder; all references now point to single consolidated file in Purchasing.

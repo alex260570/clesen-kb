@@ -300,5 +300,5 @@ For item to appear in buyer's filters:
 
 ## Related Pages
 
-- [[wiki/howto/broker-workspace/broker-workspace]] — Buyer workflow guide
+- [[broker-workspace]] — Buyer workflow guide
 - [[availability-troubleshooting]] — Availability calculation troubleshooting

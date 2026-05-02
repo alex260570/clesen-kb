@@ -1,13 +1,17 @@
 ---
-title: Supermarket Picking Process
+title: Supermarket Picking
 type: howto
-tags: [picking, warehouse, supermarket-picking]
+tags:
+  - picking
+  - warehouse
+  - supermarket-picking
 created: 2026-04-20
 updated: 2026-05-01
-sources: [supermarket-picking-process.md]
+sources:
+  - supermarket-picking-process.md
 ---
 
-# Supermarket Picking Process
+# Supermarket Picking
 
 ## What This Is
 

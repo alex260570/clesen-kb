@@ -1,13 +1,18 @@
 ---
-title: Master Picking Process
+title: Master Picking
 type: howto
-tags: [picking, warehouse, master-picking]
+tags:
+  - picking
+  - warehouse
+  - master-picking
 created: 2026-04-20
 updated: 2026-05-01
-sources: [master-picking-manager.md, master-picking-process.md]
+sources:
+  - master-picking-manager.md
+  - master-picking-process.md
 ---
 
-# Master Picking Process
+# Master Picking
 
 ## What This Is
 
