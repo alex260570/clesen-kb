@@ -15,18 +15,15 @@ Content-oriented catalog of all wiki pages. Updated on every ingest. Read this f
 | Page | Summary | Tags |
 |------|---------|------|
 | [wiki/howto/picking/picking-overview.md](wiki/howto/picking/picking-overview.md) | Overview of all picking processes and workflows | picking |
-| [wiki/howto/picking/master-picking-process.md](wiki/howto/picking/master-picking-process.md) | Step-by-step master picking process for warehouse staff | picking |
-| [wiki/howto/picking/master-picking-manager.md](wiki/howto/picking/master-picking-manager.md) | Manager guide for master picking configuration and oversight | picking, manager |
+| [wiki/howto/picking/master-picking.md](wiki/howto/picking/master-picking.md) | Complete master picking guide (Phase 1) covering staff workflow and manager configuration | picking |
 | [wiki/howto/picking/supermarket-picking-process.md](wiki/howto/picking/supermarket-picking-process.md) | Supermarket-style picking process (Phase 3) | picking |
 | [wiki/howto/picking/single-order-picks.md](wiki/howto/picking/single-order-picks.md) | Handling single-order picks for large customers | picking |
-| [wiki/howto/picking/cart-transfer-process.md](wiki/howto/picking/cart-transfer-process.md) | Cart transfer process (Phase 2) | picking |
-| [wiki/howto/picking/cart-transfer-manager.md](wiki/howto/picking/cart-transfer-manager.md) | Cart transfer manager guide | picking, manager |
+| [wiki/howto/picking/cart-transfer.md](wiki/howto/picking/cart-transfer.md) | Complete cart transfer guide (Phase 2) covering staff workflow and manager operations | picking |
 | [wiki/howto/picking/direct-location-pickup.md](wiki/howto/picking/direct-location-pickup.md) | Picking directly from a bin location | picking |
 | [wiki/howto/picking/delicate-item-handling.md](wiki/howto/picking/delicate-item-handling.md) | Handling fragile or delicate items during picking | picking |
 | [wiki/howto/picking/picking-adjustment.md](wiki/howto/picking/picking-adjustment.md) | Adjusting pick quantities and resolving discrepancies | picking |
-| [wiki/howto/picking/picking-escalations.md](wiki/howto/picking/picking-escalations.md) | When and how to escalate picking issues | picking |
-| [wiki/howto/picking/picking-teams-manager.md](wiki/howto/picking/picking-teams-manager.md) | Managing picking team assignments | picking, manager |
 | [wiki/howto/picking/picking-escalations.md](wiki/howto/picking/picking-escalations.md) | Handling escalation orders with urgent/rush picking requirements | picking, escalations |
+| [wiki/howto/picking/picking-teams-manager.md](wiki/howto/picking/picking-teams-manager.md) | Managing picking team assignments | picking, manager |
 | [wiki/howto/picking/supermarket-scan-verification.md](wiki/howto/picking/supermarket-scan-verification.md) | Quality control step using barcode scanning to verify picked items and quantities | picking, supermarket-picking, quality-control, barcode-scanning |
 
 ### Counting
@@ -74,14 +71,6 @@ Content-oriented catalog of all wiki pages. Updated on every ingest. Read this f
 | [wiki/howto/sales/rapid-order-entry-it-troubleshooting.md](wiki/howto/sales/rapid-order-entry-it-troubleshooting.md) | IT technical guide for Rapid Order Entry system architecture, common issues, and debugging | rapid-order-entry, it-support, troubleshooting |
 | [wiki/howto/sales/forecast-filter-planning.md](wiki/howto/sales/forecast-filter-planning.md) | Forecast filter tool for removing off-season planning lines from Planning Worksheet | sales-planning, planning-worksheet, demand-forecast |
 | [wiki/howto/sales/sales-planning-it-troubleshooting.md](wiki/howto/sales/sales-planning-it-troubleshooting.md) | IT technical guide for sales planning system architecture, calculations, and troubleshooting | sales-planning, it-support, system-architecture |
-
-### Broker Workspace
-
-| Page | Summary | Tags |
-|------|---------|------|
-| [wiki/howto/broker-workspace/broker-workspace.md](wiki/howto/broker-workspace/broker-workspace.md) | Purchase planning and order management using the Broker Workspace | purchasing, planning |
-| [wiki/howto/broker-workspace/broker-workspace-manager.md](wiki/howto/broker-workspace/broker-workspace-manager.md) | Manager oversight, monitoring, and analytics for purchasing | purchasing, management |
-| [wiki/howto/broker-workspace/broker-workspace-troubleshooting.md](wiki/howto/broker-workspace/broker-workspace-troubleshooting.md) | IT troubleshooting guide for Broker Workspace system | purchasing, IT |
 
 ### Finance
 
@@ -135,10 +124,10 @@ Content-oriented catalog of all wiki pages. Updated on every ingest. Read this f
 | [wiki/howto/purchasing/purchase-receipt-overview.md](wiki/howto/purchasing/purchase-receipt-overview.md) | Overview of the purchase receipt system with process flow and key concepts | purchasing, receiving |
 | [wiki/howto/purchasing/purchase-receipt-staff.md](wiki/howto/purchasing/purchase-receipt-staff.md) | Staff guide for processing vendor shipments and managing quality holds | purchasing, receiving, staff |
 | [wiki/howto/purchasing/purchase-receipt-manager.md](wiki/howto/purchasing/purchase-receipt-manager.md) | Manager guide for receiving operations, vendor performance, and staff training | purchasing, receiving, manager |
-| [wiki/howto/purchasing/purchase-worksheet.md](wiki/howto/purchasing/purchase-worksheet.md) | Demand-driven purchase planning tool with what-if scenario modeling | purchasing, planning |
+| [wiki/howto/purchasing/broker-workspace.md](wiki/howto/purchasing/broker-workspace.md) | Comprehensive guide to broker workspace for purchase planning and order management | purchasing, planning |
 | [wiki/howto/purchasing/purchase-receipt-it-troubleshooting.md](wiki/howto/purchasing/purchase-receipt-it-troubleshooting.md) | IT troubleshooting guide for purchase receipt system architecture and issues | purchasing, receiving, IT, troubleshooting |
 | [wiki/howto/purchasing/planning-flexibility.md](wiki/howto/purchasing/planning-flexibility.md) | Protecting purchase order lines from MRP changes using planning flexibility lock | purchasing, mrp, order-management, planning |
-| [wiki/howto/purchasing/purchase-requisitions.md](wiki/howto/purchasing/purchase-requisitions.md) | Creating and managing purchase requisitions with approval routing and consolidation for procurement | purchasing, requisitions, budgets, approval, procurement |
+| [wiki/howto/purchasing/forecast-filter-planning.md](wiki/howto/purchasing/forecast-filter-planning.md) | Forecast filter tool for removing off-season planning lines from Planning Worksheet | purchasing, sales-planning, planning-worksheet |
 
 ### IT Troubleshooting
 
@@ -162,8 +151,4 @@ Content-oriented catalog of all wiki pages. Updated on every ingest. Read this f
 | [wiki/business-processes/availability-system.md](wiki/business-processes/availability-system.md) | Overview of real-time availability calculation system and period-based forecasting | availability, system |
 | [wiki/business-processes/production-order-posting-system.md](wiki/business-processes/production-order-posting-system.md) | Production order posting and adjustment system overview with key concepts and architecture | production, posting, system-overview, safety-quantity, scrap-recovery |
 | [wiki/business-processes/purchase-receipt-system.md](wiki/business-processes/purchase-receipt-system.md) | Purchase receipt and vendor receiving system overview with quality hold and quarantine management | purchasing, receiving, quality-control, system-overview |
-| [wiki/business-processes/invoice-approval-workflow.md](wiki/business-processes/invoice-approval-workflow.md) | High-level overview of invoice approval workflow, stages, and routing rules | purchasing, invoices, approval |
-| [wiki/howto/purchasing/invoice-entry-and-matching.md](wiki/howto/purchasing/invoice-entry-and-matching.md) | How to create invoice records and validate 3-way matching | purchasing, invoices, accounts-payable |
-| [wiki/howto/purchasing/invoice-approval-process.md](wiki/howto/purchasing/invoice-approval-process.md) | Step-by-step guide to reviewing, approving, rejecting, and handling invoices | purchasing, invoices, approval |
-| [wiki/howto/purchasing/invoice-approval-reporting.md](wiki/howto/purchasing/invoice-approval-reporting.md) | How to generate approval status, performance, and audit trail reports | purchasing, approval, reporting, compliance |
 | [wiki/howto/it/invoice-approval-troubleshooting.md](wiki/howto/it/invoice-approval-troubleshooting.md) | Troubleshooting common invoice approval issues | purchasing, approval, it, troubleshooting |

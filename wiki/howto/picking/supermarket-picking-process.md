@@ -7,7 +7,7 @@ updated: 2026-04-21
 sources: [supermarket-picking-process.md]
 ---
 
-# Supermarket Picking Process — Phase 3
+# Supermarket Picking Process
 
 ## What This Is
 
@@ -253,8 +253,7 @@ After you finish Supermarket Picking:
 ## Related Pages
 
 - [[picking-overview]]
-- [[master-picking-process]]
-- [[master-picking-manager]]
+- [[master-picking]]
 - [[cart-transfer]]
 - [[single-order-picks]]
 - [[delicate-item-handling]]

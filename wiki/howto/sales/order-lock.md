@@ -298,5 +298,5 @@ After orders are locked, system automatically runs:
 ## Related Pages
 
 - [[sales-order-management]] — Creating and managing sales orders
-- [[master-picking-process]] — Master picking workflow after lock
+- [[master-picking]] — Master picking workflow after lock
 - [[picking-overview]] — Overall picking system

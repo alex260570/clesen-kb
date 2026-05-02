@@ -1,15 +1,17 @@
 ---
-title: Purchase Worksheet — Planning Guide
+title: Broker Workspace
 type: howto
-tags: [purchasing, planning, forecasting, inventory]
+tags: [purchasing, planning, forecasting, inventory, procurement]
 created: 2026-04-21
 updated: 2026-04-21
-sources: [purchase-worksheet-user-guide.md]
+sources: [purchase-worksheet-user-guide.md, broker-workspace-staff-guide.md]
 ---
 
 # Broker Workspace
 
-Comprehensive planning tool for demand-driven purchasing with what-if scenario modeling.
+Comprehensive planning tool for demand-driven purchasing with what-if scenario modeling. Central planning hub for purchase order management—plan inventory purchases, model scenarios, and apply changes to live purchase orders.
+
+---
 
 ## Overview
 
@@ -25,6 +27,8 @@ The Broker Workspace is a powerful planning tool that provides a comprehensive v
 
 **Think of it as:** An intelligent spreadsheet that pulls real-time data from sales orders and purchase orders, lets you plan your purchases, and then pushes your decisions back to create or update actual purchase orders.
 
+---
+
 ## Key Benefits
 
 | Benefit | Description |
@@ -38,7 +42,9 @@ The Broker Workspace is a powerful planning tool that provides a comprehensive v
 | **Vendor Management** | Easily switch vendors or consolidate orders |
 | **Date Management** | Batch update receipt dates across multiple lines |
 
-## When to Use the Purchase Worksheet
+---
+
+## When to Use It
 
 - **Daily/weekly purchase planning** — Review demand and adjust orders
 - **Responding to demand changes** — Customers add or change orders
@@ -48,9 +54,11 @@ The Broker Workspace is a powerful planning tool that provides a comprehensive v
 - **Vendor coordination** — Consolidate orders or switch suppliers
 - **Shortage management** — Identify and resolve inventory shortfalls
 
+---
+
 ## Getting Started
 
-### Accessing the Worksheet
+### Accessing the Workspace
 
 **Navigation:**
 
@@ -70,6 +78,64 @@ The Broker Workspace is a powerful planning tool that provides a comprehensive v
 - **Permission** to create and edit purchase orders
 - **Access** to view items, vendors, sales orders, and inventory
 - **Understanding** of your company's purchasing processes
+
+---
+
+## Page Layout
+
+### Header Section (Top)
+
+| Field | Purpose | Example |
+|-------|---------|---------|
+| **Start Date** | Beginning of planning window | 02/13/2026 |
+| **End Date** | End of planning window | 03/15/2026 |
+| **Item No. Filter** | Limit to specific items | `%Spring` or `ITEM001\|ITEM002` |
+| **Vendor No. Filter** | Limit to specific vendors | `%my` or `V-001\|V-002` |
+| **Brokered Items only** | Checkbox: Only show purchase items | ☑ |
+| **User ID** | Your user (read-only) | BUYER01 |
+| **Current Filter** | Active filter mode | Supply Only |
+
+**Forecast Section:**
+
+| Field | Purpose |
+|-------|---------|
+| **Forecast** | Production forecast to compare against |
+| **Include Purchases from** | Start date for forecast balance calculation |
+| **Include Purchases to** | End date for forecast balance calculation |
+
+### Lines Grid
+
+Each row represents either:
+- **Supply Line** — An existing purchase order line
+- **Demand Line** — Required purchases with no order yet
+
+**Key Columns:**
+
+| Column | Description | Editable |
+|--------|-------------|----------|
+| **Purchase Order No.** | Linked PO (blank if new) | No |
+| **Vendor No./Name** | Vendor code and name | No |
+| **Item Description** | Item name | No |
+| **Requested Receipt Date** | Delivery request date | **Yes** |
+| **Exp. Receipt Date** | Calculated arrival date | No |
+| **Purch. Line Quantity** | Current PO quantity | No |
+| **Purch. Line Quantity New** | Your planned quantity | **Yes** |
+| **Purch. Line Quantity Adj.** | Change amount | No |
+| **Demand Qty.** | Sales orders need | No |
+| **Qty. Available** | Projected inventory | No |
+| **Cum. Availability** | Running total inventory | No |
+| **Cum. Avail. (simulated)** | With your changes | No |
+| **Cart Quantity Line** | Carts for this line | No |
+| **Cart Total Purch. Order** | Total carts for PO | No |
+
+**Color Coding:**
+
+- **White background** — No changes made
+- **Yellow/Orange background** — Line has been modified (pending apply)
+- **Red text (Qty. Available)** — Negative availability (shortage)
+- **Red style (Cart Total)** — Exceeds 40 carts (transportation warning)
+
+---
 
 ## Creating Your Worksheet
 
@@ -150,6 +216,8 @@ The system:
 
 > **Note:** If you get an error, verify your date range isn't too large. Try reducing to 4-6 weeks.
 
+---
+
 ## Working with Worksheet Lines
 
 ### Understanding Line Types
@@ -180,6 +248,8 @@ The system:
 - Create new purchase line to cover demand
 - Review demand details (drill down on Demand Qty.)
 - May indicate shortage or need to order
+
+---
 
 ## Making Changes
 
@@ -248,6 +318,8 @@ Demand lines (blank Purchase Order No.) represent sales orders without correspon
 - Check vendor lead times before setting requested date
 - For multiple items from same vendor, create separate lines
 
+---
+
 ## Applying Changes to Purchase Orders
 
 ### Understanding the Apply Process
@@ -301,6 +373,8 @@ Demand lines (blank Purchase Order No.) represent sales orders without correspon
    - Print purchase orders for vendor confirmation
    - Email or fax orders to vendors
    - Follow up on delivery confirmations
+
+---
 
 ## Common Workflows
 
@@ -402,6 +476,38 @@ Demand lines (blank Purchase Order No.) represent sales orders without correspon
    - **Call vendor for rush order**
 9. **Notify sales** of delivery timeline
 
+---
+
+## Advanced Features
+
+### Changing Vendor or Purchase Order
+
+**Use when:** You need to move a line to different vendor or different PO
+
+**Steps:**
+1. Select the line to move
+2. Click **"Change Vendor or Purchase Order"** button
+3. Dialog opens showing:
+   - Current vendor
+   - Expected Receipt Date
+   - List of existing POs for selected vendor
+   - "Make new Order" checkbox
+
+**Option 1: Move to Existing PO**
+1. Leave "Make new Order" unchecked
+2. Select target PO from list
+3. Click OK
+4. System moves line to target PO
+
+**Option 2: Move to New Vendor**
+1. Select new vendor from dropdown
+2. Check "Make new Order"
+3. Click OK
+4. System creates new PO with selected vendor
+5. Moves line to new PO
+
+---
+
 ## Troubleshooting
 
 ### Issue: Data Takes Too Long to Load
@@ -463,6 +569,8 @@ Demand lines (blank Purchase Order No.) represent sales orders without correspon
 5. **Check blanket orders:** If linked, verify quantity available
 6. **Refresh data** and try again
 
+---
+
 ## Best Practices
 
 ### Planning Best Practices
@@ -494,23 +602,22 @@ Demand lines (blank Purchase Order No.) represent sales orders without correspon
    - Verify minimum order quantities
    - Communicate changes promptly
 
-### Collaboration Best Practices
+### Vendor Coordination Best Practices
 
-1. **Communicate with team:**
-   - Alert others before bulk changes
-   - Coordinate on shared vendors
-   - Share insights from demand analysis
-   - Use change logs to track activity
+✅ **Do:**
+- Verify vendor can meet requested dates
+- Consolidate small orders into larger shipments
+- Respect vendor minimum order quantities
+- Communicate changes to vendor promptly
+- Track vendor performance on delivery
 
-2. **Apply changes promptly:**
-   - Don't leave pending changes overnight
-   - Apply before end of day
-   - Clear worksheet if planning incomplete
+❌ **Don't:**
+- Make aggressive date changes without vendor approval
+- Change vendors without business reason
+- Create orders vendor can't fulfill
+- Ignore vendor feedback on feasibility
 
-3. **Check for external changes:**
-   - Run "Check for Changes" before Apply All
-   - Refresh data if working collaboratively
-   - Review change logs periodically
+---
 
 ## Quick Reference
 
@@ -544,9 +651,12 @@ Demand lines (blank Purchase Order No.) represent sales orders without correspon
 = Purch. Line Quantity New / Qty. per Cart (from Item card)
 ```
 
+---
+
 ## Related Pages
 
 - [[purchase-receipt-overview]]
 - [[purchase-receipt-staff]]
 - [[purchase-receipt-manager]]
 - [[purchase-receipt-it-troubleshooting]]
+- [[broker-workspace-troubleshooting]] — IT troubleshooting guide

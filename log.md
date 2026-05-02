@@ -584,3 +584,73 @@ Token usage: ~85k / 200k remaining. Final token budget: ~115k available.
 **Index updated:** Removed "Invoice approval workflow" from Start here section
 
 **Wikilinks:** No references found
+
+## [2026-05-01] cleanup | Delete broker-workspace-manager documentation
+
+**Files deleted (2):**
+- raw/broker-workspace-manager-guide.md (source)
+- wiki/howto/broker-workspace/broker-workspace-manager.md (wiki page)
+
+**Wikilinks cleaned up (2 files):**
+- wiki/howto/broker-workspace/broker-workspace.md — Removed [[broker-workspace-manager]] reference
+- wiki/howto/it/broker-workspace-troubleshooting.md — Removed [[broker-workspace-manager]] reference
+
+**Index:** Not listed
+
+## [2026-05-01] reorganization | Merge broker-workspace documents and delete folder
+
+**Files merged:**
+- wiki/howto/broker-workspace/broker-workspace.md + wiki/howto/purchasing/broker-workspace.md
+- Consolidated into single comprehensive guide in wiki/howto/purchasing/broker-workspace.md
+- Combined sources from both files (purchase-worksheet-user-guide.md + broker-workspace-staff-guide.md)
+- Retained best content from both versions: detailed layout sections, step-by-step workflows, common scenarios, advanced features, quick reference
+
+**Folder deleted:**
+- wiki/howto/broker-workspace/ (directory no longer needed)
+
+## [2026-05-01] reorganization | Merge cart-transfer documents
+
+**Files consolidated:**
+- wiki/howto/picking/cart-transfer-manager.md (manager/technical guide - 161 lines)
+- wiki/howto/picking/cart-transfer-process.md (staff workflow - 100 lines)
+- Merged into expanded wiki/howto/picking/cart-transfer.md (comprehensive guide)
+
+**Files deleted (2):**
+- wiki/howto/picking/cart-transfer-manager.md
+- wiki/howto/picking/cart-transfer-process.md
+
+**Wikilinks cleaned up (4 files):**
+- wiki/howto/picking/master-picking-manager.md — Removed [[cart-transfer-manager]] reference
+- wiki/howto/picking/picking-escalations.md — Changed [[cart-transfer-process]] → [[cart-transfer]] (2 occurrences)
+- wiki/howto/picking/supermarket-scan-verification.md — Changed [[cart-transfer-process]] → [[cart-transfer]]
+
+**Index.md updated:** Merged cart-transfer entries into single row; removed cart-transfer-manager and cart-transfer-process
+
+## [2026-05-01] reorganization | Merge master-picking documents
+
+**Files consolidated:**
+- wiki/howto/picking/master-picking.md (quick reference - 48 lines)
+- wiki/howto/picking/master-picking-process.md (staff guide - 222 lines)
+- wiki/howto/picking/master-picking-manager.md (manager/technical guide - 467 lines)
+- Merged into expanded wiki/howto/picking/master-picking.md (comprehensive guide 750+ lines)
+
+**Files deleted (2):**
+- wiki/howto/picking/master-picking-process.md
+- wiki/howto/picking/master-picking-manager.md
+
+**Wikilinks cleaned up (6 files):**
+- wiki/howto/sales/order-lock.md — Changed [[master-picking-process]] → [[master-picking]]
+- wiki/howto/picking/supermarket-picking-process.md — Removed [[master-picking-process]] and [[master-picking-manager]], kept [[master-picking]]
+- wiki/howto/picking/picking-overview.md — Changed [[master-picking-process]] → [[master-picking]] (4 occurrences); Changed [[master-picking-manager]] → [[master-picking]] (2 occurrences)
+- wiki/howto/picking/single-order-picks.md — Removed [[master-picking-process]] and [[master-picking-manager]], kept [[master-picking]]
+- wiki/howto/picking/picking-teams-manager.md — Changed [[master-picking-process]] → [[master-picking]]
+- wiki/howto/picking/picking-escalations.md — Changed [[master-picking-process]] → [[master-picking]] (in Related Pages)
+
+**Index.md updated:** 
+- Picking section: Replaced master-picking-process and master-picking-manager with single master-picking entry
+- Removed duplicate picking-escalations entry
+- Purchasing section: Added broker-workspace.md; removed purchase-worksheet and purchase-requisitions entries
+- Removed entire "Broker Workspace" section (consolidated into Purchasing)
+- Business Processes section: Removed invoice-approval-workflow and related deleted documentation entries
+
+**Summary:** Completed consolidation of parallel documentation into comprehensive guides covering both staff workflow and manager/technical configuration in single files following broker-workspace pattern.

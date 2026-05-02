@@ -7,7 +7,7 @@ updated: 2026-04-21
 sources: [picking-teams-manager-guide.md]
 ---
 
-# Picking Teams — Manager's Guide
+# Picking Teams
 
 Organize supermarket pickers into teams and assign tickets to those teams. Each team uses a shared tablet (picking device), and pickers only see tickets assigned to their team.
 
@@ -199,6 +199,6 @@ If teams change during the day:
 ## Related Pages
 
 - [[picking-overview]]
-- [[master-picking-process]]
+- [[master-picking]]
 - [[supermarket-picking-process]]
 - [[picking-escalations]]

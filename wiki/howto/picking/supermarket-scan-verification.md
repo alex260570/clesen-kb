@@ -544,6 +544,6 @@ The system treats this like a scan. However, this is tracked separately as "Manu
 ## Related Pages
 
 - [[supermarket-picking-process]] — Phase 3 of the supermarket picking workflow
-- [[cart-transfer-process]] — Phase 2 moving carts to supermarket location
+- [[cart-transfer]] — Phase 2 moving carts to supermarket location
 - [[picking-overview]] — Complete overview of all picking processes
 - [[gtin-upc-management]] — Managing barcode assignments for items

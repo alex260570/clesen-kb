@@ -63,7 +63,7 @@ To you, this looks like a regular master pick. The system handles the run number
 
 1. Look for carts with high run numbers (above Max)
 2. **Transfer these first** before regular run carts
-3. Follow regular [[cart-transfer-process]]
+3. Follow regular [[cart-transfer]]
 4. Post shipment and receipt promptly
 5. Alert Supermarket team that escalation carts arrived
 
@@ -161,8 +161,8 @@ To you, this looks like a regular master pick. The system handles the run number
 ## Related Pages
 
 - [[picking-overview]]
-- [[master-picking-process]]
-- [[cart-transfer-process]]
+- [[master-picking]]
+- [[cart-transfer]]
 - [[supermarket-picking-process]]
 - [[picking-teams-manager]]
 - [[single-order-picks]]

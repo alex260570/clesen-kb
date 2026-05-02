@@ -14,7 +14,7 @@ Welcome to the Picking Guide! This guide explains all the picking processes you'
 ## Quick Start
 
 **New to picking?** Start here:
-1. Read [[master-picking-process]] - This is what you'll do most days
+1. Read [[master-picking]] - This is what you'll do most days
 2. Practice with your supervisor
 3. Refer back to this guide when you need help
 
@@ -24,7 +24,7 @@ Welcome to the Picking Guide! This guide explains all the picking processes you'
 
 | Process | When to Use | How Often | Document |
 |---------|------------|-----------|----------|
-| **Master Picking** | Regular daily orders, multiple customers | Every day | [[master-picking-process]] |
+| **Master Picking** | Regular daily orders, multiple customers | Every day | [[master-picking]] |
 | **Supermarket Picking** | Single customer orders, rush orders | As needed | [[supermarket-picking-process]] |
 | **Direct Location Pickup** | Customer pickups, will-call orders | As needed | [[direct-location-pickup]] |
 | **Escalation Orders** | Urgent problem orders that need special attention | As needed | [[picking-escalations]] |
@@ -216,19 +216,18 @@ Every ticket must have all four checks completed:
 ## Document Guide
 
 **For Warehouse Floor Staff:**
-- [[master-picking-process]] - Main daily picking
+- [[master-picking]] - Main daily picking
 - [[supermarket-picking-process]] - Single customer orders
 - [[direct-location-pickup]] - Customer pickups
 - [[picking-escalations]] - Urgent problem orders
 
 **For Managers:**
-- [[master-picking-manager]] - Master picking configuration and oversight
+- [[master-picking]] - Master picking configuration and oversight
 - [[picking-teams-manager]] - Picking team management
 
 ## Related Pages
 
-- [[master-picking-process]]
-- [[master-picking-manager]]
+- [[master-picking]]
 - [[supermarket-picking-process]]
 - [[single-order-picks]]
 - [[delicate-item-handling]]
