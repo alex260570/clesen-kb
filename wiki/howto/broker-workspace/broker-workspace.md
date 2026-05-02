@@ -48,7 +48,7 @@ The Broker Workspace is your central command center for purchase planning. Inste
 
 **Navigation:**
 1. Open Business Central
-2. Search for "Broker Workspace" or "Purchase Worksheet"
+2. Search for "Broker Workspace"
 3. Click to open page 50086
 
 **First Time Setup:**
