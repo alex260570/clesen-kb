@@ -21,7 +21,8 @@
       "Bash(git add *)",
       "Bash(grep -E \"\\\\.\\(md|txt\\)$\")",
       "Bash(grep -E \"\\\\.\\(md\\)$\")",
-      "Bash(for file in wiki/howto/crm/crm-it-troubleshooting.md wiki/howto/items/growing-stages-it-troubleshooting.md wiki/howto/production/prod-order-posting-it-troubleshooting.md wiki/howto/production/prod-order-task-it-troubleshooting.md wiki/howto/purchasing/purchase-receipt-it-troubleshooting.md wiki/howto/sales/rapid-order-entry-it-troubleshooting.md wiki/howto/sales/sales-planning-it-troubleshooting.md wiki/howto/sales/sales-process-history-it-troubleshooting.md; do\n  cp \"$file\" \"wiki/howto/it/$\\(basename \"$file\"\\)\"\ndone)"
+      "Bash(for file in wiki/howto/crm/crm-it-troubleshooting.md wiki/howto/items/growing-stages-it-troubleshooting.md wiki/howto/production/prod-order-posting-it-troubleshooting.md wiki/howto/production/prod-order-task-it-troubleshooting.md wiki/howto/purchasing/purchase-receipt-it-troubleshooting.md wiki/howto/sales/rapid-order-entry-it-troubleshooting.md wiki/howto/sales/sales-planning-it-troubleshooting.md wiki/howto/sales/sales-process-history-it-troubleshooting.md; do\n  cp \"$file\" \"wiki/howto/it/$\\(basename \"$file\"\\)\"\ndone)",
+      "Bash(cd \"C:/Users/AlexanderThiel/ObsidianVaults/clesen-kb\" && rm wiki/howto/picking/supermarket-scan-verification.md wiki/howto/picking/supermarket-picking-process.md wiki/howto/production/prod-order-posting-staff.md wiki/howto/production/prod-order-posting-manager.md wiki/howto/production/prod-order-task-staff.md wiki/howto/production/prod-order-task-manager.md wiki/howto/purchasing/purchase-receipt-overview.md wiki/howto/purchasing/purchase-receipt-staff.md wiki/howto/purchasing/purchase-receipt-manager.md 2>&1 && echo \"Files deleted\")"
     ]
   }
 }

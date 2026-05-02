@@ -7,13 +7,13 @@ updated: 2026-04-21
 sources: [customer-preferred-stage-user-guide.md]
 ---
 
-# Customer Preferred Blooming Stages
+# Customer Preferred Growing Stages
 
 Configuring customer preferences for blooming stage variants on sales orders.
 
-## What Is Customer Preferred Blooming Stage?
+## What Is Customer Preferred Growing Stage?
 
-**Customer Preferred Blooming Stage** allows you to configure which blooming stage a customer prefers to receive. When a sales order is created for that customer, the system **automatically selects the variant matching their preference** instead of forcing manual selection.
+**Customer Preferred Blooming Stage** allows you to configure which growing stage a customer prefers to receive. When a sales order is created for that customer, the system **automatically selects the variant matching their preference** instead of forcing manual selection.
 
 **Example:** Customer ABC prefers "Bud & Bloom" stage roses. When you add roses to their sales order, the system auto-selects the Bud & Bloom variant instead of the default Green Bud.
 
@@ -24,12 +24,12 @@ Configuring customer preferences for blooming stage variants on sales orders.
 ### Step 1: Open the Customer Card
 
 1. Search for the customer or open their **Customer Card**
-2. Scroll down to the **Blooming Stages** section
+2. Scroll down to the **Growing Stages** section
 3. The section is only visible when the feature is active
 
 ### Step 2: Set the Preferred Stage
 
-In the **Preferred Blooming Stage** field, select one of:
+In the **Preferred Growing Stage** field, select one of:
 
 | Option | Meaning |
 |--------|---------|
@@ -74,14 +74,14 @@ If you try to set an invalid combination, the system displays an error message.
 When you create a sales order for a customer with a preferred blooming stage:
 
 1. **Sales Header** — The customer's preferences are automatically copied:
-   - Preferred Blooming Stage
+   - Preferred Growing Stage
    - Stage Substitution option
 
 2. **Sales Lines** — When you enter an item with blooming stage variants:
    - System looks up the customer's preferred stage
    - Finds the variant matching that stage
    - Auto-fills the **Variant Code** on the line
-   - The **CLE Blooming Stage** field shows the selected stage (read-only)
+   - The **CLE Growing Stage** field shows the selected stage (read-only)
 
 3. **Fallback Logic** — If the preferred variant can't be used:
    - Item has no blooming stage variants → Uses Sales Default

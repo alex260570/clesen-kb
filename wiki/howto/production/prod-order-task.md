@@ -1,40 +1,286 @@
 ---
-title: Production Order Tasks — Manager Guide
+title: Production Order Tasks
 type: howto
-tags: [production, production-order-tasks, manager, task-management, quality-control]
+tags: [production, tasks, quality-control, task-management]
 created: 2026-04-21
-updated: 2026-04-21
-sources: [prod-order-task-manager-guide.md]
+updated: 2026-05-01
+sources: [prod-order-task-staff-guide.md, prod-order-task-manager-guide.md]
 ---
 
-# Production Order Tasks — Manager Guide
+# Production Order Tasks
 
 Template-based checklist system for ensuring consistent quality control and operational procedures on all production orders.
 
 ## Overview
 
-The Production Order Task system allows you to create standardized checklists (templates) that automatically apply to production orders. This ensures consistent execution across all production activities.
+Tasks are checklists that ensure quality and consistency in production operations. Each production order can have tasks assigned by your manager to guide the work process. This guide covers both staff task completion and manager task template management.
 
-## Creating Task Templates
+## For Warehouse/Production Staff
+
+### Accessing Your Tasks
+
+#### Method 1: From the Production Order
+
+1. Open the **Released Production Order** you're working on
+2. Look for the **Tasks FactBox** on the right side
+   - Shows quick summary of tasks
+   - Shows completion status
+3. Click **Related** → **Tasks** for the full list
+
+#### Method 2: Task Worksheet (All Orders)
+
+1. Search for **Production Order Task Worksheet**
+2. Shows ALL tasks across ALL production orders
+3. Filter by:
+   - Location Code (your facility)
+   - Due Date (what's due today)
+   - Production Order No. (specific order)
+   - Completion status (show only incomplete tasks)
+
+### Understanding Task Types
+
+Tasks are organized into three types, each with a different purpose:
+
+#### Headlines (Bold Text)
+
+**Appearance:** Bold section headers
+
+**Purpose:** Section headers that organize tasks into logical groups
+
+**What to do:** Nothing - these are just headers. They're automatically "approved" and show in bold.
+
+**Example:** "Preparation Phase", "Quality Checks", "Cleanup"
+
+#### Tasks (Indented)
+
+**Appearance:** Indented with checkbox
+
+**Purpose:** Actual work items you need to complete
+
+**What to do:** Complete the work described, then mark as completed
+
+**Example:** "Inspect raw materials", "Clean work area", "Final quality check"
+
+#### Information (Indented)
+
+**Appearance:** Indented, no checkbox
+
+**Purpose:** Reference information, notes, or special instructions
+
+**What to do:** Read and follow the information, but no checkbox to complete
+
+**Example:** "Refer to SOP-123 for procedures", "Material safety note: wear gloves"
+
+### Completing Tasks
+
+#### Step-by-Step Process
+
+1. **View Available Tasks**
+   - Open the production order's task list
+   - Only released tasks are shown
+   - Released = approved for you to work on
+
+2. **Check What's Due**
+   - Look at the **Due Date** column
+   - Focus on overdue tasks first (red/highlighted)
+   - Then work on tasks due today
+   - Plan ahead for upcoming tasks
+
+3. **Understand Each Task**
+   - Read the task description
+   - Check any Information lines for special instructions
+   - Understand what work is required
+
+4. **Complete the Work**
+   - Perform the task as described
+   - Follow any SOPs or instructions referenced
+   - Ensure quality standards are met
+
+5. **Mark Task as Completed**
+   - Open the task card
+   - Check the **Completed** checkbox
+   - The system records completion date and time
+   - Save the task
+
+### Understanding Due Dates
+
+Due dates tell you WHEN a task should be completed relative to the production order timeline.
+
+#### How Due Dates Work
+
+Due dates are calculated from:
+- **Production Order Due Date** — when the order is due to finish
+- **Line Start/End Dates** — when that production line will run
+- **Routing Operation Dates** — when specific operations will run
+
+#### Common Due Date Patterns
+
+**2 days BEFORE production starts** = "-2D"
+- Task due on 2/15 if production starts 2/17
+- Gives time to prepare before work begins
+
+**DAY OF production start** = "+0D"
+- Task due same day production starts
+- Initial quality check before work
+
+**1 day AFTER production ends** = "+1D from end"
+- Final inspection after work completes
+- Time to verify quality before shipping
+
+### Common Task Scenarios
+
+#### Scenario 1: Preparation Phase Tasks
+
+**Typical tasks:**
+- Inspect raw materials
+- Prepare workstation
+- Check equipment
+
+**Timeline:** 1-2 days before production starts
+
+**What to do:**
+1. Gather materials listed
+2. Perform inspection/checks
+3. Prepare workspace
+4. Mark complete when done
+
+#### Scenario 2: Production Quality Checks
+
+**Typical tasks:**
+- Initial quality check at start
+- Mid-process inspection
+- Final inspection at end
+
+**Timeline:** Throughout production run
+
+**What to do:**
+1. Perform inspection per SOP
+2. Document any issues
+3. Report problems immediately
+4. Mark complete when done
+
+#### Scenario 3: Cleanup and Finishing
+
+**Typical tasks:**
+- Clean and sanitize area
+- Return equipment
+- Organize for next order
+
+**Timeline:** Last day of production
+
+**What to do:**
+1. Clean workspace
+2. Return materials
+3. Prepare for next order
+4. Mark complete when done
+
+### Overdue Tasks
+
+**If a task is overdue (due date is in the past):**
+
+1. **Don't ignore it** — talk to your supervisor
+2. **Complete it anyway** if it's still relevant
+3. **Explain the delay** if you couldn't complete it
+4. **Document the reason** in any notes field
+
+Overdue tasks may indicate:
+- Something was overlooked
+- Timeline got compressed
+- Unexpected issue occurred
+
+Let your manager know if you see a pattern of overdue tasks.
+
+### Task Completion Best Practices
+
+✅ **DO:**
+- Check task list at start of shift
+- Complete tasks in order when possible
+- Mark tasks complete as soon as you finish them
+- Ask if you don't understand a task
+- Document any issues you find
+- Report problems immediately
+- Review new tasks regularly
+
+❌ **DON'T:**
+- Skip tasks because they seem unimportant
+- Mark tasks complete without actually doing them
+- Let tasks become overdue without notifying supervisor
+- Ignore Information lines or special instructions
+- Guess what a task means — ask for clarification
+- Delay reporting quality issues
+
+### Asking for Help
+
+**If you don't understand a task:**
+1. Open the task card
+2. Look for Information lines with references/instructions
+3. Read any linked SOPs or work instructions
+4. Ask your supervisor or team lead
+
+**If you find a quality issue:**
+1. Stop work on that task
+2. Notify your supervisor immediately
+3. Document what you found
+4. Don't mark the task complete until resolved
+
+**If you can't meet a due date:**
+1. Tell your supervisor early (don't wait until due date)
+2. Explain the reason
+3. Get guidance on priorities
+4. Work on alternative approach if needed
+
+### Task Worksheet View
+
+The **Production Order Task Worksheet** page shows:
+
+| Column | What It Means |
+|--------|--------------|
+| Production Order No. | Which order this task belongs to |
+| Item No. | What you're producing |
+| Description | What the task is |
+| Due Date | When it should be done |
+| Status | Released (do it), Completed (done), etc. |
+| Released | Only shown if you have approval |
+| Completed | Check this when you finish |
+| Completion Date | Auto-filled when you mark complete |
+
+**Tips:**
+- Filter by Location Code to see only your facility's tasks
+- Filter by Due Date to see what's due today/overdue
+- Sort by Due Date to tackle priorities in order
+- Use "Show only incomplete" to focus on remaining work
+
+### Performance & Recognition
+
+Your task completion:
+- Is tracked by management
+- Reflects on quality metrics
+- Helps managers understand productivity
+- May be recognized for consistency and accuracy
+- Helps identify training needs if problems occur
+
+## For Managers
+
+### Creating Task Templates
 
 Task templates are reusable checklists that get automatically copied to production orders when created.
 
-### Step 1: Access Task Templates
+#### Step 1: Access Task Templates
 
 1. Search for **Prod. Order Task Templates**
 2. Click **New** to create new template
 
-### Step 2: Define Template Header
+#### Step 2: Define Template Header
 
 1. Enter unique **Code** (e.g., "FLOWER-PREP", "POTTING-STD")
 2. Enter **Description** (e.g., "Standard Flower Preparation Tasks")
 3. **Important:** Save the record before adding lines
 
-### Step 3: Add Task Lines
+#### Step 3: Add Task Lines
 
 Once template header is saved, the Lines section becomes available.
 
-#### Task Line Types
+##### Task Line Types
 
 | Type | Purpose | Auto-Approve |
 |------|---------|--------------|
@@ -42,7 +288,7 @@ Once template header is saved, the Lines section becomes available.
 | **Task** | Actual work item requiring completion | No |
 | **Information** | Reference information or notes | N/A |
 
-#### Adding Lines
+##### Adding Lines
 
 1. Click in the Lines section
 2. Select **Line Type** (Headline, Task, or Information)
@@ -53,7 +299,7 @@ Once template header is saved, the Lines section becomes available.
    - Set **Due Date Calc. Formula** (e.g., "-2D" for 2 days before)
 5. For routine tasks, check **Auto Approve**
 
-#### Due Date Calculation Options
+##### Due Date Calculation Options
 
 | Option | Example |
 |--------|---------|
@@ -63,7 +309,7 @@ Once template header is saved, the Lines section becomes available.
 | Prod. Order Routing Start Date | "-1D" = 1 day before routing starts |
 | Prod. Order Routing End Date | "+0D" = when routing ends |
 
-#### Example Template Structure
+##### Example Template Structure
 
 ```
 [Headline] Preparation Phase
@@ -80,36 +326,32 @@ Once template header is saved, the Lines section becomes available.
     [Task] Clean and sanitize area - Auto Approve: Yes, Due: +0D at Routing End
 ```
 
-### Step 4: Copy from Existing Template (Optional)
+#### Step 4: Copy from Existing Template (Optional)
 
 1. Click **Copy From Template** action
 2. Select source template
 3. All lines copied to new template
 4. Modify as needed
 
----
-
-## Assigning Templates to Items
+### Assigning Templates to Items
 
 Once templates are created, assign them to items so production orders automatically receive the tasks.
 
-### Assignment Steps
+#### Assignment Steps
 
 1. Open **Item Card**
 2. Locate **CLE Prod. Order Task Template** field
 3. Select appropriate template from lookup
 4. Save item card
 
-### Important Notes
+#### Important Notes
 
 - Only items with assigned templates will have tasks created
 - You can change template on item at any time (affects new production orders only)
 
----
+### Managing Production Order Tasks
 
-## Managing Production Order Tasks
-
-### Viewing Tasks
+#### Viewing Tasks
 
 Production orders display task information in several locations:
 
@@ -124,9 +366,9 @@ Production orders display task information in several locations:
 - Released status
 - Completion status
 
-### Changing or Removing Task Templates
+#### Changing or Removing Task Templates
 
-#### To Change Templates
+##### To Change Templates
 
 1. Open Production Order
 2. Change **CLE Prod. Order Task List** field
@@ -134,7 +376,7 @@ Production orders display task information in several locations:
 
 **Important:** You cannot change the template if any tasks are marked as completed (protects historical data)
 
-#### To Remove Tasks
+##### To Remove Tasks
 
 1. Open Production Order
 2. Clear **CLE Prod. Order Task List** field
@@ -142,7 +384,7 @@ Production orders display task information in several locations:
 
 **Important:** Cannot remove if any tasks are marked as completed
 
-### Adding Manual Tasks
+#### Adding Manual Tasks
 
 If you need additional tasks not in the template:
 
@@ -160,7 +402,7 @@ Manual tasks:
 - Marked as modified
 - Preserved if you refresh the production order
 
-### Refreshing Production Orders
+#### Refreshing Production Orders
 
 When you click **Refresh Production Order**:
 - **If no tasks exist:** Tasks created from item's template
@@ -168,7 +410,7 @@ When you click **Refresh Production Order**:
 - **Manual tasks:** Preserved and updated
 - **Modified tasks:** Preserved
 
-### Dynamic Field Updates
+#### Dynamic Field Updates
 
 The system automatically updates task fields when production order fields change:
 
@@ -179,49 +421,38 @@ The system automatically updates task fields when production order fields change
 | Due Date | Task due dates | Tasks with calculated due dates |
 | Routing dates | Task due dates | Tasks linked to routing |
 
----
-
-## Approving Tasks
+### Approving Tasks
 
 Tasks must be approved (released) before staff can work on them.
 
-### Accessing the Approval Page
+#### Accessing the Approval Page
 
 1. Search for **Production Order Tasks to Approve**
 2. Shows all unreleased tasks across all production orders
 
-### Approval Process
+#### Approval Process
 
-#### Individual Task Approval
+##### Individual Task Approval
 
 1. Find task in list
 2. Check **Released** box
 3. Task now visible to staff
 
-#### Bulk Approval
+##### Bulk Approval
 
 1. Filter list (e.g., by Location Code or Due Date)
 2. Select multiple tasks
 3. Use bulk actions or approve individually
 
-### Auto-Approved Tasks
+#### Auto-Approved Tasks
 
 Some tasks automatically approved when created:
 - Tasks marked with **Auto Approve** in template
 - All **Headline** lines
 
-### Finishing Approval
+### Monitoring and Reporting
 
-When all tasks for a production order are released:
-- System prompts: "All tasks released. Do you want to finish approval?"
-- Click **Yes** to remove from approval list
-- Production order tasks remain visible in task list
-
----
-
-## Monitoring and Reporting
-
-### Task Worksheet
+#### Task Worksheet
 
 Open **Production Order Task Worksheet** to see:
 - All tasks across all production orders
@@ -229,14 +460,14 @@ Open **Production Order Task Worksheet** to see:
 - Completion status
 - Sortable by due date, production order, item
 
-### Task FactBox
+#### Task FactBox
 
 On Production Order pages, Task FactBox shows:
 - Quick summary of released tasks
 - Completion status
 - Due dates
 
-### Viewing Task History
+#### Viewing Task History
 
 Completed tasks remain on production orders for review:
 1. Open Production Order
@@ -244,11 +475,9 @@ Completed tasks remain on production orders for review:
 3. Filter by Completed = Yes
 4. See completion dates and who completed them
 
----
+### Best Practices
 
-## Best Practices
-
-### Template Design
+#### Template Design
 
 1. **Use clear, action-oriented descriptions:**
    - Good: "Inspect material for defects"
@@ -272,14 +501,14 @@ Completed tasks remain on production orders for review:
    - Note special handling requirements
    - Reference SOPs
 
-### Template Naming Conventions
+#### Template Naming Conventions
 
 Use consistent naming:
 - **Product-based:** "ROSE-STD", "LILY-PREP"
 - **Process-based:** "POTTING-SM", "HARVEST-GEN"
 - **Location-based:** "NORTH-GH", "SOUTH-PACK"
 
-### Regular Template Reviews
+#### Regular Template Reviews
 
 1. Review templates quarterly
 2. Update based on process improvements
@@ -287,18 +516,16 @@ Use consistent naming:
 4. Add new quality requirements
 5. Adjust due date formulas based on performance
 
-### Staff Training
+#### Staff Training
 
 1. Train staff on task completion procedures
 2. Emphasize importance of completing tasks on time
 3. Show staff how to access their task lists
 4. Explain workflow from approval to completion
 
----
+### Troubleshooting
 
-## Troubleshooting
-
-### Issue: Tasks Not Created on New Production Orders
+#### Issue: Tasks Not Created on New Production Orders
 
 **Possible Causes:**
 - Item has no task template assigned
@@ -310,7 +537,7 @@ Use consistent naming:
 2. If blank, assign a template
 3. For existing production orders, manually set "CLE Prod. Order Task List" field
 
-### Issue: Cannot Change Task Template
+#### Issue: Cannot Change Task Template
 
 **Error:** "Cannot change or delete the task list because completed tasks exist for this production order."
 
@@ -321,7 +548,7 @@ Use consistent naming:
 - Can only change templates on production orders with no completed tasks
 - Create new production order if major changes needed
 
-### Issue: Cannot Add Task Lines to Template
+#### Issue: Cannot Add Task Lines to Template
 
 **Cause:** Template Code field is blank
 
@@ -330,13 +557,13 @@ Use consistent naming:
 2. Save the record
 3. Lines section will become editable
 
-### Issue: Tasks Have Wrong Location Code
+#### Issue: Tasks Have Wrong Location Code
 
 **Cause:** Location Code changed after tasks created
 
 **Solution:** The system automatically updates Location Code on uncompleted tasks
 
-### Issue: Tasks Missing After Refresh
+#### Issue: Tasks Missing After Refresh
 
 **Cause:** Modified tasks were overwritten
 
@@ -344,8 +571,6 @@ Use consistent naming:
 - System asks: "Modified Tasks found. Please confirm if you want to overwrite them?"
 - Click **No** to preserve modified tasks
 - Click **Yes** only if you want to reset to template
-
----
 
 ## Workflow Summary
 
@@ -369,11 +594,8 @@ Use consistent naming:
 9. Production order finished with full task history
 ```
 
----
-
 ## Related Pages
 
-- [[prod-order-overview]] — Production order lifecycle overview
-- [[prod-order-posting-staff]] — Staff guide for production posting
-- [[prod-order-posting-manager]] — Manager guide for production
-- [[prod-order-task-it-troubleshooting]] — IT technical guide
+- [[prod-order-overview]]
+- [[prod-order-posting]]
+- [[production-order-task-it-troubleshooting]]

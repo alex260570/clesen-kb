@@ -7,7 +7,7 @@ updated: 2026-04-21
 sources: [count-preparation.md]
 ---
 
-# Count Preparation — Manager's Guide
+# Count Preparation
 
 ## Overview
 

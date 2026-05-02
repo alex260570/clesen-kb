@@ -7,7 +7,7 @@ updated: 2026-04-21
 sources: [counting-exception-handling.md]
 ---
 
-# Exception Handling — Manager's Guide
+# Exception Handling
 
 ## Overview
 

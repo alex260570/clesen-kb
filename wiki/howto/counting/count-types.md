@@ -7,7 +7,7 @@ updated: 2026-04-21
 sources: [understanding-count-types.md]
 ---
 
-# Count Types — Staff Guide
+# Count Types
 
 Overview of the 9 automatic count types that trigger throughout the day. Understanding the type helps you prioritize and recognize patterns.
 

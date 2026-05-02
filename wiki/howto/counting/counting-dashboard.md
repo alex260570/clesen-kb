@@ -7,7 +7,7 @@ updated: 2026-04-21
 sources: [counting-dashboard.md]
 ---
 
-# Counting Dashboard — Manager Guide
+# Counting Dashboard
 
 Real-time monitoring and control center for the entire inventory counting system.
 

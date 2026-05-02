@@ -7,7 +7,7 @@ updated: 2026-04-21
 sources: [count-release.md]
 ---
 
-# Count Release — Manager's Guide
+# Count Release
 
 ## Overview
 
