@@ -240,4 +240,3 @@ Check your configuration to see which attributes auto-populate.
 
 - [[variant-templates]] — Variant template creation and application
 - [[gtin-upc-management]] — GTIN/UPC barcode assignment
-- [[blooming-stages]] — Blooming stage system and automatic advancement

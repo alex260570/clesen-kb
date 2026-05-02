@@ -295,5 +295,3 @@ If an issue is critical:
 ## Related Pages
 
 - [[scouting-reports]] — Inventory visibility tool for picking planning
-- [[blooming-stages]] — Plant lifecycle tracking system
-- [[blooming-stages-it-troubleshooting]] — Technical architecture for blooming stages

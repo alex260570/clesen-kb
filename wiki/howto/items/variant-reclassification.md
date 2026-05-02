@@ -221,5 +221,4 @@ Each line can be reclassified independently, or all at once if you fill in quant
 ## Related Pages
 
 - [[variant-templates]] — Variant template creation and application
-- [[blooming-stages]] — Blooming stage system and automatic advancement
 - [[bin-management]] — Moving inventory between bins and locations

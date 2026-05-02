@@ -279,6 +279,5 @@ Before using Growing Stages in production:
 ## Related Pages
 
 - [[growing-stages]] — User guide for Grower Stage Worksheet
-- [[blooming-stages-it-troubleshooting]] — IT architecture for blooming stages (similar system)
 - [[item-attributes]] — Item configuration and setup
 - [[variant-templates]] — Creating and managing item variants

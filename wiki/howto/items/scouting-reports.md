@@ -133,62 +133,6 @@ When printing scouting reports:
 
 **Result:** Report only shows items with inventory in that location/zone. Cleaner, location-specific picking list.
 
-## Advancing Blooming Stages from Scouting Reports
-
-If your items use the [[blooming-stages]] system, you can **immediately advance inventory to the next stage** directly from the scouting report.
-
-### When to Advance Stages Manually
-
-- Large demand requires next stage earlier than scheduled
-- Growers verify plants are physically ready ahead of schedule
-- Urgent orders need immediate stage progression
-
-⚠️ **Manual advancement bypasses normal scheduled progression. Only use when you've verified plants are physically ready.**
-
-### Advancing Bin Content (Inventory)
-
-1. Open scouting report for your shipment date
-2. Expand the item and location to see bin content lines
-3. Select the bin content line (indented under location)
-4. Click **Post Next Stage** in the toolbar
-
-**What happens:**
-- Reclassification journal posts:
-  - Negative adjustment on current variant (e.g., GB)
-  - Positive adjustment on next variant (e.g., BB)
-- Quantity transfers between variants in same bin
-- Page refreshes to show updated inventory
-
-**Result:** Inventory immediately moves to next blooming stage.
-
-### Advancing Production Order Stages
-
-1. Open scouting report for shipment date
-2. Expand item and location to see production order lines
-3. Select the production order line
-4. Click **Post Next Stage**
-
-**What happens:**
-- Production order line's Growing Stage updates to next stage
-- Next Stage Change Date recalculates
-- No journal posts (posting occurs at output)
-- When finished, inventory posts at new stage
-
-**Result:** Production output will post at the advanced stage.
-
-### Stage Advancement Validation
-
-System validates before allowing advancement:
-
-| Check | Requirement |
-|-------|---|
-| **Variant has blooming stage** | Variant must have CLE Blooming Stage field set |
-| **Next stage variant exists** | A variant must exist for the next stage |
-| **Auto transition enabled** | If advancing to Overgrown, feature must be enabled |
-| **Line type correct** | Can only advance Bin Content or Production Order lines |
-
-You **cannot** advance Location, Item, Purchase Order, Demand, or Sales Line rows.
-
 ## Prioritizing Bins for Picking
 
 If your setup has **pick prioritization enabled**, manage which bins are picked first:
@@ -353,6 +297,5 @@ Generate a location-specific printed report for field use:
 
 ## Related Pages
 
-- [[blooming-stages]] — Automatic stage progression and grower worksheet
 - [[crop-inspection]] — Quality assessment and corrective actions
 - [[customer-preferred-stages]] — Customer blooming stage preferences

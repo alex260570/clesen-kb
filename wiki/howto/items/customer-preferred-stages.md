@@ -249,5 +249,4 @@ Yes. Each customer can have their own preference. When you change customers on a
 ## Related Pages
 
 - [[variant-templates]] — Variant template creation and configuration
-- [[blooming-stages]] — Blooming stage system and automatic advancement
 - [[scouting-reports]] — Inventory visibility and picking planning

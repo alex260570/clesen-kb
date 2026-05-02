@@ -274,8 +274,6 @@ A: Check your sales orders or use Scouting Reports to see demand by stage.
 
 ## Related Pages
 
-- [[blooming-stages]] — Plant lifecycle system for flowering plants (alternative)
-- [[blooming-stage-worksheet]] — Worksheet for blooming stage transitions
 - [[stage-profiles]] — Creating and managing stage display names
 - [[scouting-reports]] — Inventory visibility and stage demand
 - [[customer-preferred-stages]] — Setting customer stage preferences

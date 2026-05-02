@@ -237,5 +237,4 @@ If you need a different stage as the default:
 ## Related Pages
 
 - [[variant-reclassification]] — Moving inventory between blooming stages
-- [[blooming-stages]] — Blooming stage system and automatic advancement
 - [[item-attributes]] — Bulk attribute assignment to items
