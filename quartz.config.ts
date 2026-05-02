@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Internal Knowledge Wiki",
+    pageTitle: "Clesen Knowledge Base",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,

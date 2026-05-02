@@ -1,4 +1,4 @@
-# Internal Knowledge Wiki
+# Clesen Knowledge Base
 
 This repository publishes the `wiki` folder as a Quartz static site for internal readers. The Obsidian vault remains the source of truth, and Cloudflare Pages/Access provides hosting and SSO protection.
 
