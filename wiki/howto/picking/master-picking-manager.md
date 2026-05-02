@@ -1,5 +1,5 @@
 ---
-title: Master Picking Manager's Guide
+title: "Master Picking Process — Manager's Guide"
 type: howto
 tags: [picking, warehouse, manager, master-picking]
 created: 2026-04-21

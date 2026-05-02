@@ -1,5 +1,5 @@
 ---
-title: Supermarket Picking Process
+title: "Supermarket Picking Process — Phase 3"
 type: howto
 tags: [picking, warehouse, supermarket-picking]
 created: 2026-04-21

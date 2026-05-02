@@ -1,5 +1,5 @@
 ---
-title: Count Types (9 Types)
+title: Count Types
 type: concept
 tags: [counting, concepts]
 created: 2026-04-20

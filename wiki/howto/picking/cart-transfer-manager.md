@@ -1,5 +1,5 @@
 ---
-title: Cart Transfer Manager's Guide
+title: "Cart Transfer Process — Manager's Guide"
 type: howto
 tags: [picking, manager, cart-transfer]
 created: 2026-04-21

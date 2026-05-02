@@ -1,5 +1,5 @@
 ---
-title: Sales Planning — Target Management
+title: Sales Planning
 type: howto
 tags: [sales-planning, sales-targets, sales-forecasting]
 created: 2026-04-21

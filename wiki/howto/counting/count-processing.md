@@ -1,5 +1,5 @@
 ---
-title: Count Processing — Manager Guide
+title: "Count Processing — Manager's Guide"
 type: howto
 tags: [counting, manager, warehouse]
 created: 2026-04-21
