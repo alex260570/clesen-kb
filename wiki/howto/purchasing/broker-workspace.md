@@ -7,7 +7,7 @@ updated: 2026-04-21
 sources: [purchase-worksheet-user-guide.md]
 ---
 
-# Purchase Worksheet — Planning Guide
+# Broker Workspace
 
 Comprehensive planning tool for demand-driven purchasing with what-if scenario modeling.
 
