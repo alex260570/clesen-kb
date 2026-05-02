@@ -57,7 +57,7 @@ Protect the entire site before sharing the URL.
 Production application:
 
 ```text
-Application name: Internal Knowledge Wiki
+Application name: Clesen Knowledge Base
 Application domain: clesen-wiki.pages.dev
 Path: /*
 Session duration: company default
@@ -66,7 +66,7 @@ Session duration: company default
 Preview application:
 
 ```text
-Application name: Internal Knowledge Wiki Previews
+Application name: Clesen Knowledge Base Previews
 Application domain: *.clesen-wiki.pages.dev
 Path: /*
 Session duration: company default
@@ -116,7 +116,7 @@ Verified on 2026-05-01:
 
 - GitHub secrets `CLOUDFLARE_ACCOUNT_ID` and `CLOUDFLARE_API_TOKEN` are configured.
 - GitHub Actions workflow `Deploy Wiki to Cloudflare Pages` completed successfully on `main`.
-- `https://clesen-wiki.pages.dev` returned `200` after Cloudflare Access login and included `Internal Knowledge Wiki`.
+- `https://clesen-wiki.pages.dev` returned `200` after Cloudflare Access login and included `Clesen Knowledge Base`.
 - Microsoft Entra ID SSO was confirmed after adding the required delegated Graph permissions and granting admin consent.
 
 For future deployment/access checks:

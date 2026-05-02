@@ -42,9 +42,13 @@ The Broker Workspace is a powerful planning tool that provides a comprehensive v
 | **Vendor Management** | Easily switch vendors or consolidate orders |
 | **Date Management** | Batch update receipt dates across multiple lines |
 
+<<<<<<< HEAD
 ---
 
 ## When to Use It
+=======
+## When to Use the Broker Workspace
+>>>>>>> d6131b9c3d8c09e5d5edbe3e7d3b0b8be00ba228
 
 - **Daily/weekly purchase planning** — Review demand and adjust orders
 - **Responding to demand changes** — Customers add or change orders
@@ -58,13 +62,17 @@ The Broker Workspace is a powerful planning tool that provides a comprehensive v
 
 ## Getting Started
 
+<<<<<<< HEAD
 ### Accessing the Workspace
+=======
+### Accessing the Broker Workspace
+>>>>>>> d6131b9c3d8c09e5d5edbe3e7d3b0b8be00ba228
 
 **Navigation:**
 
 1. Open Business Central
-2. In the search box, type **"Broker Workspace"** or **"Purchase Worksheet"**
-3. Click to open page 50086 "CLE Purchase Worksheet"
+2. In the search box, type **"Broker Workspace"**
+3. Click to open page 50086 "Broker Workspace"
 
 **Alternative Access:**
 - From the **Purchasing Role Center**, look for the "Tasks" section
@@ -79,6 +87,7 @@ The Broker Workspace is a powerful planning tool that provides a comprehensive v
 - **Access** to view items, vendors, sales orders, and inventory
 - **Understanding** of your company's purchasing processes
 
+<<<<<<< HEAD
 ---
 
 ## Page Layout
@@ -138,6 +147,9 @@ Each row represents either:
 ---
 
 ## Creating Your Worksheet
+=======
+## Creating Your Broker Workspace
+>>>>>>> d6131b9c3d8c09e5d5edbe3e7d3b0b8be00ba228
 
 ### Step 1: Clear Previous Session (if needed)
 
@@ -384,7 +396,7 @@ Demand lines (blank Purchase Order No.) represent sales orders without correspon
 
 **Workflow:**
 
-1. **Open Purchase Worksheet**
+1. **Open Broker Workspace**
 2. **Check if previous session exists:**
    - If yes, decide: Keep or Clear?
    - If no changes pending: Clear page
@@ -422,7 +434,7 @@ Demand lines (blank Purchase Order No.) represent sales orders without correspon
 
 **Workflow:**
 
-1. **Open Purchase Worksheet**
+1. **Open Broker Workspace**
 2. **Clear Page** (start fresh)
 3. **Set filters:**
    - Start Date: 03/01/2026
@@ -452,7 +464,7 @@ Demand lines (blank Purchase Order No.) represent sales orders without correspon
 
 **Workflow:**
 
-1. **Open Purchase Worksheet**
+1. **Open Broker Workspace**
 2. **Set filters:**
    - Start Date: Today
    - End Date: Tomorrow + 1 week

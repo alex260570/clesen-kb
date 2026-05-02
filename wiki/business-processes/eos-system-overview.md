@@ -1,5 +1,5 @@
 ---
-title: EOS System Overview
+title: EOS (Entrepreneurial Operating System) Overview
 type: business-process
 tags: [eos, entrepreneurial-operating-system, business-management, leadership, framework]
 created: 2026-04-27

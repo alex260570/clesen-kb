@@ -1,5 +1,5 @@
 ---
-title: Sales Process History — Audit Trail
+title: Sales Process History
 type: howto
 tags: [sales-orders, audit-trail, tracking, history]
 created: 2026-04-21

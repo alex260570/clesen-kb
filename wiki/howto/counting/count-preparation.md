@@ -1,5 +1,5 @@
 ---
-title: Count Preparation — Manager Guide
+title: "Count Preparation — Manager's Guide"
 type: howto
 tags: [counting, manager, warehouse]
 created: 2026-04-21

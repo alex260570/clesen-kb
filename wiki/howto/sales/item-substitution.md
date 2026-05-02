@@ -1,5 +1,5 @@
 ---
-title: Item Substitution — Cutting & Substituting Inventory
+title: Item Substitution
 type: howto
 tags: [sales, inventory, substitution, cuts]
 created: 2026-04-21

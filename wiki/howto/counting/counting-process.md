@@ -1,5 +1,5 @@
 ---
-title: Inventory Counting Process — Staff Guide
+title: Inventory Counting Process
 type: howto
 tags: [counting, warehouse, inventory]
 created: 2026-04-21

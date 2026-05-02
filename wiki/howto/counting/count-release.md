@@ -1,5 +1,5 @@
 ---
-title: Count Release — Manager Guide
+title: "Count Release — Manager's Guide"
 type: howto
 tags: [counting, manager, warehouse]
 created: 2026-04-21
