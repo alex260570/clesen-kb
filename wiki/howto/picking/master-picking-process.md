@@ -1,5 +1,5 @@
 ---
-title: Master Picking Process
+title: "Master Picking Process — Phase 1"
 type: howto
 tags: [picking, warehouse, master-picking]
 created: 2026-04-21

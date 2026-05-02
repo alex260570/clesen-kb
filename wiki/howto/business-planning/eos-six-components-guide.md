@@ -1,5 +1,5 @@
 ---
-title: EOS Six Key Components Deep Dive
+title: EOS Six Key Components Guide
 type: howto
 tags: [eos, vision, people, data, issues, process, traction, leadership]
 created: 2026-04-27

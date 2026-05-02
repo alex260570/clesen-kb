@@ -1,5 +1,5 @@
 ---
-title: Sales Process History — IT Troubleshooting
+title: "Sales Process History — IT Troubleshooting Guide"
 type: howto
 tags: [sales-orders, audit-trail, it-support, system-administration]
 created: 2026-04-21

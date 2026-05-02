@@ -1,5 +1,5 @@
 ---
-title: Cart Transfer Process
+title: "Cart Transfer Process — Phase 2"
 type: howto
 tags: [picking, warehouse, cart-transfer]
 created: 2026-04-21

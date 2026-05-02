@@ -1,5 +1,5 @@
 ---
-title: Picking Adjustments (Quantity Cuts & Corrections)
+title: Picking Adjustments
 type: howto
 tags: [picking, inventory, adjustments]
 created: 2026-04-20

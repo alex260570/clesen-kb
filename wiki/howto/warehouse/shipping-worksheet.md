@@ -1,5 +1,5 @@
 ---
-title: Shipping Worksheet — Route Planning
+title: Shipping Worksheet
 type: howto
 tags: [warehouse, shipping, route-optimization, manager]
 created: 2026-04-21
