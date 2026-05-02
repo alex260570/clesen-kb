@@ -1,7 +1,7 @@
 ---
 title: Clesen KB Index
 created: 2026-04-20
-updated: 2026-04-21
+updated: 2026-05-01
 ---
 
 # Clesen KB Index
@@ -16,7 +16,7 @@ Content-oriented catalog of all wiki pages. Updated on every ingest. Read this f
 |------|---------|------|
 | [wiki/howto/picking/picking-overview.md](wiki/howto/picking/picking-overview.md) | Overview of all picking processes and workflows | picking |
 | [wiki/howto/picking/master-picking.md](wiki/howto/picking/master-picking.md) | Complete master picking guide (Phase 1) covering staff workflow and manager configuration | picking |
-| [wiki/howto/picking/supermarket-picking-process.md](wiki/howto/picking/supermarket-picking-process.md) | Supermarket-style picking process (Phase 3) | picking |
+| [wiki/howto/picking/supermarket-picking.md](wiki/howto/picking/supermarket-picking.md) | Complete supermarket picking guide (Phase 3) covering staff workflow and handling special items | picking |
 | [wiki/howto/picking/single-order-picks.md](wiki/howto/picking/single-order-picks.md) | Handling single-order picks for large customers | picking |
 | [wiki/howto/picking/cart-transfer.md](wiki/howto/picking/cart-transfer.md) | Complete cart transfer guide (Phase 2) covering staff workflow and manager operations | picking |
 | [wiki/howto/picking/direct-location-pickup.md](wiki/howto/picking/direct-location-pickup.md) | Picking directly from a bin location | picking |
@@ -24,7 +24,6 @@ Content-oriented catalog of all wiki pages. Updated on every ingest. Read this f
 | [wiki/howto/picking/picking-adjustment.md](wiki/howto/picking/picking-adjustment.md) | Adjusting pick quantities and resolving discrepancies | picking |
 | [wiki/howto/picking/picking-escalations.md](wiki/howto/picking/picking-escalations.md) | Handling escalation orders with urgent/rush picking requirements | picking, escalations |
 | [wiki/howto/picking/picking-teams-manager.md](wiki/howto/picking/picking-teams-manager.md) | Managing picking team assignments | picking, manager |
-| [wiki/howto/picking/supermarket-scan-verification.md](wiki/howto/picking/supermarket-scan-verification.md) | Quality control step using barcode scanning to verify picked items and quantities | picking, supermarket-picking, quality-control, barcode-scanning |
 
 ### Counting
 
@@ -101,8 +100,7 @@ Content-oriented catalog of all wiki pages. Updated on every ingest. Read this f
 |------|---------|------|
 | [wiki/howto/warehouse/bin-management.md](wiki/howto/warehouse/bin-management.md) | Moving inventory between bins within same or different locations | warehouse, inventory-management |
 | [wiki/howto/warehouse/service-zone-configuration.md](wiki/howto/warehouse/service-zone-configuration.md) | Configuring geographic service zones with delivery day schedules | warehouse, shipping, route-planning, configuration |
-| [wiki/howto/warehouse/shipping-worksheet.md](wiki/howto/warehouse/shipping-worksheet.md) | Consolidating orders into delivery routes for OptimoRoute optimization | warehouse, shipping, route-optimization, manager |
-| [wiki/howto/warehouse/shipping-worksheet-staff.md](wiki/howto/warehouse/shipping-worksheet-staff.md) | Daily workflow for managing delivery routes and generating driver instructions | warehouse, shipping, route-planning, staff |
+| [wiki/howto/warehouse/shipping-worksheet.md](wiki/howto/warehouse/shipping-worksheet.md) | Complete shipping worksheet guide (daily workflow and manager configuration) for consolidating orders into delivery routes for OptimoRoute optimization | warehouse, shipping, route-optimization |
 | [wiki/howto/warehouse/shipment-tracking-email.md](wiki/howto/warehouse/shipment-tracking-email.md) | Automatically notifying customers when orders ship with carrier tracking information | shipping, customer-communication, automation |
 
 ### Production
@@ -110,20 +108,16 @@ Content-oriented catalog of all wiki pages. Updated on every ingest. Read this f
 | Page | Summary | Tags |
 |------|---------|------|
 | [wiki/howto/production/prod-order-overview.md](wiki/howto/production/prod-order-overview.md) | Production order lifecycle, status progression, creation methods, and quantity management | production, orders |
-| [wiki/howto/production/prod-order-posting-staff.md](wiki/howto/production/prod-order-posting-staff.md) | Staff guide for recording output, managing scrap, and adjusting quantities | production, posting, staff |
-| [wiki/howto/production/prod-order-posting-manager.md](wiki/howto/production/prod-order-posting-manager.md) | Manager guide for safety quantity management, quality control, and scrap analysis | production, posting, manager, quality |
-| [wiki/howto/production/prod-order-tasks-staff.md](wiki/howto/production/prod-order-tasks-staff.md) | Staff guide for completing production order task checklists and managing due dates | production, tasks, staff |
+| [wiki/howto/production/prod-order-posting.md](wiki/howto/production/prod-order-posting.md) | Complete production order posting guide covering staff workflow and manager safety quantity management | production, posting |
+| [wiki/howto/production/prod-order-task.md](wiki/howto/production/prod-order-task.md) | Complete production order task guide covering staff task completion and manager template management | production, tasks |
 | [wiki/howto/production/prod-order-posting-it-troubleshooting.md](wiki/howto/production/prod-order-posting-it-troubleshooting.md) | IT troubleshooting guide for production order posting system | production, posting, IT, troubleshooting |
-| [wiki/howto/production/prod-order-task-manager.md](wiki/howto/production/prod-order-task-manager.md) | Manager guide for creating and managing production order task templates | production, task-management, manager, quality-control |
 | [wiki/howto/production/prod-order-task-it-troubleshooting.md](wiki/howto/production/prod-order-task-it-troubleshooting.md) | IT technical guide for production order task system architecture and troubleshooting | production, task-management, it-support |
 
 ### Purchasing
 
 | Page | Summary | Tags |
 |------|---------|------|
-| [wiki/howto/purchasing/purchase-receipt-overview.md](wiki/howto/purchasing/purchase-receipt-overview.md) | Overview of the purchase receipt system with process flow and key concepts | purchasing, receiving |
-| [wiki/howto/purchasing/purchase-receipt-staff.md](wiki/howto/purchasing/purchase-receipt-staff.md) | Staff guide for processing vendor shipments and managing quality holds | purchasing, receiving, staff |
-| [wiki/howto/purchasing/purchase-receipt-manager.md](wiki/howto/purchasing/purchase-receipt-manager.md) | Manager guide for receiving operations, vendor performance, and staff training | purchasing, receiving, manager |
+| [wiki/howto/purchasing/purchase-receipt.md](wiki/howto/purchasing/purchase-receipt.md) | Complete purchase receipt guide covering staff workflow, quality hold process, and manager operations | purchasing, receiving |
 | [wiki/howto/purchasing/broker-workspace.md](wiki/howto/purchasing/broker-workspace.md) | Comprehensive guide to broker workspace for purchase planning and order management | purchasing, planning |
 | [wiki/howto/purchasing/purchase-receipt-it-troubleshooting.md](wiki/howto/purchasing/purchase-receipt-it-troubleshooting.md) | IT troubleshooting guide for purchase receipt system architecture and issues | purchasing, receiving, IT, troubleshooting |
 | [wiki/howto/purchasing/planning-flexibility.md](wiki/howto/purchasing/planning-flexibility.md) | Protecting purchase order lines from MRP changes using planning flexibility lock | purchasing, mrp, order-management, planning |

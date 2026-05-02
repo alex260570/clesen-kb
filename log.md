@@ -1,7 +1,7 @@
 ---
 title: Clesen KB Log
 created: 2026-04-20
-updated: 2026-04-20
+updated: 2026-05-01
 ---
 
 # Clesen KB Log
@@ -654,3 +654,76 @@ Token usage: ~85k / 200k remaining. Final token budget: ~115k available.
 - Business Processes section: Removed invoice-approval-workflow and related deleted documentation entries
 
 **Summary:** Completed consolidation of parallel documentation into comprehensive guides covering both staff workflow and manager/technical configuration in single files following broker-workspace pattern.
+
+## [2026-05-01] reorganization | Merge supermarket picking documents
+
+**Files consolidated:**
+- wiki/howto/picking/supermarket-picking.md (quick reference - 49 lines)
+- wiki/howto/picking/supermarket-picking-process.md (staff guide - 262 lines)
+- Merged into expanded wiki/howto/picking/supermarket-picking.md (comprehensive guide)
+
+**Files deleted (1):**
+- wiki/howto/picking/supermarket-scan-verification.md
+
+**Index.md updated:** 
+- Picking section: Replaced supermarket-picking-process with single supermarket-picking entry
+- Removed supermarket-scan-verification entry
+
+## [2026-05-01] reorganization | Merge production order posting documents
+
+**Files consolidated:**
+- wiki/howto/production/prod-order-posting-staff.md (staff guide - 230 lines)
+- wiki/howto/production/prod-order-posting-manager.md (manager/technical guide - 363 lines)
+- Merged into expanded wiki/howto/production/prod-order-posting.md (comprehensive guide 600+ lines)
+
+**Files deleted (2):**
+- wiki/howto/production/prod-order-posting-staff.md
+- wiki/howto/production/prod-order-posting-manager.md
+
+**Index.md updated:**
+- Production section: Replaced prod-order-posting-staff and prod-order-posting-manager with single prod-order-posting entry
+
+## [2026-05-01] reorganization | Merge production order task documents
+
+**Files consolidated:**
+- wiki/howto/production/prod-order-task-staff.md (staff guide - 290 lines)
+- wiki/howto/production/prod-order-task-manager.md (manager/technical guide - 379 lines)
+- Merged into expanded wiki/howto/production/prod-order-task.md (comprehensive guide 600+ lines)
+
+**Files deleted (2):**
+- wiki/howto/production/prod-order-task-staff.md
+- wiki/howto/production/prod-order-task-manager.md
+
+**Index.md updated:**
+- Production section: Replaced prod-order-tasks-staff and prod-order-task-manager with single prod-order-task entry
+
+## [2026-05-01] reorganization | Merge purchase receipt documents
+
+**Files consolidated:**
+- wiki/howto/purchasing/purchase-receipt-overview.md (overview - 316 lines)
+- wiki/howto/purchasing/purchase-receipt-staff.md (staff guide - 566 lines)
+- wiki/howto/purchasing/purchase-receipt-manager.md (manager/technical guide - 511 lines)
+- Merged into expanded wiki/howto/purchasing/purchase-receipt.md (comprehensive guide 1000+ lines)
+
+**Files deleted (3):**
+- wiki/howto/purchasing/purchase-receipt-overview.md
+- wiki/howto/purchasing/purchase-receipt-staff.md
+- wiki/howto/purchasing/purchase-receipt-manager.md
+
+**Index.md updated:**
+- Purchasing section: Replaced purchase-receipt-overview, purchase-receipt-staff, and purchase-receipt-manager with single purchase-receipt entry
+
+## [2026-05-01] reorganization | Merge shipping worksheet documents
+
+**Files consolidated:**
+- wiki/howto/warehouse/shipping-worksheet.md (manager/technical guide - 239 lines)
+- wiki/howto/warehouse/shipping-worksheet-staff.md (staff guide - 252 lines)
+- Merged into expanded wiki/howto/warehouse/shipping-worksheet.md (comprehensive guide 500+ lines)
+
+**Files deleted (1):**
+- wiki/howto/warehouse/shipping-worksheet-staff.md
+
+**Index.md updated:**
+- Warehouse section: Replaced shipping-worksheet and shipping-worksheet-staff with single comprehensive shipping-worksheet entry
+
+**Summary:** Completed Phase 2 documentation consolidation: Supermarket Picking, Production Order Posting, Production Order Task, Purchase Receipt, and Shipping Worksheet. All dual staff/manager documentation files merged into comprehensive single guides following established consolidation pattern.

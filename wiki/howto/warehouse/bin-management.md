@@ -7,7 +7,7 @@ updated: 2026-04-21
 sources: [bin-reclassification-user-guide.md]
 ---
 
-# Bin Management — Reclassification
+# Bin Reclassification
 
 Moving inventory between bins within the same location or to different locations.
 
@@ -181,4 +181,4 @@ Bin reclass moves inventory to a different physical location or bin — no chang
 ## Related Pages
 
 - [[service-zone-configuration]] — Geographic delivery zones
-- [[shipping-worksheet-overview]] — Shipping route planning
+- [[shipping-worksheet]] — Shipping route planning
