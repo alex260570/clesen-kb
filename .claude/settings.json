@@ -17,7 +17,11 @@
       "Bash(browser-harness)",
       "Skill(firecrawl-crawl)",
       "Skill(firecrawl-crawl:*)",
-      "Bash(git push *)"
+      "Bash(git push *)",
+      "Bash(git add *)",
+      "Bash(grep -E \"\\\\.\\(md|txt\\)$\")",
+      "Bash(grep -E \"\\\\.\\(md\\)$\")",
+      "Bash(for file in wiki/howto/crm/crm-it-troubleshooting.md wiki/howto/items/growing-stages-it-troubleshooting.md wiki/howto/production/prod-order-posting-it-troubleshooting.md wiki/howto/production/prod-order-task-it-troubleshooting.md wiki/howto/purchasing/purchase-receipt-it-troubleshooting.md wiki/howto/sales/rapid-order-entry-it-troubleshooting.md wiki/howto/sales/sales-planning-it-troubleshooting.md wiki/howto/sales/sales-process-history-it-troubleshooting.md; do\n  cp \"$file\" \"wiki/howto/it/$\\(basename \"$file\"\\)\"\ndone)"
     ]
   }
 }

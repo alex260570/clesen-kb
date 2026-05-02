@@ -529,3 +529,58 @@ Token usage: ~85k / 200k remaining. Final token budget: ~115k available.
 - Sales return coverage: Now complete with comprehensive same-day guide, full process guide (same-day + previous-day), and IT technical reference
 
 **Token usage:** ~60k / 200k budget. Remaining: ~5k tokens.
+
+## [2026-05-01] cleanup | Delete 4 inaccurate invoice and purchasing documentation files
+
+**Files deleted (4):**
+- wiki/howto/purchasing/invoice-entry-and-matching.md
+- wiki/howto/purchasing/invoice-approval-reporting.md
+- wiki/howto/purchasing/invoice-approval-process.md
+- wiki/howto/purchasing/purchase-requisitions.md
+
+**Wikilinks cleaned up:**
+- wiki/business-processes/invoice-approval-workflow.md — Removed 4 references to deleted files and removed "Related processes" section
+- wiki/howto/finance/finance-dashboard.md — Removed 1 reference to invoice-approval-reporting
+
+**Index:** No entries found (files were not listed in index.md)
+
+## [2026-05-01] reorganization | Rename purchase-worksheet to broker-workspace; move forecast-filter-planning to purchasing
+
+**Files renamed:**
+- wiki/howto/purchasing/purchase-worksheet.md → wiki/howto/purchasing/broker-workspace.md
+
+**Files moved:**
+- wiki/howto/sales/forecast-filter-planning.md → wiki/howto/purchasing/forecast-filter-planning.md
+
+**Wikilinks updated (5 files):**
+- wiki/howto/it/availability-system-it-troubleshooting.md — Updated [[purchase-worksheet]] to [[broker-workspace]]
+- wiki/business-processes/purchase-receipt-system.md — Updated [[purchase-worksheet]] to [[broker-workspace]]
+- wiki/howto/finance/bank-payment-export.md — Updated [[purchase-worksheet]] to [[broker-workspace]]
+- wiki/howto/purchasing/purchase-receipt-it-troubleshooting.md — Updated [[purchase-worksheet]] to [[broker-workspace]]
+- wiki/howto/purchasing/purchase-receipt-overview.md — Updated [[purchase-worksheet]] to [[broker-workspace]]
+
+**Note:** forecast-filter-planning.md wikilink in planning-flexibility.md required no update (same folder after move)
+
+## [2026-05-01] reorganization | Move all it-troubleshooting files to it folder
+
+**Files moved (8):**
+- wiki/howto/crm/crm-it-troubleshooting.md → wiki/howto/it/
+- wiki/howto/items/growing-stages-it-troubleshooting.md → wiki/howto/it/ (overwrote existing)
+- wiki/howto/production/prod-order-posting-it-troubleshooting.md → wiki/howto/it/
+- wiki/howto/production/prod-order-task-it-troubleshooting.md → wiki/howto/it/
+- wiki/howto/purchasing/purchase-receipt-it-troubleshooting.md → wiki/howto/it/
+- wiki/howto/sales/rapid-order-entry-it-troubleshooting.md → wiki/howto/it/
+- wiki/howto/sales/sales-planning-it-troubleshooting.md → wiki/howto/it/
+- wiki/howto/sales/sales-process-history-it-troubleshooting.md → wiki/howto/it/
+
+**Wikilinks:** No updates needed (wikilinks use filename-based resolution in Obsidian)
+
+## [2026-05-01] cleanup | Delete invoice-approval-workflow documentation
+
+**Files deleted (2):**
+- raw/invoice-approval-workflow-guide.md (source)
+- wiki/business-processes/invoice-approval-workflow.md (wiki page)
+
+**Index updated:** Removed "Invoice approval workflow" from Start here section
+
+**Wikilinks:** No references found

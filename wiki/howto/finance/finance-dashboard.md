@@ -202,5 +202,4 @@ A: First, verify the date range and filters. Then click drill-down to inspect un
 
 ## Related Pages
 
-- [[invoice-approval-reporting]] — Approval status and performance reports
 - [[sales-prices]] — Price management and pricing analysis

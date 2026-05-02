@@ -12,7 +12,6 @@ Search approved internal knowledge or browse by folder.
 
 - [[business-processes/counting-system-overview|Counting system overview]]
 - [[business-processes/availability-system|Availability system]]
-- [[business-processes/invoice-approval-workflow|Invoice approval workflow]]
 - [[howto/counting/counting-process|Counting process]]
 - [[howto/crm/crm-lead-management|CRM lead management]]
 

@@ -410,4 +410,4 @@ If troubleshooting doesn't resolve the issue:
 - [[availability-system]] — Overview of real-time availability calculation
 - [[availability-reserves]] — Creating and managing availability reserves
 - [[sales-order-management]] — Sales order creation and workflow
-- [[purchase-worksheet]] — Purchase planning and ordering
+- [[broker-workspace]] — Purchase planning and ordering

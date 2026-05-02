@@ -231,4 +231,4 @@ When a single payment covers multiple invoices, you use **Apply Entries** to ass
 ## Related Pages
 
 - [[purchase-receipt-overview]] — Purchasing and receiving process
-- [[purchase-worksheet]] — Purchase order planning and management
+- [[broker-workspace]] — Purchase order planning and management

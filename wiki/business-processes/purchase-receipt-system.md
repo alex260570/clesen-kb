@@ -285,7 +285,7 @@ GREENHOUSE → HOLD-GH (Greenhouse Hold)
 - [[purchase-receipt-staff]] — Step-by-step staff procedures
 - [[purchase-receipt-manager]] — Manager oversight and training guide
 - [[purchase-receipt-it-troubleshooting]] — IT technical guide and troubleshooting
-- [[purchase-worksheet]] — Purchase order planning tool
+- [[broker-workspace]] — Purchase order planning tool
 - [[purchase-order-management]] — Creating and managing purchase orders
 
 ---
