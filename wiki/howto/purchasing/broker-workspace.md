@@ -13,7 +13,7 @@ Comprehensive planning tool for demand-driven purchasing with what-if scenario m
 
 ## Overview
 
-The Purchase Worksheet (also known as the Broker Workspace) is a powerful planning tool that provides a comprehensive view of your purchasing needs. It allows you to:
+The Broker Workspace is a powerful planning tool that provides a comprehensive view of your purchasing needs. It allows you to:
 
 - **Plan purchases collaboratively** in a temporary workspace before committing changes
 - **See demand from sales orders** alongside existing purchase orders
