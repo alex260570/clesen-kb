@@ -214,11 +214,9 @@ Standard BC Posting
 ## Related Documentation
 
 - [[prod-order-overview]] — Production order lifecycle and status progression
-- [[prod-order-posting-staff]] — Step-by-step staff guide for posting output and adjustments
-- [[prod-order-posting-manager]] — Manager guide for safety and quality oversight
+- [[prod-order-posting]] — Complete guide covering staff workflow and manager quality oversight
 - [[prod-order-posting-it-troubleshooting]] — IT technical guide for system architecture and issues
-- [[prod-order-task-staff]] — Staff guide for production order task checklists
-- [[prod-order-task-manager]] — Manager guide for task template creation and management
+- [[prod-order-task]] — Complete guide covering staff task completion and manager template management
 - [[prod-order-task-it-troubleshooting]] — IT technical guide for task system
 
 ---

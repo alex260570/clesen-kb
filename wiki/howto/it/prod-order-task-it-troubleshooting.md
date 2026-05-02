@@ -310,6 +310,5 @@ procedure GetShipmentDateBlocked(): Boolean
 ## Related Pages
 
 - [[prod-order-overview]] — Production order lifecycle overview
-- [[prod-order-posting-staff]] — Staff guide for posting production output
-- [[prod-order-posting-manager]] — Manager guide for production orders
-- [[prod-order-task-manager]] — Manager guide for task templates
+- [[prod-order-posting]] — Complete guide for posting production output and manager oversight
+- [[prod-order-task]] — Complete guide for task completion and template management

@@ -777,3 +777,9 @@ Token usage: ~85k / 200k remaining. Final token budget: ~115k available.
 - wiki/howto/production/prod-order-overview.md — Changed [[prod-order-tasks-staff]] → [[prod-order-task]]; Changed [[prod-order-posting-staff]] and [[prod-order-posting-manager]] → [[prod-order-posting]]
 
 **Summary:** Removed orphaned production order task file and updated remaining obsolete references to consolidated files.
+
+**Additional wikilink cleanup (3 more files):**
+- wiki/business-processes/production-order-posting-system.md — Updated 4 references to use consolidated [[prod-order-posting]] and [[prod-order-task]]
+- wiki/howto/it/prod-order-task-it-troubleshooting.md — Updated 3 references to use consolidated files
+
+**Final verification:** All stale references to variant files (prod-order-posting-staff, prod-order-posting-manager, prod-order-task-staff, prod-order-task-manager, prod-order-tasks-staff) have been removed from wiki documentation.
