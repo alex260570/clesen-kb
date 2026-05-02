@@ -69,4 +69,4 @@ Negative adjustment: Debit Inventory Adjustment Expense, Credit Inventory Asset.
 
 ## See Also
 
-[[master-picking]], [[item-audit-trail]], [[counting-exceptions]]
+[[master-picking]], [[counting-exceptions]]
