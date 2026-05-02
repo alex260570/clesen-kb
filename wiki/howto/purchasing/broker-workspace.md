@@ -38,7 +38,7 @@ The Broker Workspace is a powerful planning tool that provides a comprehensive v
 | **Vendor Management** | Easily switch vendors or consolidate orders |
 | **Date Management** | Batch update receipt dates across multiple lines |
 
-## When to Use the Purchase Worksheet
+## When to Use the Broker Workspace
 
 - **Daily/weekly purchase planning** — Review demand and adjust orders
 - **Responding to demand changes** — Customers add or change orders
@@ -50,13 +50,13 @@ The Broker Workspace is a powerful planning tool that provides a comprehensive v
 
 ## Getting Started
 
-### Accessing the Worksheet
+### Accessing the Broker Workspace
 
 **Navigation:**
 
 1. Open Business Central
-2. In the search box, type **"Broker Workspace"** or **"Purchase Worksheet"**
-3. Click to open page 50086 "CLE Purchase Worksheet"
+2. In the search box, type **"Broker Workspace"**
+3. Click to open page 50086 "Broker Workspace"
 
 **Alternative Access:**
 - From the **Purchasing Role Center**, look for the "Tasks" section
@@ -71,7 +71,7 @@ The Broker Workspace is a powerful planning tool that provides a comprehensive v
 - **Access** to view items, vendors, sales orders, and inventory
 - **Understanding** of your company's purchasing processes
 
-## Creating Your Worksheet
+## Creating Your Broker Workspace
 
 ### Step 1: Clear Previous Session (if needed)
 
@@ -310,7 +310,7 @@ Demand lines (blank Purchase Order No.) represent sales orders without correspon
 
 **Workflow:**
 
-1. **Open Purchase Worksheet**
+1. **Open Broker Workspace**
 2. **Check if previous session exists:**
    - If yes, decide: Keep or Clear?
    - If no changes pending: Clear page
@@ -348,7 +348,7 @@ Demand lines (blank Purchase Order No.) represent sales orders without correspon
 
 **Workflow:**
 
-1. **Open Purchase Worksheet**
+1. **Open Broker Workspace**
 2. **Clear Page** (start fresh)
 3. **Set filters:**
    - Start Date: 03/01/2026
@@ -378,7 +378,7 @@ Demand lines (blank Purchase Order No.) represent sales orders without correspon
 
 **Workflow:**
 
-1. **Open Purchase Worksheet**
+1. **Open Broker Workspace**
 2. **Set filters:**
    - Start Date: Today
    - End Date: Tomorrow + 1 week
