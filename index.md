@@ -117,7 +117,6 @@ Content-oriented catalog of all wiki pages. Updated on every ingest. Read this f
 | [wiki/howto/warehouse/shipping-worksheet.md](wiki/howto/warehouse/shipping-worksheet.md) | Consolidating orders into delivery routes for OptimoRoute optimization | warehouse, shipping, route-optimization, manager |
 | [wiki/howto/warehouse/shipping-worksheet-staff.md](wiki/howto/warehouse/shipping-worksheet-staff.md) | Daily workflow for managing delivery routes and generating driver instructions | warehouse, shipping, route-planning, staff |
 | [wiki/howto/warehouse/shipment-tracking-email.md](wiki/howto/warehouse/shipment-tracking-email.md) | Automatically notifying customers when orders ship with carrier tracking information | shipping, customer-communication, automation |
-| [wiki/howto/warehouse/waste-recording.md](wiki/howto/warehouse/waste-recording.md) | Recording inventory loss, damage, and disposal to maintain accurate inventory and identify waste reduction opportunities | warehouse, inventory, waste, loss, compliance |
 
 ### Production
 
