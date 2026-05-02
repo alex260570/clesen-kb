@@ -114,7 +114,6 @@ Content-oriented catalog of all wiki pages. Updated on every ingest. Read this f
 |------|---------|------|
 | [wiki/howto/warehouse/item-audit-trail.md](wiki/howto/warehouse/item-audit-trail.md) | Comprehensive tracking of all item changes for compliance and traceability | audit, inventory, compliance |
 | [wiki/howto/warehouse/bin-management.md](wiki/howto/warehouse/bin-management.md) | Moving inventory between bins within same or different locations | warehouse, inventory-management |
-| [wiki/howto/warehouse/cart-exchange.md](wiki/howto/warehouse/cart-exchange.md) | Tracking reusable containers (carts, bins, trays) exchanged with customers | warehouse, shipping, container-management |
 | [wiki/howto/warehouse/service-zone-configuration.md](wiki/howto/warehouse/service-zone-configuration.md) | Configuring geographic service zones with delivery day schedules | warehouse, shipping, route-planning, configuration |
 | [wiki/howto/warehouse/shipping-worksheet.md](wiki/howto/warehouse/shipping-worksheet.md) | Consolidating orders into delivery routes for OptimoRoute optimization | warehouse, shipping, route-optimization, manager |
 | [wiki/howto/warehouse/shipping-worksheet-staff.md](wiki/howto/warehouse/shipping-worksheet-staff.md) | Daily workflow for managing delivery routes and generating driver instructions | warehouse, shipping, route-planning, staff |

@@ -249,5 +249,4 @@ The worksheet is generated fresh each time you open it. Any route assignments (d
 
 - [[shipping-worksheet]] — Manager's guide and configuration
 - [[bin-management]] — Moving inventory between bins
-- [[cart-exchange]] — Container tracking
 - [[service-zone-configuration]] — Geographic delivery zones

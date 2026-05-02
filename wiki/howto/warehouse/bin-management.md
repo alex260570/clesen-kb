@@ -180,6 +180,5 @@ Bin reclass moves inventory to a different physical location or bin — no chang
 
 ## Related Pages
 
-- [[cart-exchange]] — Tracking reusable containers
 - [[service-zone-configuration]] — Geographic delivery zones
 - [[shipping-worksheet-overview]] — Shipping route planning

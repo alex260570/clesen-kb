@@ -239,5 +239,4 @@ These values come from the **Shipment Method** record:
 ## Related Pages
 
 - [[bin-management]] — Moving inventory between bins
-- [[cart-exchange]] — Container tracking
 - [[service-zone-configuration]] — Geographic delivery zones
