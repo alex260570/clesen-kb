@@ -1,12 +1,13 @@
-# Purchase Order Receiving Business Process
+---
+title: Purchase Order Receiving Business Process
+type: business-process
+tags: [purchasing, receiving, operations, quality-control]
+created: 2026-05-01
+updated: 2026-05-04
+sources: [Purchase Order Receiving BPW.md]
+---
 
-| Field | Value |
-|---|---|
-| **Owner** | Purchasing |
-| **Author** | Steve H |
-| **Applies to** | Purchasing, Production |
-| **When** | As needed |
-| **Version** | 20.0 |
+# Purchase Order Receiving Business Process
 
 ## Overview
 
