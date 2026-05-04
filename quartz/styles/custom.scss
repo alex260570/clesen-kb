@@ -6,27 +6,26 @@
   --space-4: 16px;
   --space-6: 24px;
   --transition-fast: 150ms;
-  --top-fade-height: 7rem;
+  --top-fade-height: 4.5rem;
 }
 
 body {
   letter-spacing: 0;
 }
 
-body::before {
+.page > #quartz-body .center::before {
   content: "";
   position: fixed;
   z-index: 2;
   top: 0;
-  right: 0;
-  left: 0;
+  width: min(900px, calc(100vw - 760px));
   height: var(--top-fade-height);
   pointer-events: none;
   background: linear-gradient(
     to bottom,
     var(--light) 0,
-    var(--light) 62%,
-    color-mix(in srgb, var(--light) 90%, transparent) 82%,
+    var(--light) 72%,
+    color-mix(in srgb, var(--light) 94%, transparent) 88%,
     transparent 100%
   );
 }
@@ -87,6 +86,10 @@ input,
 }
 
 @media (max-width: 799px) {
+  .page > #quartz-body .center::before {
+    display: none;
+  }
+
   .page > #quartz-body .center > .page-header {
     padding-top: 0;
   }
