@@ -6,7 +6,7 @@
   --space-4: 16px;
   --space-6: 24px;
   --transition-fast: 150ms;
-  --top-fade-height: 56px;
+  --top-fade-height: 7rem;
 }
 
 body {
@@ -25,7 +25,8 @@ body::before {
   background: linear-gradient(
     to bottom,
     var(--light) 0,
-    color-mix(in srgb, var(--light) 92%, transparent) 56%,
+    var(--light) 62%,
+    color-mix(in srgb, var(--light) 90%, transparent) 82%,
     transparent 100%
   );
 }
@@ -67,11 +68,11 @@ input,
 
 .page > #quartz-body .center {
   min-width: 0;
-  padding-top: 6rem;
 }
 
 .page > #quartz-body .center > .page-header {
   margin-top: 0;
+  padding-top: 6rem;
 }
 
 .page > #quartz-body .center > article {
@@ -86,7 +87,7 @@ input,
 }
 
 @media (max-width: 799px) {
-  .page > #quartz-body .center {
+  .page > #quartz-body .center > .page-header {
     padding-top: 0;
   }
 }
