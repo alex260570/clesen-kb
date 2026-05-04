@@ -133,10 +133,6 @@ Purchaser modifies any 'Off' PO, adds/completes item charges, and performs the f
 
 - Product Claim BPW
 
-## Related Documentation
-
-- [[purchase-receipt-system]] — Complete purchase receipt and vendor receiving system overview
-
 ## Version History
 
 | Version | Date | Changes | Who |
