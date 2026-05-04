@@ -18,33 +18,32 @@ const PageTitle: QuartzComponent = ({ fileData, cfg, displayClass }: QuartzCompo
 
 PageTitle.css = `
 .page-title {
-  margin: 0;
+  margin: 0 0 0.9rem;
   font-family: var(--titleFont);
 }
 
 .page-title .brand-link {
   display: flex;
   flex-direction: column;
-  gap: 0.45rem;
+  gap: 0.35rem;
   width: fit-content;
   max-width: 100%;
-  padding: 0.35rem 0;
+  padding: 0.1rem 0;
   color: var(--dark);
 }
 
 .page-title .brand-logo {
   display: block;
-  width: min(260px, 100%);
+  width: min(210px, 100%);
   height: auto;
 }
 
 .page-title .brand-subtitle {
   display: block;
-  padding-left: 0.1rem;
   color: var(--secondary);
-  font-size: 0.86rem;
+  font-size: 0.72rem;
   font-weight: 700;
-  letter-spacing: 0.12em;
+  letter-spacing: 0.14em;
   line-height: 1;
   text-transform: uppercase;
 }
@@ -52,7 +51,7 @@ PageTitle.css = `
 :root[saved-theme="dark"] .page-title .brand-link {
   background: #ffffff;
   border-radius: 6px;
-  padding: 0.7rem;
+  padding: 0.55rem 0.7rem 0.65rem;
 }
 `
 
