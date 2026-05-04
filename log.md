@@ -794,3 +794,23 @@ Token usage: ~85k / 200k remaining. Final token budget: ~115k available.
 - wiki/howto/it/broker-workspace-troubleshooting.md — Changed [[wiki/howto/broker-workspace/broker-workspace]] → [[broker-workspace]]
 
 **Summary:** Removed duplicate broker-workspace folder; all references now point to single consolidated file in Purchasing.
+
+## [2026-05-04] ingest | Purchase Order Receiving Business Process
+
+**Source file (raw/):**
+- Purchase Order Receiving BPW.md
+
+**File created:**
+- wiki/business-processes/purchase-order-receiving-bpw.md
+
+**Changes made to raw content:**
+- Copied file as-is to Business Processes folder
+- Updated "Related SOPs" section with wikilinks to existing documentation:
+  - Linked [[purchase-receipt]] for Purchasing – Purchase Receipts
+  - Linked [[purchase-receipt-system]] in new "Related Documentation" section
+  - Other SOPs referenced by name (not yet documented as separate wiki pages)
+- Added "Related Documentation" section with link to purchase-receipt-system
+
+**Index.md updated:** Added entry in Business Processes section.
+
+**Summary:** Integrated business process workflow that connects to existing purchase receipt documentation and system architecture.
