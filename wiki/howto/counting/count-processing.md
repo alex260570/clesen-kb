@@ -1,13 +1,17 @@
 ---
-title: "Count Processing — Manager's Guide"
+title: Count Processing
 type: howto
-tags: [counting, manager, warehouse]
+tags:
+  - counting
+  - manager
+  - warehouse
 created: 2026-04-21
 updated: 2026-04-21
-sources: [count-processing.md]
+sources:
+  - count-processing.md
 ---
 
-# Count Processing — Manager's Guide
+# Count Processing
 
 ## Overview
 
