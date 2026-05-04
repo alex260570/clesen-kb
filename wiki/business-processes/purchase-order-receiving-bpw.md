@@ -62,7 +62,7 @@ flowchart TD
         PC1["Purchaser receives freight and service POs<br/>as needed. These POs are submitted to the<br/>PO distribution group with PO# and 'Full' in<br/>the subject line.<br/><br/>Purchaser modifies any 'Off' PO, adds/<br/>completes item charges, and performs the<br/>final receipt."]
     end
 
-    Creation --> D1{"HOLD ↔ CLEEN<br/>Reclass<br/>Needed?"}
+    Creation --> D1{"HOLD ↔ CLESEN<br/>Reclass<br/>Needed?"}
 
     D1 -- Yes --> Reclass["If items were received into a HOLD location<br/>and need to be moved out, the Purchaser<br/>modifies the receipt accordingly.<br/>Reclass the item if needed."]
     D1 -- No --> D2
