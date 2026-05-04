@@ -40,6 +40,11 @@ function notifyNav(url: FullSlug) {
   document.dispatchEvent(event)
 }
 
+function scrollReadingPaneToTop() {
+  document.querySelector(".center")?.scrollTo({ top: 0 })
+  window.scrollTo({ top: 0 })
+}
+
 const cleanupFns: Set<(...args: any[]) => void> = new Set()
 window.addCleanup = (fn) => cleanupFns.add(fn)
 
@@ -110,7 +115,7 @@ async function _navigate(url: URL, isBack: boolean = false) {
       const el = document.getElementById(decodeURIComponent(url.hash.substring(1)))
       el?.scrollIntoView()
     } else {
-      window.scrollTo({ top: 0 })
+      scrollReadingPaneToTop()
     }
   }
 
