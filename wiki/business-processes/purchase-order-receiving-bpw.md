@@ -22,14 +22,12 @@ flowchart TD
 
     subgraph Receiving["Production – Purchase Order Receiving SOP"]
         direction TB
-        R1["AOM/Receiver prepares PO deck for submission<br/><br/>• <b>PO is 'Full'</b> if counts match PO + vendor BOL,<br/>nothing returned, no quality issues<br/>• <b>PO is 'Off'</b> if counts don't match, quality issue,<br/>or item arrives that is not on PO<br/><br/>Write 'Off' on PO, ensure all signatures present.<br/>Acknowledge received items on PO and BOL.<br/>Note returns in the body of PO and BOL.<br/>Tag kept-but-issue items: Keep & Delay,<br/>Credit Watch, or Credit Dump."]
     end
 
     Receiving --> Receipts1
 
     subgraph Receipts1["Purchasing – Purchase Receipts SOP"]
         direction TB
-        PR1["AOM/Receiver retrieves and posts the PO in<br/>the Purchase Receipt workspace.<br/><br/>If a location change is required on any line,<br/>contact the purchaser for the correction.<br/><br/>Identify inventory bin for each item, post all<br/>lines at once. Split bins by quantity if needed."]
     end
 
     Receipts1 --> Q1{"Quality<br/>Issue?"}
@@ -45,21 +43,18 @@ flowchart TD
 
     subgraph Claim["Purchasing – Product Claim BPW"]
         direction TB
-        C1["Claim is made when BOL doesn't match counts<br/>or there is a quality issue. Revised invoice or<br/>credit memo reconciles the claim.<br/><br/>If product can't be sold, post on a Purchase<br/>Return Order created by Purchaser. Inventory<br/>and product can then be disposed or returned<br/>on the next truck.<br/><br/>Credit Watch on young plants → post inventory<br/>at $0.00 after the purchase return order."]
     end
 
     Claim --> Submit
 
     subgraph Submit["Purchasing – Purchase Receipts SOP (Submit)"]
         direction TB
-        S1["Submit the purchase order.<br/><br/>Highlight any item requiring PO changes for<br/>the purchaser to finalize.<br/><br/>Email paperwork for 'Off' POs ASAP with all<br/>relevant images for quality issues.<br/>'Full' POs may be submitted by end of day.<br/>Subject: 'POXX-XXXX Full' or 'POXX-XXXX Off'<br/>→ PO Receiving distribution group."]
     end
 
     Submit --> Creation
 
     subgraph Creation["Purchasing – Purchase Order Creation SOP"]
         direction TB
-        PC1["Purchaser receives freight and service POs<br/>as needed. These POs are submitted to the<br/>PO distribution group with PO# and 'Full' in<br/>the subject line.<br/><br/>Purchaser modifies any 'Off' PO, adds/<br/>completes item charges, and performs the<br/>final receipt."]
     end
 
     Creation --> D1{"HOLD ↔ CLESEN<br/>Reclass<br/>Needed?"}
@@ -89,6 +84,36 @@ flowchart TD
     class Keep,Dump,Reclass holdAction
     class Start,Stop terminal
 ```
+
+## Process Details
+
+### Production – Purchase Order Receiving SOP
+AOM/Receiver prepares PO deck for submission:
+- **PO is 'Full'** if counts match PO + vendor BOL, nothing returned, no quality issues
+- **PO is 'Off'** if counts don't match, quality issue, or item arrives that is not on PO
+
+Write 'Off' on PO, ensure all signatures present. Acknowledge received items on PO and BOL. Note returns in the body of PO and BOL. Tag kept-but-issue items: Keep & Delay, Credit Watch, or Credit Dump.
+
+### Purchasing – Purchase Receipts SOP
+AOM/Receiver retrieves and posts the PO in the Purchase Receipt workspace. If a location change is required on any line, contact the purchaser for the correction. Identify inventory bin for each item, post all lines at once. Split bins by quantity if needed.
+
+### Purchasing – Product Claim BPW
+Claim is made when BOL doesn't match counts or there is a quality issue. Revised invoice or credit memo reconciles the claim.
+
+If product can't be sold, post on a Purchase Return Order created by Purchaser. Inventory and product can then be disposed or returned on the next truck.
+
+Credit Watch on young plants → post inventory at $0.00 after the purchase return order.
+
+### Purchasing – Purchase Receipts SOP (Submit)
+Submit the purchase order. Highlight any item requiring PO changes for the purchaser to finalize.
+
+Email paperwork for 'Off' POs ASAP with all relevant images for quality issues. 'Full' POs may be submitted by end of day.
+Subject: 'POXX-XXXX Full' or 'POXX-XXXX Off' → PO Receiving distribution group.
+
+### Purchasing – Purchase Order Creation SOP
+Purchaser receives freight and service POs as needed. These POs are submitted to the PO distribution group with PO# and 'Full' in the subject line.
+
+Purchaser modifies any 'Off' PO, adds/completes item charges, and performs the final receipt.
 
 ## Related SOPs
 
