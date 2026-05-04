@@ -16,9 +16,10 @@ body {
 .page > #quartz-body .center::before {
   content: "";
   position: fixed;
-  z-index: 2;
+  z-index: 4;
   top: 0;
-  width: min(900px, calc(100vw - 760px));
+  left: max(360px, calc((100vw - 1760px) / 2 + 372px));
+  right: max(360px, calc((100vw - 1760px) / 2 + 372px));
   height: var(--top-fade-height);
   pointer-events: none;
   background: linear-gradient(
