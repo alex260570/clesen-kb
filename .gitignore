@@ -16,3 +16,4 @@ public/
 .quartz-cache/
 tsconfig.tsbuildinfo
 quartz-preview*.log
+dev-server*.log
