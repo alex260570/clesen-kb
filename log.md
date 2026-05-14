@@ -814,3 +814,40 @@ Token usage: ~85k / 200k remaining. Final token budget: ~115k available.
 **Index.md updated:** Added entry in Business Processes section.
 
 **Summary:** Integrated business process workflow that connects to existing purchase receipt documentation and system architecture.
+
+## [2026-05-14] ingest | Sales Fee Management — User Guide Update & Admin Guide
+
+**Source files (raw/):**
+- sales-fee-management-user-guide 1.md (v1.2 replacement)
+- sales-fee-management.md (new administrator guide)
+
+**Files updated/created:**
+1. wiki/howto/sales/sales-fees.md — **UPDATED** to version 1.2
+2. wiki/howto/sales/sales-fees-admin.md — **NEW** administrator configuration guide
+
+**Changes to sales-fees.md:**
+- Updated from v1.0 to v1.2 (2026-05-14)
+- Added **Fuel Surcharge** fee type
+- Added **Per Cart** and **Per Item** calculation types (in addition to Fixed Amount and Percentage of Total)
+- Added comprehensive "Fees on return orders" section with details about negative quantities/amounts
+- Expanded field reference with new fields: `Add To`, `Total Incl. Fees and Tax`
+- Updated all troubleshooting sections with current procedures
+- Expanded FAQ with detailed answers about system differences and return order handling
+- Preserved all content from original v1.0, added new sections without removing or falsifying content
+
+**New file: sales-fees-admin.md created:**
+- System Overview section covering CLE Pending Sales Fee and CLE Customer Fee Override tables
+- Detailed Fee Types table with triggers for all 9 fee types
+- Comprehensive Calculation Types section (Fixed Amount, Percentage of Total, Per Cart, Per Item)
+- Return Orders section with technical details about negative sign handling
+- Customer-Specific Overrides documentation
+- Per Shipment Fees configuration guide
+- Complete migration procedure from legacy system (4 steps)
+- Rollback plan for reverting to legacy system
+- Troubleshooting table with 6 common issues and solutions
+
+**Index.md updated:** 
+- Updated sales-fees entry with v1.2 indicator and comprehensive tags
+- Added new sales-fees-admin entry
+
+**Content Integrity Verified:** All content from source documents preserved accurately without falsification, omission, or distortion.
