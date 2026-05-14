@@ -1,13 +1,18 @@
 ---
-title: Sales Fees — Administrator Guide
+title: Sales Fees — Admin Guide
 type: howto
-tags: [sales-orders, fees, admin, system-configuration]
+tags:
+  - sales-orders
+  - fees
+  - admin
+  - system-configuration
 created: 2026-05-07
 updated: 2026-05-14
-sources: [sales-fee-management.md]
+sources:
+  - sales-fee-management.md
 ---
 
-# Sales Fees — Administrator Guide
+# Sales Fees — Admin Guide
 
 System administration and configuration guide for the Sales Fee feature. For day-to-day staff usage, see [[sales-fees]].
 
