@@ -872,3 +872,9 @@ Token usage: ~85k / 200k remaining. Final token budget: ~115k available.
 **Index.md updated:** Added entry in Sales section, positioned after sales-return-process.
 
 **Summary:** Integrated user guide for the return reason adjustment feature, enabling staff to correct posted return codes in an auditable manner.
+
+## [2026-05-20] ingest | return-reason-adjustment-user-guide.md
+
+**Pages created (2):**
+1. wiki/howto/sales/adjust-return-reason-code.md — step-by-step guide to correcting posted return reason codes
+2. wiki/business-processes/return-reason-codes.md — overview of reason codes, records, and maintenance
