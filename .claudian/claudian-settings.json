@@ -19,19 +19,21 @@
     "scrollDownKey": "s",
     "focusInputKey": "i"
   },
+  "requireCommandOrControlEnterToSend": false,
   "locale": "en",
   "providerConfigs": {
     "claude": {
       "safeMode": "acceptEdits",
       "cliPath": "",
       "cliPathsByHost": {
-        "LT247": "\\Users\\AlexanderThiel\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe"
+        "device:c2ac4fc6-e67f-44f7-a0e4-bf3f1a679ffa": "\\Users\\AlexanderThiel\\AppData\\Roaming\\npm\\node_modules\\@anthropic-ai\\claude-code\\bin\\claude.exe"
       },
       "loadUserSettings": true,
       "enableChrome": false,
       "enableBangBash": false,
       "enableOpus1M": false,
       "enableSonnet1M": false,
+      "customModels": "",
       "lastModel": "haiku",
       "environmentVariables": "",
       "environmentHash": ""
@@ -41,13 +43,25 @@
       "safeMode": "workspace-write",
       "cliPath": "",
       "cliPathsByHost": {},
+      "customModels": "",
       "reasoningSummary": "detailed",
       "environmentVariables": "",
       "environmentHash": "",
-      "installationMethod": "native-windows",
-      "installationMethodsByHost": {},
-      "wslDistroOverride": "",
+      "installationMethodsByHost": {
+        "device:c2ac4fc6-e67f-44f7-a0e4-bf3f1a679ffa": "native-windows"
+      },
       "wslDistroOverridesByHost": {}
+    },
+    "opencode": {
+      "cliPath": "",
+      "cliPathsByHost": {},
+      "enabled": false,
+      "environmentHash": "",
+      "environmentVariables": "",
+      "modelAliases": {},
+      "preferredThinkingByModel": {},
+      "selectedMode": "",
+      "visibleModels": []
     }
   },
   "settingsProvider": "claude",
@@ -61,10 +75,12 @@
   "savedProviderThinkingBudget": {
     "claude": "off"
   },
+  "savedProviderPermissionMode": {},
   "lastCustomModel": "",
   "maxTabs": 3,
   "tabBarPosition": "input",
   "enableAutoScroll": true,
-  "openInMainTab": false,
+  "deferMathRenderingDuringStreaming": true,
+  "chatViewPlacement": "right-sidebar",
   "hiddenProviderCommands": {}
 }
