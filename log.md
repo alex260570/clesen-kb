@@ -851,3 +851,24 @@ Token usage: ~85k / 200k remaining. Final token budget: ~115k available.
 - Added new sales-fees-admin entry
 
 **Content Integrity Verified:** All content from source documents preserved accurately without falsification, omission, or distortion.
+
+## [2026-05-20] ingest | Return Reason Code Adjustment User Guide
+
+**Source file (raw/):**
+- return-reason-adjustment-user-guide.md
+
+**File created:**
+- wiki/howto/sales/return-reason-adjustment.md
+
+**Content summary:**
+- Step-by-step guide for using the "Adjust Return Reason (Posted)" function
+- Explains how to correct Return Reason Code on posted return order lines
+- Setup and authorization configuration for system administrators
+- Field reference for key fields involved in the function
+- Comprehensive troubleshooting section with 4 error scenarios
+- FAQ covering common questions about the function behavior
+- Related links to sales-return-process and same-day-return guides
+
+**Index.md updated:** Added entry in Sales section, positioned after sales-return-process.
+
+**Summary:** Integrated user guide for the return reason adjustment feature, enabling staff to correct posted return codes in an auditable manner.
