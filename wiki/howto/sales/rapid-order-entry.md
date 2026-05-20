@@ -123,12 +123,12 @@ If your order has **multiple lines of the same item** (e.g., same item with diff
 
 System automatically determines which items to show based on shipment date:
 
-| Shipment Date Range | Seasons Shown |
-|---|---|
-| March 1 - May 31 | Spring |
-| June 1 - August 31 | Summer |
-| Sept 1 - Nov 30 | Fall |
-| Dec 1 - Feb 28/29 | Winter |
+| Date Range              | Seasons Shown |
+| ----------------------- | ------------- |
+| January 1 - April 30    | Spring        |
+| May 1 - July 31         | Summer        |
+| August 1 - September 30 | Fall          |
+| October 1 - December 31 | Winter        |
 
 **Transition periods** may show items from multiple seasons to ensure you see all relevant items.
 
@@ -136,11 +136,11 @@ System automatically determines which items to show based on shipment date:
 
 Rapid Order Entry works with:
 
-| Type | Features |
-|---|---|
-| **Sales Orders** | Full functionality including auto-fees |
+| Type               | Features                                  |
+| ------------------ | ----------------------------------------- |
+| **Sales Orders**   | Full functionality including auto-fees    |
 | **Blanket Orders** | Item selection only (no fee calculations) |
-| **Quotes** | Item selection only (no fee calculations) |
+| **Quotes**         | Item selection only (no fee calculations) |
 
 ## Automatic Fee Handling
 
