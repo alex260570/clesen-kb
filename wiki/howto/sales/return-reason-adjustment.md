@@ -1,13 +1,18 @@
 ---
-title: Return Reason Code Adjustment
+title: Return Reason Adjustment
 type: howto
-tags: [sales-returns, return-orders, reason-codes, authorization]
+tags:
+  - sales-returns
+  - return-orders
+  - reason-codes
+  - authorization
 created: 2026-05-20
 updated: 2026-05-20
-sources: [return-reason-adjustment-user-guide.md]
+sources:
+  - return-reason-adjustment-user-guide.md
 ---
 
-# Return Reason Code Adjustment
+# Return Reason Adjustment
 
 Correct the return reason code on posted return order lines through the Adjust Return Reason function.
 
